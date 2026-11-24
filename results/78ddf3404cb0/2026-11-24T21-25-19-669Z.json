@@ -1,0 +1,411 @@
+{
+  "url": "https://rknight.me/",
+  "name": "rknight.me",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795555519669,
+  "date": "2026-11-24T21:25:19.669Z",
+  "runId": "2026-11-24T21-22-04-020Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25832,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 99,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://rknight.me/",
+    "finalUrl": "https://rknight.me/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 84,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 25
+    },
+    "timings": {
+      "fcp": 1761,
+      "lcp": 1761,
+      "si": 1761,
+      "tbt": 0,
+      "tti": 1761,
+      "cls": 0.026,
+      "ttfb": 699,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 99,
+      "networkRtt": 0.1,
+      "networkServerLatency": 116.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 101.1,
+      "elementRenderDelay": 164.1
+    },
+    "weight": {
+      "total": 1140728,
+      "requests": 50,
+      "mainDocument": 11205,
+      "byType": {
+        "total": {
+          "bytes": 1140728,
+          "requests": 50
+        },
+        "image": {
+          "bytes": 1027512,
+          "requests": 39
+        },
+        "font": {
+          "bytes": 80418,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 11205,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 9389,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 6574,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 5630,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 8536,
+          "requests": 6
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 8587,
+      "mainThreadMs": 5.4,
+      "top": [
+        {
+          "entity": "Unpkg",
+          "bytes": 3268,
+          "mainThreadMs": 2.2,
+          "byType": {
+            "script": 3268
+          },
+          "typedBytes": 3268
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3212,
+          "mainThreadMs": 1.4,
+          "byType": {
+            "script": 2778,
+            "image": 434
+          },
+          "typedBytes": 3212
+        },
+        {
+          "entity": "neatstats.net",
+          "bytes": 2107,
+          "mainThreadMs": 1.8,
+          "byType": {
+            "script": 1774,
+            "other": 333
+          },
+          "typedBytes": 2107
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 510.1,
+      "byGroup": {
+        "other": 307.2,
+        "styleLayout": 89.8,
+        "paintCompositeRender": 51.3,
+        "scriptEvaluation": 39.1,
+        "parseHTML": 19.8,
+        "scriptParseCompile": 3.1
+      },
+      "bootupMs": 13.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 254,
+      "depth": 7,
+      "maxChildren": 35
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1017,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 958584,
+      "poorlyCachedCount": 41
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 21,
+      "failingNodes": 21,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 19
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 16
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2480.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T21:25:29.436Z",
+      "runtimeMs": 7760
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 59,
+    "passes": 412,
+    "incomplete": 4,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 37,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#dark-mode-toggle-1 #t",
+            "snippet": "<input id=\"t\" part=\"toggleCheckbox\" type=\"checkbox\">"
+          },
+          {
+            "selector": "#dark-mode-toggle-1 label[for=\"t\"]",
+            "snippet": "<label for=\"t\" part=\"toggleLabel\" aria-label=\"dark\" style=\"--dark-mode-toggle-checkbox-icon: var(--dark-mode-toggle-light-icon,url(&quot;https://googlechromelabs.github.io/dark-mode-toggle/demo/moon.…"
+          },
+          {
+            "selector": "img[src$=\"robbknight.gif\"]",
+            "snippet": "<img width=\"88\" height=\"31\" src=\"/assets/buttons/robbknight.gif\" alt=\"Robb Knight\">"
+          },
+          {
+            "selector": ".footer-buttons > div:nth-child(2)",
+            "snippet": "<div><a href=\"https://11ty.dev\"><img width=\"88\" height=\"31\" src=\"/assets/buttons/built-with-eleventy.gif\" alt=\"Made with Eleventy\"></a></div>"
+          },
+          {
+            "selector": "div:nth-child(3)",
+            "snippet": "<div><a href=\"https://home.omg.lol/referred-by/robb\"><img width=\"88\" height=\"31\" src=\"/assets/buttons/omglol.svg\" alt=\"Member of omg.lol\"></a></div>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 19,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p:nth-child(2) > a[href$=\"projects\"]",
+            "snippet": "<a href=\"/projects\">web curios</a>"
+          },
+          {
+            "selector": "p:nth-child(2) > a[href$=\"blog\"]",
+            "snippet": "<a href=\"/blog\">blog posts</a>"
+          },
+          {
+            "selector": "p:nth-child(2) > a[href$=\"shop\"]",
+            "snippet": "<a href=\"/shop\">merchant of stickers</a>"
+          },
+          {
+            "selector": "a[href$=\"ruminatepodcast.com\"]",
+            "snippet": "<a href=\"https://ruminatepodcast.com\">Ruminate</a>"
+          },
+          {
+            "selector": "a[href$=\"wegot.family\"]",
+            "snippet": "<a href=\"https://wegot.family\">We Got Family</a>"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#dark-mode-toggle-1 label[for=\"t\"]",
+            "snippet": "<label for=\"t\" part=\"toggleLabel\" aria-label=\"dark\" style=\"--dark-mode-toggle-checkbox-icon: var(--dark-mode-toggle-light-icon,url(&quot;https://googlechromelabs.github.io/dark-mode-toggle/demo/moon.…"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ill",
+            "snippet": "<img class=\"ill\" src=\"/assets/img/ill/hats.png\" style=\"float: left; width: 40%;\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "nav:nth-child(2)",
+            "snippet": "<nav class=\"header-nav\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c396bc36a9be",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b05923f-7a79\"",
+          "last-modified": "Tue, 24 Nov 2026 13:33:51 GMT"
+        }
+      },
+      {
+        "hash": "c396bc36a9be",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b05923f-7a79\"",
+          "last-modified": "Tue, 24 Nov 2026 13:33:51 GMT"
+        }
+      },
+      {
+        "hash": "c396bc36a9be",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b05923f-7a79\"",
+          "last-modified": "Tue, 24 Nov 2026 13:33:51 GMT"
+        }
+      },
+      {
+        "hash": "c396bc36a9be",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b05923f-7a79\"",
+          "last-modified": "Tue, 24 Nov 2026 13:33:51 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
