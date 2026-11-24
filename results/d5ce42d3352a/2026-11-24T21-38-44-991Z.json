@@ -1,0 +1,288 @@
+{
+  "url": "https://svelte.dev/",
+  "name": "Svelte",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795556324991,
+  "date": "2026-11-24T21:38:44.991Z",
+  "runId": "2026-11-24T21-22-06-133Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 115619,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://svelte.dev/",
+    "finalUrl": "https://svelte.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1077,
+      "lcp": 1077,
+      "si": 1077,
+      "tbt": 8,
+      "tti": 2035,
+      "cls": 0,
+      "ttfb": 627,
+      "maxPotentialFid": 58,
+      "serverResponseTime": 10,
+      "networkRtt": 2.9,
+      "networkServerLatency": 203.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 77.3,
+      "elementRenderDelay": 199.8
+    },
+    "weight": {
+      "total": 8650070,
+      "requests": 72,
+      "mainDocument": 24506,
+      "byType": {
+        "total": {
+          "bytes": 8650070,
+          "requests": 57
+        },
+        "media": {
+          "bytes": 7659969,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 404538,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 341391,
+          "requests": 12
+        },
+        "script": {
+          "bytes": 124297,
+          "requests": 30
+        },
+        "font": {
+          "bytes": 70907,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 24506,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 24462,
+          "requests": 6
+        },
+        "third-party": {
+          "bytes": 7659969,
+          "requests": 1
+        }
+      },
+      "scripts": 30,
+      "stylesheets": 6,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3670421,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "GitHub",
+          "bytes": 3670421,
+          "mainThreadMs": 0,
+          "byType": {
+            "media": 3670421
+          },
+          "typedBytes": 3670421
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1503.3,
+      "byGroup": {
+        "other": 701.3,
+        "scriptEvaluation": 379.4,
+        "styleLayout": 220.8,
+        "paintCompositeRender": 151.1,
+        "parseHTML": 36,
+        "scriptParseCompile": 14.7
+      },
+      "bootupMs": 376.7,
+      "longTasks": 3,
+      "longestTaskMs": 58
+    },
+    "dom": {
+      "elements": 346,
+      "depth": 11,
+      "maxChildren": 96
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2434,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T21:38:46.355Z",
+      "runtimeMs": 7942.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "elementRenderDelay": 1027
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "sveltekit",
+      "name": "SvelteKit",
+      "icon": "Svelte",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "sveltekit",
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::zpk68-1795556375566-1c5fc201f8dd"
+    },
+    "violations": 0,
+    "passes": 571,
+    "incomplete": 3,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "339aaaef9c6e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19131",
+          "etag": "W/\"b538fcdabed5f25323e2fb14acf52451\"",
+          "last-modified": "Tue, 24 Nov 2026 16:19:54 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "339aaaef9c6e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19139",
+          "etag": "W/\"b538fcdabed5f25323e2fb14acf52451\"",
+          "last-modified": "Tue, 24 Nov 2026 16:19:54 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "339aaaef9c6e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19147",
+          "etag": "W/\"b538fcdabed5f25323e2fb14acf52451\"",
+          "last-modified": "Tue, 24 Nov 2026 16:19:54 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "339aaaef9c6e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19156",
+          "etag": "W/\"b538fcdabed5f25323e2fb14acf52451\"",
+          "last-modified": "Tue, 24 Nov 2026 16:19:54 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "339aaaef9c6e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"b538fcdabed5f25323e2fb14acf52451\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,310 @@
+{
+  "url": "https://www.typescriptlang.org/",
+  "name": "TypeScript",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795556632301,
+  "date": "2026-11-24T21:43:52.301Z",
+  "runId": "2026-11-24T21-22-06-133Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 49739,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.typescriptlang.org/",
+    "finalUrl": "https://www.typescriptlang.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1120,
+      "lcp": 1120,
+      "si": 1120,
+      "tbt": 44,
+      "tti": 3594,
+      "cls": 0.002,
+      "ttfb": 603,
+      "maxPotentialFid": 108,
+      "serverResponseTime": 3,
+      "networkRtt": 0.1,
+      "networkServerLatency": 124
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 5.1,
+      "elementRenderDelay": 56.7
+    },
+    "weight": {
+      "total": 585627,
+      "requests": 23,
+      "mainDocument": 71378,
+      "byType": {
+        "total": {
+          "bytes": 585627,
+          "requests": 21
+        },
+        "script": {
+          "bytes": 303826,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 180025,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 71378,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 16851,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 7328,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 6219,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 183537,
+          "requests": 5
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 1,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 183537,
+      "mainThreadMs": 2.1,
+      "top": [
+        {
+          "entity": "office.net",
+          "bytes": 130004,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 130004
+          },
+          "typedBytes": 130004
+        },
+        {
+          "entity": "azurefd.net",
+          "bytes": 53533,
+          "mainThreadMs": 2.1,
+          "byType": {
+            "script": 53533
+          },
+          "typedBytes": 53533
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 835.9,
+      "byGroup": {
+        "scriptEvaluation": 294.2,
+        "other": 211.8,
+        "styleLayout": 145.1,
+        "scriptParseCompile": 89.9,
+        "parseHTML": 56.8,
+        "paintCompositeRender": 38.2
+      },
+      "bootupMs": 277.6,
+      "longTasks": 3,
+      "longestTaskMs": 108
+    },
+    "dom": {
+      "elements": 1416,
+      "depth": 25,
+      "maxChildren": 134
+    },
+    "waste": {
+      "unusedJsBytes": 129309,
+      "unusedCssBytes": 30166,
+      "legacyJsBytes": 7494,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 347737.7916666666,
+      "poorlyCachedCount": 11
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 28,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 18
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2472.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T21:44:08.643Z",
+      "runtimeMs": 6886.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 913.7,
+    "elementRenderDelay": 0
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "gatsby",
+      "name": "Gatsby",
+      "icon": "Gatsby",
+      "version": "5.16.1",
+      "source": "meta",
+      "raw": "Gatsby 5.16.1"
+    },
+    "probe": {
+      "metas": [
+        "Gatsby 5.16.1"
+      ],
+      "marks": [
+        "gatsby",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "f2c9f27bba9a9235dafbdee07b6bd0d6d5e74aca",
+      "x-github-request-id": "7BE0:1195C9:DD558:F4053:6B05FE75",
+      "x-served-by": "cache-chi-kmdw8640026-CHI"
+    },
+    "violations": 0,
+    "passes": 1969,
+    "incomplete": 7,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f6254ec08fa7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "435",
+          "etag": "W/\"6b0431bf-3ff1d\"",
+          "last-modified": "Mon, 23 Nov 2026 12:29:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "f6254ec08fa7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "443",
+          "etag": "W/\"6b0431bf-3ff1d\"",
+          "last-modified": "Mon, 23 Nov 2026 12:29:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "f6254ec08fa7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "450",
+          "etag": "W/\"6b0431bf-3ff1d\"",
+          "last-modified": "Mon, 23 Nov 2026 12:29:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "f6254ec08fa7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "457",
+          "etag": "W/\"6b0431bf-3ff1d\"",
+          "last-modified": "Mon, 23 Nov 2026 12:29:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "f6254ec08fa7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "478",
+          "etag": "W/\"6b0431bf-3ff1d\"",
+          "last-modified": "Mon, 23 Nov 2026 12:29:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
