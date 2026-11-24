@@ -1,0 +1,282 @@
+{
+  "url": "https://www.petermekhaeil.com/",
+  "name": "petermekhaeil.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795556092711,
+  "date": "2026-11-24T21:34:52.711Z",
+  "runId": "2026-11-24T21-22-05-194Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19270,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.petermekhaeil.com/",
+    "finalUrl": "https://www.petermekhaeil.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 788,
+      "lcp": 788,
+      "si": 788,
+      "tbt": 0,
+      "tti": 788,
+      "cls": 0.038,
+      "ttfb": 619,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 3,
+      "networkRtt": 0,
+      "networkServerLatency": 19.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.7,
+      "elementRenderDelay": 119.4
+    },
+    "weight": {
+      "total": 35224,
+      "requests": 5,
+      "mainDocument": 3545,
+      "byType": {
+        "total": {
+          "bytes": 35224,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 23765,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 5029,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3545,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2885,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 122.2,
+      "byGroup": {
+        "other": 66,
+        "styleLayout": 30.4,
+        "scriptEvaluation": 12.2,
+        "paintCompositeRender": 6.7,
+        "parseHTML": 6.2,
+        "scriptParseCompile": 0.8
+      },
+      "bootupMs": 11,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 154,
+      "depth": 8,
+      "maxChildren": 25
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 12,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 6
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2955,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T21:35:00.255Z",
+      "runtimeMs": 5666.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "sfo1::xzh7p-1795556110697-83064762111a"
+    },
+    "violations": 1,
+    "passes": 270,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"font-sans antialiased\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "05f6305fb13d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"bb02e903e1433c62b01120d3f469d459\"",
+          "last-modified": "Tue, 24 Nov 2026 21:34:54 GMT",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "05f6305fb13d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "etag": "W/\"bb02e903e1433c62b01120d3f469d459\"",
+          "last-modified": "Tue, 24 Nov 2026 21:34:54 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "05f6305fb13d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11",
+          "etag": "W/\"bb02e903e1433c62b01120d3f469d459\"",
+          "last-modified": "Tue, 24 Nov 2026 21:34:54 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "05f6305fb13d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"bb02e903e1433c62b01120d3f469d459\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

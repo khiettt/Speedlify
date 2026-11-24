@@ -1,0 +1,260 @@
+{
+  "url": "https://martinschneider.me/",
+  "name": "martinschneider.me",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795555331801,
+  "date": "2026-11-24T21:22:11.801Z",
+  "runId": "2026-11-24T21-22-05-194Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26053,
+  "error": null,
+  "variance": {
+    "min": 92,
+    "max": 100,
+    "spread": 8,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://martinschneider.me/",
+    "finalUrl": "https://martinschneider.me/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 800,
+      "lcp": 1525,
+      "si": 800,
+      "tbt": 0,
+      "tti": 1525,
+      "cls": 0,
+      "ttfb": 625,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 24,
+      "networkRtt": 0,
+      "networkServerLatency": 25
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 25.9,
+      "resourceLoadDelay": 8.6,
+      "resourceLoadDuration": 88.6,
+      "elementRenderDelay": 27.3
+    },
+    "weight": {
+      "total": 299838,
+      "requests": 11,
+      "mainDocument": 2901,
+      "byType": {
+        "total": {
+          "bytes": 299099,
+          "requests": 10
+        },
+        "image": {
+          "bytes": 143262,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 72175,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 71106,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 5711,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 3944,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2901,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 150.8,
+      "byGroup": {
+        "other": 95.2,
+        "styleLayout": 25.9,
+        "scriptEvaluation": 12.9,
+        "paintCompositeRender": 8.5,
+        "parseHTML": 6.4,
+        "scriptParseCompile": 2
+      },
+      "bootupMs": 10.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 75,
+      "depth": 8,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 15,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 16
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3070.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T21:22:24.836Z",
+      "runtimeMs": 6013.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M87Q0VD94VZ5M5QZWP5G0B3M"
+    },
+    "violations": 0,
+    "passes": 114,
+    "incomplete": 28,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "044cd9f0bf35",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "25893",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31510109",
+          "etag": "W/\"216d80b897ab95298f2693dda9466f85-ssl\""
+        }
+      },
+      {
+        "hash": "044cd9f0bf35",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "25902",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31510100",
+          "etag": "W/\"216d80b897ab95298f2693dda9466f85-ssl\""
+        }
+      },
+      {
+        "hash": "044cd9f0bf35",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "25909",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31510093",
+          "etag": "W/\"216d80b897ab95298f2693dda9466f85-ssl\""
+        }
+      },
+      {
+        "hash": "044cd9f0bf35",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31510088",
+          "etag": "W/\"216d80b897ab95298f2693dda9466f85-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

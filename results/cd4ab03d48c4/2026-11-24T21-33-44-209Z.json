@@ -1,0 +1,291 @@
+{
+  "url": "https://peterkaizer.com/",
+  "name": "peterkaizer.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795556024209,
+  "date": "2026-11-24T21:33:44.209Z",
+  "runId": "2026-11-24T21-22-05-194Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23187,
+  "error": null,
+  "variance": {
+    "min": 88,
+    "max": 92,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://peterkaizer.com/",
+    "finalUrl": "https://peterkaizer.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 91,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 87
+    },
+    "timings": {
+      "fcp": 1918,
+      "lcp": 1918,
+      "si": 2197,
+      "tbt": 0,
+      "tti": 1918,
+      "cls": 0.168,
+      "ttfb": 856,
+      "maxPotentialFid": 28,
+      "serverResponseTime": 501,
+      "networkRtt": 21.3,
+      "networkServerLatency": 256
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 656.3,
+      "elementRenderDelay": 345.1
+    },
+    "weight": {
+      "total": 5812385,
+      "requests": 23,
+      "mainDocument": 4306,
+      "byType": {
+        "total": {
+          "bytes": 5812385,
+          "requests": 23
+        },
+        "image": {
+          "bytes": 5689193,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 67325,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 30575,
+          "requests": 10
+        },
+        "script": {
+          "bytes": 12083,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 8903,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 4306,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 258849,
+          "requests": 15
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 258849,
+      "mainThreadMs": 5.9,
+      "top": [
+        {
+          "entity": "ghost.io",
+          "bytes": 150974,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 150974
+          },
+          "typedBytes": 150974
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 68680,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1355,
+            "font": 67325
+          },
+          "typedBytes": 68680
+        },
+        {
+          "entity": "FontAwesome CDN",
+          "bytes": 35936,
+          "mainThreadMs": 4.7,
+          "byType": {
+            "script": 6148,
+            "other": 29788
+          },
+          "typedBytes": 35936
+        },
+        {
+          "entity": "Plausible",
+          "bytes": 3259,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 3259
+          },
+          "typedBytes": 3259
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 454.9,
+      "byGroup": {
+        "other": 218.5,
+        "styleLayout": 104.2,
+        "scriptEvaluation": 81.4,
+        "paintCompositeRender": 20.1,
+        "scriptParseCompile": 16.8,
+        "parseHTML": 8.5,
+        "garbageCollection": 5.4
+      },
+      "bootupMs": 88.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 190,
+      "depth": 9,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1684,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 9328.608333333334,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2894.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T21:33:45.416Z",
+      "runtimeMs": 8272.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M87QNX8Z7RXV5430JG3V13QA"
+    },
+    "violations": 0,
+    "passes": 347,
+    "incomplete": 2,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c7af1f46a045",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7239",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528761",
+          "etag": "W/\"6e927fe12a7a28b61cf79a175386af41-ssl\""
+        }
+      },
+      {
+        "hash": "c7af1f46a045",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7246",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528754",
+          "etag": "W/\"6e927fe12a7a28b61cf79a175386af41-ssl\""
+        }
+      },
+      {
+        "hash": "c7af1f46a045",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7253",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528747",
+          "etag": "W/\"6e927fe12a7a28b61cf79a175386af41-ssl\""
+        }
+      },
+      {
+        "hash": "c7af1f46a045",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528741",
+          "etag": "W/\"6e927fe12a7a28b61cf79a175386af41-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

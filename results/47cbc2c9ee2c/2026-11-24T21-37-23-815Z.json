@@ -1,0 +1,412 @@
+{
+  "url": "https://practical.guide/",
+  "name": "practical.guide",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795556243815,
+  "date": "2026-11-24T21:37:23.815Z",
+  "runId": "2026-11-24T21-22-05-194Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43280,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://practical.guide/",
+    "finalUrl": "https://practical.guide/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 73,
+      "best-practices": 96,
+      "seo": 82,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1731,
+      "lcp": 1731,
+      "si": 2558,
+      "tbt": 58,
+      "tti": 4942,
+      "cls": 0,
+      "ttfb": 777,
+      "maxPotentialFid": 139,
+      "serverResponseTime": 175,
+      "networkRtt": 0.1,
+      "networkServerLatency": 176.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 176.3,
+      "elementRenderDelay": 1150.1
+    },
+    "weight": {
+      "total": 4133897,
+      "requests": 14,
+      "mainDocument": 9698,
+      "byType": {
+        "total": {
+          "bytes": 4133240,
+          "requests": 13
+        },
+        "image": {
+          "bytes": 3747818,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 305559,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 65705,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 9698,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 4412,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 48,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 373080,
+          "requests": 6
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 373080,
+      "mainThreadMs": 63.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 305559,
+          "mainThreadMs": 63,
+          "byType": {
+            "script": 305559
+          },
+          "typedBytes": 305559
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 67473,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1768,
+            "font": 65705
+          },
+          "typedBytes": 67473
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 48,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 48
+          },
+          "typedBytes": 48
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 999.9,
+      "byGroup": {
+        "other": 588.8,
+        "scriptEvaluation": 249.7,
+        "scriptParseCompile": 57,
+        "styleLayout": 50.2,
+        "paintCompositeRender": 37.4,
+        "garbageCollection": 8.9,
+        "parseHTML": 8
+      },
+      "bootupMs": 304.8,
+      "longTasks": 2,
+      "longestTaskMs": 139
+    },
+    "dom": {
+      "elements": 162,
+      "depth": 11,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 147298,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 804,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 13,
+      "failingNodes": 22,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 18
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 2
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 4
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2989,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T21:37:40.384Z",
+      "runtimeMs": 13930.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx/1.30.5"
+    },
+    "violations": 24,
+    "passes": 273,
+    "incomplete": 2,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 18,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".nav-link[href$=\"experiencedesign/\"]",
+            "snippet": "<a class=\"nav-link\" href=\"/experiencedesign/\">Book</a>"
+          },
+          {
+            "selector": ".nav-link[href$=\"resources/\"]",
+            "snippet": "<a class=\"nav-link\" href=\"/experiencedesign/resources/\">Resources</a>"
+          },
+          {
+            "selector": ".nav-link[href$=\"examples/\"]",
+            "snippet": "<a class=\"nav-link\" href=\"/experiencedesign/examples/\">Examples</a>"
+          },
+          {
+            "selector": ".cta > .nav-button",
+            "snippet": "<a class=\"nav-button\" href=\"https://www.amazon.com/dp/9083041409/?tag=artificial0f-20\">Buy</a>"
+          },
+          {
+            "selector": ".tight",
+            "snippet": "<span class=\"large serif tight\">The Practical Guide to</span>"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[src$=\"photo_freechapter.png\"]",
+            "snippet": "<img src=\"img/photo_freechapter.png\">"
+          },
+          {
+            "selector": "img[src$=\"photo_portrait.png\"]",
+            "snippet": "<img src=\"img/photo_portrait.png\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#content",
+            "snippet": "<div id=\"content\">"
+          },
+          {
+            "selector": "#footer",
+            "snippet": "<section id=\"footer\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".card[href$=\"experiencedesign/\"] > h3",
+            "snippet": "<h3 class=\"large bold primary\">Book</h3>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0104ccf4023e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6acf6a5c-78c5\"",
+          "last-modified": "Wed, 14 Oct 2026 11:41:16 GMT"
+        }
+      },
+      {
+        "hash": "0104ccf4023e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6acf6a5c-78c5\"",
+          "last-modified": "Wed, 14 Oct 2026 11:41:16 GMT"
+        }
+      },
+      {
+        "hash": "0104ccf4023e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6acf6a5c-78c5\"",
+          "last-modified": "Wed, 14 Oct 2026 11:41:16 GMT"
+        }
+      },
+      {
+        "hash": "0104ccf4023e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6acf6a5c-78c5\"",
+          "last-modified": "Wed, 14 Oct 2026 11:41:16 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
