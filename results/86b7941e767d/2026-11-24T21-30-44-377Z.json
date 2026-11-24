@@ -1,0 +1,266 @@
+{
+  "url": "https://oupspuppetry.gr/",
+  "name": "oupspuppetry.gr",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795555844377,
+  "date": "2026-11-24T21:30:44.377Z",
+  "runId": "2026-11-24T21-22-01-056Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26001,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 100,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://oupspuppetry.gr/",
+    "finalUrl": "https://oupspuppetry.gr/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1277,
+      "lcp": 1277,
+      "si": 1333,
+      "tbt": 0,
+      "tti": 1277,
+      "cls": 0.013,
+      "ttfb": 759,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 332,
+      "networkRtt": 21.4,
+      "networkServerLatency": 308.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 379.7,
+      "elementRenderDelay": 146.3
+    },
+    "weight": {
+      "total": 373542,
+      "requests": 16,
+      "mainDocument": 43782,
+      "byType": {
+        "total": {
+          "bytes": 373542,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 182110,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 135222,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 43782,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 10478,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1950,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 192588,
+          "requests": 6
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 192588,
+      "mainThreadMs": 6.1,
+      "top": [
+        {
+          "entity": "cloudfront.net",
+          "bytes": 182110,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 182110
+          },
+          "typedBytes": 182110
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 6.1,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 285,
+      "byGroup": {
+        "other": 129,
+        "styleLayout": 84.6,
+        "scriptEvaluation": 36.9,
+        "paintCompositeRender": 17,
+        "parseHTML": 16.9,
+        "scriptParseCompile": 0.7
+      },
+      "bootupMs": 19.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 201,
+      "depth": 9,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 4693,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 96142.16,
+      "poorlyCachedCount": 8
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 17
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2979.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T21:30:45.618Z",
+      "runtimeMs": 8942.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5fb84c14b3021d6-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 269,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "04003f99f23f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 02 Feb 2026 05:12:25 GMT"
+        }
+      },
+      {
+        "hash": "04003f99f23f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 02 Feb 2026 05:12:25 GMT"
+        }
+      },
+      {
+        "hash": "04003f99f23f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 02 Feb 2026 05:12:25 GMT"
+        }
+      },
+      {
+        "hash": "04003f99f23f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 02 Feb 2026 05:12:25 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,285 @@
+{
+  "url": "https://orenlyonsarchive.org/",
+  "name": "orenlyonsarchive.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795555630133,
+  "date": "2026-11-24T21:27:10.133Z",
+  "runId": "2026-11-24T21-22-01-056Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 153652,
+  "error": null,
+  "variance": {
+    "min": 76,
+    "max": 99,
+    "spread": 23,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://orenlyonsarchive.org/",
+    "finalUrl": "https://orenlyonsarchive.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 76,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2497,
+      "lcp": 5576,
+      "si": 2861,
+      "tbt": 0,
+      "tti": 5583,
+      "cls": 0,
+      "ttfb": 741,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 139,
+      "networkRtt": 211.9,
+      "networkServerLatency": 156.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 140.9,
+      "elementRenderDelay": 1185.8
+    },
+    "weight": {
+      "total": 21518799,
+      "requests": 55,
+      "mainDocument": 9549,
+      "byType": {
+        "total": {
+          "bytes": 21518799,
+          "requests": 52
+        },
+        "other": {
+          "bytes": 20960590,
+          "requests": 39
+        },
+        "script": {
+          "bytes": 355657,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 144226,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 24381,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 19000,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 14945,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 21402157,
+          "requests": 45
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 3,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 972,
+      "mainThreadMs": 0.6,
+      "top": [
+        {
+          "entity": "orenlyonsarchive.com",
+          "bytes": 972,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "script": 972
+          },
+          "typedBytes": 972
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 212.7,
+      "byGroup": {
+        "other": 112,
+        "styleLayout": 45,
+        "paintCompositeRender": 21.6,
+        "parseHTML": 19.6,
+        "scriptEvaluation": 13.4,
+        "scriptParseCompile": 0.9
+      },
+      "bootupMs": 8.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 306,
+      "depth": 10,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 107384.60675,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 28,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 43
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2954,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T21:27:34.469Z",
+      "runtimeMs": 9409.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "xmit",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "xmit"
+    },
+    "violations": 2,
+    "passes": 720,
+    "incomplete": 72,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe >>> bunny-time-display",
+            "snippet": "<bunny-time-display initialduration=\"99\" aria-label=\"playback time\" aria-valuetext=\"1:39\" role=\"button\" tabindex=\"0\" mediacurrenttime=\"99.533333\" mediaduration=\"99.533333\" mediaseekable=\"0:99.533\"></…"
+          },
+          {
+            "selector": "iframe >>> media-captions-button",
+            "snippet": "<media-captions-button tabindex=\"0\" role=\"button\" aria-label=\"closed captions\" aria-checked=\"false\" mediasubtitleslist=\"cc:en:ag-en\" medialang=\"en\"></media-captions-button>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "27ecd7950111",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "bzqrG3xPxc79K7gQl2KcZqqqiKVsHd6kX_wb-ufi0uH8Y",
+          "last-modified": "Wed, 23 Sep 2026 14:17:19 GMT"
+        }
+      },
+      {
+        "hash": "27ecd7950111",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "bzqrG3xPxc79K7gQl2KcZqqqiKVsHd6kX_wb-ufi0uH8Y",
+          "last-modified": "Wed, 23 Sep 2026 14:17:19 GMT"
+        }
+      },
+      {
+        "hash": "27ecd7950111",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "bzqrG3xPxc79K7gQl2KcZqqqiKVsHd6kX_wb-ufi0uH8Y",
+          "last-modified": "Wed, 23 Sep 2026 14:17:19 GMT"
+        }
+      },
+      {
+        "hash": "27ecd7950111",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "bzqrG3xPxc79K7gQl2KcZqqqiKVsHd6kX_wb-ufi0uH8Y",
+          "last-modified": "Wed, 23 Sep 2026 14:17:19 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
