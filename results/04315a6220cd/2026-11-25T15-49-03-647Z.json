@@ -1,0 +1,322 @@
+{
+  "url": "https://www.spatialworkflow.io/",
+  "name": "www.spatialworkflow.io",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795621743647,
+  "date": "2026-11-25T15:49:03.647Z",
+  "runId": "2026-11-25T15-45-02-633Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24785,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.spatialworkflow.io/",
+    "finalUrl": "https://www.spatialworkflow.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 938,
+      "lcp": 938,
+      "si": 938,
+      "tbt": 1,
+      "tti": 975,
+      "cls": 0,
+      "ttfb": 477,
+      "maxPotentialFid": 51,
+      "serverResponseTime": 28,
+      "networkRtt": 0.2,
+      "networkServerLatency": 160.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 29.9,
+      "elementRenderDelay": 126.5
+    },
+    "weight": {
+      "total": 560328,
+      "requests": 18,
+      "mainDocument": 10690,
+      "byType": {
+        "total": {
+          "bytes": 560328,
+          "requests": 18
+        },
+        "image": {
+          "bytes": 479716,
+          "requests": 7
+        },
+        "stylesheet": {
+          "bytes": 30229,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 25297,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 14396,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 10690,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4938,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 4938,
+      "mainThreadMs": 2.7,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4556,
+          "mainThreadMs": 2.7,
+          "byType": {
+            "script": 4556
+          },
+          "typedBytes": 4556
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 597.2,
+      "byGroup": {
+        "other": 248.1,
+        "styleLayout": 184.1,
+        "scriptEvaluation": 74.2,
+        "parseHTML": 42.2,
+        "paintCompositeRender": 33.2,
+        "scriptParseCompile": 15.4
+      },
+      "bootupMs": 54.1,
+      "longTasks": 3,
+      "longestTaskMs": 68
+    },
+    "dom": {
+      "elements": 812,
+      "depth": 13,
+      "maxChildren": 67
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 21587,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 7205,
+      "unminifiedCssBytes": 8666,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 28,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 16
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2561,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:49:20.381Z",
+      "runtimeMs": 7339.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a601cdaa1e5a3434-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 4,
+    "passes": 815,
+    "incomplete": 15,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[rel=\"license\"]",
+            "snippet": "<a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"license\">CC BY 4.0</a>"
+          },
+          {
+            "selector": "a[href$=\"about/#reuse\"]",
+            "snippet": "<a href=\"/about/#reuse\">reuse with a link</a>"
+          },
+          {
+            "selector": "a[href=\"mailto:info@spatialworkflow.io\"]",
+            "snippet": "<a href=\"mailto:info@spatialworkflow.io\">info@spatialworkflow.io</a>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".header-logo",
+            "snippet": "<a href=\"/\" class=\"header-logo\" aria-label=\"Spatial Workflow — Home\"> <img src=\"/img/logo.svg\" alt=\"Spatial Workflow logo\" width=\"40\" height=\"40\"> <span class=\"logo-text\">Spatial<strong>Workflow</str…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9d30d97a2f30",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"df2de861380fd6d33c40e834d27bc427\""
+        }
+      },
+      {
+        "hash": "9d30d97a2f30",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"df2de861380fd6d33c40e834d27bc427\""
+        }
+      },
+      {
+        "hash": "9d30d97a2f30",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"df2de861380fd6d33c40e834d27bc427\""
+        }
+      },
+      {
+        "hash": "9d30d97a2f30",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"df2de861380fd6d33c40e834d27bc427\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

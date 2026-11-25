@@ -1,0 +1,337 @@
+{
+  "url": "https://vianatrilhos.com/",
+  "name": "vianatrilhos.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795622028795,
+  "date": "2026-11-25T15:53:48.795Z",
+  "runId": "2026-11-25T15-45-02-633Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25737,
+  "error": null,
+  "variance": {
+    "min": 76,
+    "max": 89,
+    "spread": 13,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://vianatrilhos.com/",
+    "finalUrl": "https://vianatrilhos.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 79,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 75
+    },
+    "timings": {
+      "fcp": 920,
+      "lcp": 3379,
+      "si": 920,
+      "tbt": 38,
+      "tti": 3927,
+      "cls": 0.254,
+      "ttfb": 620,
+      "maxPotentialFid": 126,
+      "serverResponseTime": 20,
+      "networkRtt": 9.5,
+      "networkServerLatency": 214
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22,
+      "resourceLoadDelay": 10.4,
+      "resourceLoadDuration": 228.1,
+      "elementRenderDelay": 22.3
+    },
+    "weight": {
+      "total": 2551422,
+      "requests": 17,
+      "mainDocument": 9000,
+      "byType": {
+        "total": {
+          "bytes": 2550390,
+          "requests": 16
+        },
+        "image": {
+          "bytes": 2365954,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 99005,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 59732,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 16078,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 9000,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 621,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2527746,
+          "requests": 14
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 2527746,
+      "mainThreadMs": 33.4,
+      "top": [
+        {
+          "entity": "r2.dev",
+          "bytes": 2365954,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 2365954
+          },
+          "typedBytes": 2365954
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 101439,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 2434,
+            "font": 99005
+          },
+          "typedBytes": 101439
+        },
+        {
+          "entity": "Netlify",
+          "bytes": 55019,
+          "mainThreadMs": 30.5,
+          "byType": {
+            "script": 55019
+          },
+          "typedBytes": 55019
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 5334,
+          "mainThreadMs": 2.5,
+          "byType": {
+            "script": 4713,
+            "other": 621
+          },
+          "typedBytes": 5334
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 619,
+      "byGroup": {
+        "other": 248.2,
+        "styleLayout": 148.3,
+        "scriptEvaluation": 119,
+        "paintCompositeRender": 42,
+        "scriptParseCompile": 39.4,
+        "parseHTML": 18.7,
+        "garbageCollection": 3.5
+      },
+      "bootupMs": 146,
+      "longTasks": 1,
+      "longestTaskMs": 126
+    },
+    "dom": {
+      "elements": 236,
+      "depth": 9,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 21305,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 18271,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 2365954,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 9
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 6,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 16
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2616,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:53:59.218Z",
+      "runtimeMs": 7234
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.2",
+      "source": "meta",
+      "raw": "Eleventy v3.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.2"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M89PM8YQBZ4FWED246BKK0J5"
+    },
+    "violations": 9,
+    "passes": 477,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 9,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[aria-label=\"Ver Convívio de São Martinho\"]",
+            "snippet": "<a href=\"/atividades/2026/2026-11-07-convivio-de-sao-martinho/\" class=\"activity-card animate-in\" aria-label=\"Ver Convívio de São Martinho\">"
+          },
+          {
+            "selector": ".home-section:nth-child(5) > .activity-cards > .activity-card.animate-in:nth-child(2)",
+            "snippet": "<a href=\"/atividades/2026/2026-10-24-rio-lima-da-nascente-ate-a-foz/\" class=\"activity-card animate-in\" aria-label=\"Ver Rio Lima - da nascente até à foz\">"
+          },
+          {
+            "selector": ".home-section:nth-child(5) > .activity-cards > .activity-card.animate-in:nth-child(3)",
+            "snippet": "<a href=\"/atividades/2026/2026-10-10-por-brandas-do-soajo-caminhos-do-pao-e-da-fe/\" class=\"activity-card animate-in\" aria-label=\"Ver Por Brandas do Soajo (Caminhos do pão e da fé)\">"
+          },
+          {
+            "selector": ".home-section--flush-top > .activity-cards > .activity-card.animate-in:nth-child(1)",
+            "snippet": "<a href=\"/atividades/2026/2026-09-12-trilho-dos-romeiros-ao-ermelo-ecovia-do-rio-lima/\" class=\"activity-card animate-in\" aria-label=\"Ver Trilho dos Romeiros ao Ermelo - Ecovia do Rio Lima\">"
+          },
+          {
+            "selector": ".home-section--flush-top > .activity-cards > .activity-card.animate-in:nth-child(2)",
+            "snippet": "<a href=\"/atividades/2026/2026-07-14-uma-noite-na-serra-para-ver-o-por-e-o-nascer-do-sol/\" class=\"activity-card animate-in\" aria-label=\"Ver Uma Noite na Serra para ver o Pôr e o Nascer do Sol\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "703591f59948",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"55eab35dd01b0af7e32c884efcdea8a9-ssl\""
+        }
+      },
+      {
+        "hash": "703591f59948",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"55eab35dd01b0af7e32c884efcdea8a9-ssl\""
+        }
+      },
+      {
+        "hash": "703591f59948",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"55eab35dd01b0af7e32c884efcdea8a9-ssl\""
+        }
+      },
+      {
+        "hash": "703591f59948",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"55eab35dd01b0af7e32c884efcdea8a9-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

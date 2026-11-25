@@ -1,0 +1,369 @@
+{
+  "url": "https://workforce.careerminds.com/",
+  "name": "progressionapp.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795622057532,
+  "date": "2026-11-25T15:54:17.532Z",
+  "runId": "2026-11-25T15-45-02-633Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 37460,
+  "error": null,
+  "variance": {
+    "min": 44,
+    "max": 53,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://workforce.careerminds.com/",
+    "finalUrl": "https://workforce.careerminds.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 44,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 40
+    },
+    "timings": {
+      "fcp": 7299,
+      "lcp": 34360,
+      "si": 7299,
+      "tbt": 357,
+      "tti": 34360,
+      "cls": 0.138,
+      "ttfb": 746,
+      "maxPotentialFid": 257,
+      "serverResponseTime": 292,
+      "networkRtt": 146.4,
+      "networkServerLatency": 145.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 625.2,
+      "elementRenderDelay": 684.1
+    },
+    "weight": {
+      "total": 6787969,
+      "requests": 290,
+      "mainDocument": 77989,
+      "byType": {
+        "total": {
+          "bytes": 6787969,
+          "requests": 290
+        },
+        "script": {
+          "bytes": 5663445,
+          "requests": 241
+        },
+        "stylesheet": {
+          "bytes": 875642,
+          "requests": 41
+        },
+        "font": {
+          "bytes": 153481,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 77989,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 13655,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 3757,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 6709980,
+          "requests": 289
+        }
+      },
+      "scripts": 241,
+      "stylesheets": 41,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 6709980,
+      "mainThreadMs": 209,
+      "top": [
+        {
+          "entity": "talentinc.com",
+          "bytes": 6709699,
+          "mainThreadMs": 209,
+          "byType": {
+            "script": 5663445,
+            "stylesheet": 875642,
+            "image": 13655,
+            "font": 153481,
+            "other": 3476
+          },
+          "typedBytes": 6709699
+        },
+        {
+          "entity": "Sentry",
+          "bytes": 281,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 281
+          },
+          "typedBytes": 281
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3164.6,
+      "byGroup": {
+        "other": 1889,
+        "scriptEvaluation": 763,
+        "parseHTML": 187.1,
+        "scriptParseCompile": 155.8,
+        "styleLayout": 111,
+        "garbageCollection": 49.8,
+        "paintCompositeRender": 9
+      },
+      "bootupMs": 834.2,
+      "longTasks": 11,
+      "longestTaskMs": 257
+    },
+    "dom": {
+      "elements": 106,
+      "depth": 13,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 3586434,
+      "unusedCssBytes": 779622,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 6439,
+      "renderBlockingCount": 43,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 28,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 6
+        },
+        {
+          "id": "html-has-lang",
+          "title": "`<html>` element does not have a `[lang]` attribute",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "autocomplete-valid",
+          "title": "`autocomplete` attributes are not used correctly",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2539.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:54:18.823Z",
+      "runtimeMs": 12126.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 17,
+    "passes": 159,
+    "incomplete": 0,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 9,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"www.careerminds.com\"]",
+            "snippet": "<a href=\"https://www.careerminds.com\"><img class=\"cm-logo cm-login__logo\" alt=\"Careerminds\" src=\"https://cdn.progression.talentinc.com/packs/assets/logo-full-black-BxuLWQkq.png\"></a>"
+          },
+          {
+            "selector": "#login_title",
+            "snippet": "<h1 class=\"cm-login__title\" id=\"login_title\"> Welcome back </h1>"
+          },
+          {
+            "selector": ".cm-login__lede",
+            "snippet": "<p class=\"cm-login__lede\"> Sign in to your workspace to pick up where you left off. </p>"
+          },
+          {
+            "selector": ".form-group",
+            "snippet": "<div class=\"form-group email required user_email cm-login__emailField\">"
+          },
+          {
+            "selector": "#login_email_help",
+            "snippet": "<p class=\"cm-login__helper\" id=\"login_email_help\"> If your organisation uses single sign-on, we’ll take you to your company’s sign-in. </p>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".cm-login__divider > span",
+            "snippet": "<span>or continue with</span>"
+          },
+          {
+            "selector": ".cm-login__socialNote",
+            "snippet": "<p class=\"cm-login__socialNote\">Personal or workplace accounts without company SSO</p>"
+          },
+          {
+            "selector": "a[lang=\"fr\"]",
+            "snippet": "<a class=\"cm-login__language\" lang=\"fr\" data-turbo=\"false\" href=\"/fr/\">Français</a>"
+          },
+          {
+            "selector": "a[lang=\"de\"]",
+            "snippet": "<a class=\"cm-login__language\" lang=\"de\" data-turbo=\"false\" href=\"/de/\">Deutsch</a>"
+          },
+          {
+            "selector": "a[lang=\"it\"]",
+            "snippet": "<a class=\"cm-login__language\" lang=\"it\" data-turbo=\"false\" href=\"/it/\">Italiano</a>"
+          }
+        ]
+      },
+      {
+        "id": "autocomplete-valid",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "autocomplete attribute must be used correctly",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/autocomplete-valid?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#user_email",
+            "snippet": "<input class=\"form-control string ...\" autocomplete=\"username email\" autocapitalize=\"none\" spellcheck=\"false\" value=\"\" aria-describedby=\"login_email_help\" autofocus=\"autofocus\" required=\"required\" ar…"
+          }
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<html> element must have a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html style=\"--ql-visit_url: \"Visit URL:\"; --ql-enter_link: \"Enter link:\"; --ql-save: \"Save\"; --ql-edit: \"Edit\"; --ql-remove: \"Remove\";\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e9e246e5730d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"e9e246e5730da1f2bd9d8042228511f2\""
+        }
+      },
+      {
+        "hash": "83d7894d4d50",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"83d7894d4d50ace90e26696818853aa3\""
+        }
+      },
+      {
+        "hash": "f33ef1204470",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"f33ef120447019f7e4ee3ae3d8fc76ef\""
+        }
+      },
+      {
+        "hash": "506f6ca60dfd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"506f6ca60dfdd940aa0d949c17e786c9\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,312 @@
+{
+  "url": "https://benwhite.com.au/",
+  "name": "benwhite.com.au",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795621538986,
+  "date": "2026-11-25T15:45:38.986Z",
+  "runId": "2026-11-25T15-45-02-633Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 33890,
+  "error": null,
+  "variance": {
+    "min": 71,
+    "max": 98,
+    "spread": 27,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://benwhite.com.au/",
+    "finalUrl": "https://benwhite.com.au/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1904,
+      "lcp": 1904,
+      "si": 1904,
+      "tbt": 18,
+      "tti": 2392,
+      "cls": 0,
+      "ttfb": 483,
+      "maxPotentialFid": 65,
+      "serverResponseTime": 34,
+      "networkRtt": 0.1,
+      "networkServerLatency": 142.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 35.3,
+      "elementRenderDelay": 191.5
+    },
+    "weight": {
+      "total": 397599,
+      "requests": 22,
+      "mainDocument": 50829,
+      "byType": {
+        "total": {
+          "bytes": 397599,
+          "requests": 19
+        },
+        "image": {
+          "bytes": 192278,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 93204,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 50829,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 31068,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 26716,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 3504,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 6010,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 6010,
+      "mainThreadMs": 5.2,
+      "top": [
+        {
+          "entity": "simpleanalyticscdn.com",
+          "bytes": 6010,
+          "mainThreadMs": 5.2,
+          "byType": {
+            "script": 5915,
+            "image": 95
+          },
+          "typedBytes": 6010
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 778.2,
+      "byGroup": {
+        "styleLayout": 246.5,
+        "other": 227.1,
+        "scriptEvaluation": 207.5,
+        "parseHTML": 47.1,
+        "paintCompositeRender": 32.7,
+        "scriptParseCompile": 17.3
+      },
+      "bootupMs": 221,
+      "longTasks": 4,
+      "longestTaskMs": 121
+    },
+    "dom": {
+      "elements": 1044,
+      "depth": 16,
+      "maxChildren": 27
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 17344,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 591.4999999999999,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2594,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:46:02.732Z",
+      "runtimeMs": 9131
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [
+        "htmx"
+      ],
+      "markVersions": {
+        "htmx": "2.0.10"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a601c8e209e17e95-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 5,
+    "passes": 1174,
+    "incomplete": 34,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#txt-resolutions-update > .timeline-card > .timeline-topline > .timeline-readtime.tag > span",
+            "snippet": "<span>2 min</span>"
+          },
+          {
+            "selector": "#txt-ai-policy > .timeline-card > .timeline-topline > .timeline-readtime.tag > span",
+            "snippet": "<span>1 min</span>"
+          },
+          {
+            "selector": "#txt-everything-is-in-order > .timeline-card > .timeline-topline > .timeline-readtime.tag > span",
+            "snippet": "<span>1 min</span>"
+          },
+          {
+            "selector": "#txt-the-backlog > .timeline-card > .timeline-topline > .timeline-readtime.tag > span",
+            "snippet": "<span>3 min</span>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".feed-jumps",
+            "snippet": "<nav class=\"feed-jumps width-reading\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ffc6fc568379",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "ffc6fc568379",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "ffc6fc568379",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "ffc6fc568379",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

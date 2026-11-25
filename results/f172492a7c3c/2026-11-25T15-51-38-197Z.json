@@ -1,0 +1,264 @@
+{
+  "url": "https://unbreaking.org/",
+  "name": "unbreaking.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795621898197,
+  "date": "2026-11-25T15:51:38.197Z",
+  "runId": "2026-11-25T15-45-02-633Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25404,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://unbreaking.org/",
+    "finalUrl": "https://unbreaking.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 866,
+      "lcp": 866,
+      "si": 866,
+      "tbt": 0,
+      "tti": 866,
+      "cls": 0,
+      "ttfb": 661,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 18,
+      "networkRtt": 10.1,
+      "networkServerLatency": 172.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20,
+      "elementRenderDelay": 194.6
+    },
+    "weight": {
+      "total": 1080220,
+      "requests": 23,
+      "mainDocument": 4957,
+      "byType": {
+        "total": {
+          "bytes": 1079370,
+          "requests": 22
+        },
+        "font": {
+          "bytes": 1004966,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 51680,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 12102,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 4957,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3594,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 2071,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5370,
+          "requests": 3
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 5370,
+      "mainThreadMs": 3,
+      "top": [
+        {
+          "entity": "umami.is",
+          "bytes": 5370,
+          "mainThreadMs": 3,
+          "byType": {
+            "script": 4721,
+            "other": 649
+          },
+          "typedBytes": 5370
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 381.1,
+      "byGroup": {
+        "other": 233.8,
+        "styleLayout": 70.5,
+        "scriptEvaluation": 44,
+        "paintCompositeRender": 15.5,
+        "parseHTML": 14.5,
+        "scriptParseCompile": 2.9
+      },
+      "bootupMs": 28.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 150,
+      "depth": 9,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 3754,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 29,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 24
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2629,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:51:47.455Z",
+      "runtimeMs": 6997.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a601d16c3ee02b7b-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 390,
+    "incomplete": 3,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2b6c38711b25",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2b6c38711b25",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2b6c38711b25",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2b6c38711b25",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
