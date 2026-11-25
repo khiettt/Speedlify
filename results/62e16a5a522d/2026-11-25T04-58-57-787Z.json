@@ -1,0 +1,489 @@
+{
+  "url": "https://runawayracing.com/",
+  "name": "runawayracing.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795582737787,
+  "date": "2026-11-25T04:58:57.787Z",
+  "runId": "2026-11-25T04-56-53-979Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 41619,
+  "error": null,
+  "variance": {
+    "min": 70,
+    "max": 72,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://runawayracing.com/",
+    "finalUrl": "https://runawayracing.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 71,
+      "accessibility": 86,
+      "best-practices": 77,
+      "seo": 92,
+      "agentic-browsing": 49
+    },
+    "timings": {
+      "fcp": 2578,
+      "lcp": 7776,
+      "si": 2578,
+      "tbt": 77,
+      "tti": 8701,
+      "cls": 0.066,
+      "ttfb": 766,
+      "maxPotentialFid": 154,
+      "serverResponseTime": 92,
+      "networkRtt": 10.5,
+      "networkServerLatency": 550.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 115.8,
+      "resourceLoadDelay": 121.9,
+      "resourceLoadDuration": 54.5,
+      "elementRenderDelay": 96.7
+    },
+    "weight": {
+      "total": 5659261,
+      "requests": 121,
+      "mainDocument": 25706,
+      "byType": {
+        "total": {
+          "bytes": 5653501,
+          "requests": 118
+        },
+        "image": {
+          "bytes": 5007119,
+          "requests": 53
+        },
+        "script": {
+          "bytes": 421660,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 85474,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 59516,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 56586,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 23146,
+          "requests": 38
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4921174,
+          "requests": 44
+        }
+      },
+      "scripts": 11,
+      "stylesheets": 8,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 4817812,
+      "mainThreadMs": 84.5,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 4395992,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 4395992
+          },
+          "typedBytes": 4395992
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 361496,
+          "mainThreadMs": 81.4,
+          "byType": {
+            "script": 361496
+          },
+          "typedBytes": 361496
+        },
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 52330,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 1556,
+            "font": 50774
+          },
+          "typedBytes": 52330
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 3766,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "script": 3766
+          },
+          "typedBytes": 3766
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3215,
+          "mainThreadMs": 1.5,
+          "byType": {
+            "script": 2780,
+            "image": 435
+          },
+          "typedBytes": 3215
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2253.8,
+      "byGroup": {
+        "other": 831.9,
+        "scriptEvaluation": 790.8,
+        "styleLayout": 277.1,
+        "paintCompositeRender": 220,
+        "scriptParseCompile": 66.8,
+        "parseHTML": 50.3,
+        "garbageCollection": 16.9
+      },
+      "bootupMs": 783,
+      "longTasks": 4,
+      "longestTaskMs": 154
+    },
+    "dom": {
+      "elements": 1616,
+      "depth": 15,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 192280,
+      "unusedCssBytes": 15702,
+      "legacyJsBytes": 12324,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 6471,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 3175,
+      "renderBlockingCount": 9,
+      "poorlyCachedBytes": 619.0999999999998,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 32,
+      "failingNodes": 51,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 30
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 16
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "meta-viewport",
+          "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 15
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3574,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T04:58:58.974Z",
+      "runtimeMs": 12760.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "eleventy"
+    },
+    "probe": {
+      "metas": [
+        "eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5fe15b66f693fe3-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 55,
+    "passes": 1567,
+    "incomplete": 14,
+    "violationRules": 6,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 30,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "span[data-topbar-date-short=\"\"]",
+            "snippet": "<span data-topbar-date-short=\"\" class=\"md:hidden whitespace-nowrap text-home/80\">25 Nov</span>"
+          },
+          {
+            "selector": ".md\\:w-1\\/2.py-8.w-full > .leading-relaxed.mt-4:nth-child(2)",
+            "snippet": "<p class=\"text-warmwhite text-left text-base mt-4 mb-2 leading-relaxed\">"
+          },
+          {
+            "selector": ".leading-relaxed.mt-4:nth-child(3)",
+            "snippet": "<p class=\"text-warmwhite text-left text-base mt-4 mb-2 leading-relaxed\">Every race is fully marked and marshalled, with well-stocked aid stations and live results, all delivered with a friendly atmos…"
+          },
+          {
+            "selector": ".section-title.mb-3",
+            "snippet": "<h2 class=\"section-title text-white font-medium mb-3\">Our Trail Running Races</h2>"
+          },
+          {
+            "selector": ".mb-12",
+            "snippet": "<p class=\"text-white mb-12 text-base lg:text-lg text-center max-w-lg mx-auto\">Ranging from 10K to 100K+ ultra marathons, all our races take place on the trails in the beautiful English countryside.</…"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 16,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".min-h-64.last\\:mb-0.md\\:mb-12:nth-child(1) > .h-56.sm\\:h-72.lg\\:h-auto > .left-0.top-0.h-full",
+            "snippet": "<a href=\"/races/autumn-time-trial-series/\" class=\"absolute w-full h-full top-0 left-0\"></a>"
+          },
+          {
+            "selector": ".min-h-64.last\\:mb-0.md\\:mb-12:nth-child(2) > .h-56.sm\\:h-72.lg\\:h-auto > .left-0.top-0.h-full",
+            "snippet": "<a href=\"/races/runaway-racing-invitational-10k/\" class=\"absolute w-full h-full top-0 left-0\"></a>"
+          },
+          {
+            "selector": ".min-h-64.last\\:mb-0.md\\:mb-12:nth-child(3) > .h-56.sm\\:h-72.lg\\:h-auto > .left-0.top-0.h-full",
+            "snippet": "<a href=\"/races/wendover-woods-trail-running-race/\" class=\"absolute w-full h-full top-0 left-0\"></a>"
+          },
+          {
+            "selector": ".min-h-64.last\\:mb-0.md\\:mb-12:nth-child(4) > .h-56.sm\\:h-72.lg\\:h-auto > .left-0.top-0.h-full",
+            "snippet": "<a href=\"/races/chiltern-ridge-ultra-trail/\" class=\"absolute w-full h-full top-0 left-0\"></a>"
+          },
+          {
+            "selector": ".h-56.sm\\:h-72.lg\\:h-auto > .left-0.top-0[href$=\"the-ridgeway-challenge/\"]",
+            "snippet": "<a href=\"/races/the-ridgeway-challenge/\" class=\"absolute w-full h-full top-0 left-0\"></a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 5,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sm\\:justify-self-start",
+            "snippet": "<div class=\"shrink-0 flex items-stretch sm:justify-self-start\">"
+          },
+          {
+            "selector": ".text-\\[11px\\]",
+            "snippet": "<span data-topbar-title=\"\" class=\"text-[11px] sm:text-xs font-bold uppercase sm:tracking-wide truncate\">Autumn Time Trial Series</span>"
+          },
+          {
+            "selector": "span[data-topbar-date-short=\"\"]",
+            "snippet": "<span data-topbar-date-short=\"\" class=\"md:hidden whitespace-nowrap text-home/80\">25 Nov</span>"
+          },
+          {
+            "selector": ".sr-only",
+            "snippet": "<span data-topbar-cta=\"\" class=\"sr-only\">Live results</span>"
+          },
+          {
+            "selector": ".bg-warmwhite.z-40.justify-center",
+            "snippet": "<div class=\"bg-warmwhite z-40 w-full justify-center items-center flex\"> <a href=\"/\" class=\"py-5 md:py-8 rounded-b-lg px-8 \"> <img src=\"/images/Rr_Wordmark_Dark_Full_Color_RGB.svg\" class=\"w-[220px] sm…"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"text-gray-900 leading-tight font-primary font-normal overflow-x-hidden\">"
+          },
+          {
+            "selector": "iframe[title=\"reCAPTCHA\"] >>> html",
+            "snippet": "<html dir=\"ltr\" lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-banner-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Banner landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-banner-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#slick-slide00 > div > .pageheaderhome.slide.bg-gray-200",
+            "snippet": "<section role=\"banner\" class=\"pageheaderhome slide...\" style=\"background-image: ur...\">"
+          }
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "meta[name=\"viewport\"]:nth-child(3)",
+            "snippet": "<meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "85f7f48dc172",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "\"ed358d71101ce4cfe50c7e7907cee697\"",
+          "last-modified": "Wed, 25 Nov 2026 00:02:19 UTC"
+        }
+      },
+      {
+        "hash": "85f7f48dc172",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "154",
+          "cf-cache-status": "HIT",
+          "etag": "\"ed358d71101ce4cfe50c7e7907cee697\"",
+          "last-modified": "Wed, 25 Nov 2026 00:02:19 UTC"
+        }
+      },
+      {
+        "hash": "85f7f48dc172",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "166",
+          "cf-cache-status": "HIT",
+          "etag": "\"ed358d71101ce4cfe50c7e7907cee697\"",
+          "last-modified": "Wed, 25 Nov 2026 00:02:19 UTC"
+        }
+      },
+      {
+        "hash": "85f7f48dc172",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "177",
+          "cf-cache-status": "HIT",
+          "etag": "\"ed358d71101ce4cfe50c7e7907cee697\"",
+          "last-modified": "Wed, 25 Nov 2026 00:02:19 UTC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

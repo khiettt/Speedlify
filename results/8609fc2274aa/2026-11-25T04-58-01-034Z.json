@@ -1,0 +1,299 @@
+{
+  "url": "https://rootedregalia.com/",
+  "name": "rootedregalia.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795582681034,
+  "date": "2026-11-25T04:58:01.034Z",
+  "runId": "2026-11-25T04-56-53-979Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 32701,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": {
+    "min": 54,
+    "max": 76,
+    "spread": 22,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://rootedregalia.com/",
+    "finalUrl": "https://rootedregalia.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 54,
+      "accessibility": 79,
+      "best-practices": 77,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 3995,
+      "lcp": 21982,
+      "si": 9609,
+      "tbt": 239,
+      "tti": 21982,
+      "cls": 0,
+      "ttfb": 719,
+      "maxPotentialFid": 226,
+      "serverResponseTime": 383,
+      "networkRtt": 6.4,
+      "networkServerLatency": 118.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 409.6,
+      "resourceLoadDelay": 11.2,
+      "resourceLoadDuration": 535.4,
+      "elementRenderDelay": 1621.9
+    },
+    "weight": {
+      "total": 4131406,
+      "requests": 20,
+      "mainDocument": 39441,
+      "byType": {
+        "total": {
+          "bytes": 4131406,
+          "requests": 19
+        },
+        "image": {
+          "bytes": 3428583,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 658583,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 39441,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2456,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 2343,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 616261,
+          "requests": 3
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 616261,
+      "mainThreadMs": 57,
+      "top": [
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 447871,
+          "mainThreadMs": 28.2,
+          "byType": {
+            "script": 447871
+          },
+          "typedBytes": 447871
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 157912,
+          "mainThreadMs": 23.5,
+          "byType": {
+            "script": 157912
+          },
+          "typedBytes": 157912
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 5.3,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1134.7,
+      "byGroup": {
+        "scriptEvaluation": 636.8,
+        "other": 274.2,
+        "scriptParseCompile": 106.6,
+        "styleLayout": 61.3,
+        "parseHTML": 35.3,
+        "garbageCollection": 10.7,
+        "paintCompositeRender": 9.7
+      },
+      "bootupMs": 697.9,
+      "longTasks": 4,
+      "longestTaskMs": 226
+    },
+    "dom": {
+      "elements": 134,
+      "depth": 10,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 97933,
+      "unusedCssBytes": 34769,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4527.507784722222,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 17,
+      "failingNodes": 7,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 33
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3521.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T04:58:02.222Z",
+      "runtimeMs": 8910.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Just a moment...",
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5fe1422ef1b0622-IAD",
+      "server": "cloudflare"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "df00a5a77cb5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "10de33d89379",
+        "nonce": "93ddd94af492",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

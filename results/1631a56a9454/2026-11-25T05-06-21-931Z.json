@@ -1,0 +1,330 @@
+{
+  "url": "https://tanks.jandewil.de/",
+  "name": "tanks.jandewil.de",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795583181931,
+  "date": "2026-11-25T05:06:21.931Z",
+  "runId": "2026-11-25T04-56-53-979Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 35079,
+  "error": null,
+  "variance": {
+    "min": 70,
+    "max": 85,
+    "spread": 15,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://tanks.jandewil.de/",
+    "finalUrl": "https://tanks.jandewil.de/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 75,
+      "accessibility": 100,
+      "best-practices": 92,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1515,
+      "lcp": 5336,
+      "si": 1515,
+      "tbt": 261,
+      "tti": 5404,
+      "cls": 0.002,
+      "ttfb": 603,
+      "maxPotentialFid": 220,
+      "serverResponseTime": 3,
+      "networkRtt": 0.1,
+      "networkServerLatency": 11.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.4,
+      "resourceLoadDelay": 10.7,
+      "resourceLoadDuration": 15.3,
+      "elementRenderDelay": 43
+    },
+    "weight": {
+      "total": 1283787,
+      "requests": 56,
+      "mainDocument": 8802,
+      "byType": {
+        "total": {
+          "bytes": 1283787,
+          "requests": 56
+        },
+        "font": {
+          "bytes": 689233,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 453912,
+          "requests": 18
+        },
+        "script": {
+          "bytes": 116278,
+          "requests": 23
+        },
+        "stylesheet": {
+          "bytes": 11299,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 8802,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4263,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 737417,
+          "requests": 29
+        }
+      },
+      "scripts": 23,
+      "stylesheets": 4,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 737417,
+      "mainThreadMs": 145.1,
+      "top": [
+        {
+          "entity": "rsms.me",
+          "bytes": 691271,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 2038,
+            "font": 689233
+          },
+          "typedBytes": 691271
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 46146,
+          "mainThreadMs": 144.8,
+          "byType": {
+            "script": 42694,
+            "stylesheet": 3452
+          },
+          "typedBytes": 46146
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3614.4,
+      "byGroup": {
+        "other": 1313.6,
+        "scriptEvaluation": 1225.7,
+        "paintCompositeRender": 691.2,
+        "styleLayout": 286.8,
+        "parseHTML": 47.3,
+        "garbageCollection": 29.6,
+        "scriptParseCompile": 20.1
+      },
+      "bootupMs": 1213.9,
+      "longTasks": 4,
+      "longestTaskMs": 220
+    },
+    "dom": {
+      "elements": 5341,
+      "depth": 15,
+      "maxChildren": 24
+    },
+    "waste": {
+      "unusedJsBytes": 29997,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2538,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1670,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 1385.84,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 27,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3517,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T05:06:34.838Z",
+      "runtimeMs": 9906.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.0.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M88HK09DRTZN84VXAGFZECM7"
+    },
+    "violations": 3,
+    "passes": 4608,
+    "incomplete": 40,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pb-8",
+            "snippet": "<div class=\"lg:grid lg:grid-cols-2 lg:gap-8 mt-4 pb-8 mb-8 max-lg:reel\">"
+          },
+          {
+            "selector": ".lg\\:mt-4",
+            "snippet": "<div class=\"lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-4 max-lg:reel\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".to-top-link",
+            "snippet": "<a href=\"#top\" class=\"to-top-link rounded-full px-6\">Back to top<span aria-hidden=\"\"> ↑</span> <span class=\"sr-only\"> of page.</span> </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4a9a61100a57",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"986933a6987d14571bc9af3708852648-ssl\""
+        }
+      },
+      {
+        "hash": "4a9a61100a57",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535989",
+          "etag": "W/\"986933a6987d14571bc9af3708852648-ssl\""
+        }
+      },
+      {
+        "hash": "4a9a61100a57",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"986933a6987d14571bc9af3708852648-ssl\""
+        }
+      },
+      {
+        "hash": "4a9a61100a57",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535970",
+          "etag": "W/\"986933a6987d14571bc9af3708852648-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
