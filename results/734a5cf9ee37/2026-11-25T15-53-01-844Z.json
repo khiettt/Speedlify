@@ -1,0 +1,252 @@
+{
+  "url": "https://tj.ie/",
+  "name": "tj.ie",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795621981844,
+  "date": "2026-11-25T15:53:01.844Z",
+  "runId": "2026-11-25T15-45-03-098Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27654,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://tj.ie/",
+    "finalUrl": "https://tj.ie/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1009,
+      "lcp": 1009,
+      "si": 1073,
+      "tbt": 0,
+      "tti": 1009,
+      "cls": 0,
+      "ttfb": 659,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 294,
+      "networkRtt": 0.1,
+      "networkServerLatency": 58.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 295.5,
+      "elementRenderDelay": 108.8
+    },
+    "weight": {
+      "total": 204333,
+      "requests": 11,
+      "mainDocument": 17059,
+      "byType": {
+        "total": {
+          "bytes": 204333,
+          "requests": 11
+        },
+        "image": {
+          "bytes": 73001,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 58968,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 52812,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 17059,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2493,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 73001,
+          "requests": 4
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 73001,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "laravel.cloud",
+          "bytes": 73001,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 73001
+          },
+          "typedBytes": 73001
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 464.6,
+      "byGroup": {
+        "other": 262.8,
+        "styleLayout": 96.9,
+        "scriptEvaluation": 44.9,
+        "paintCompositeRender": 37.3,
+        "parseHTML": 20.9,
+        "scriptParseCompile": 1.8
+      },
+      "bootupMs": 33.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 210,
+      "depth": 11,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 46968,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 73001,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 27,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 33
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2464,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:53:12.103Z",
+      "runtimeMs": 7705
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a601d3872d056763-ATL",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 411,
+    "incomplete": 72,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0a574f454037",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0a574f454037",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0a574f454037",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0a574f454037",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

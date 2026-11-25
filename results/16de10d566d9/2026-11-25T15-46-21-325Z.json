@@ -1,0 +1,447 @@
+{
+  "url": "https://taksh.codes/",
+  "name": "taksh.codes",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795621581325,
+  "date": "2026-11-25T15:46:21.325Z",
+  "runId": "2026-11-25T15-45-03-098Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 39244,
+  "error": null,
+  "variance": {
+    "min": 78,
+    "max": 86,
+    "spread": 8,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://taksh.codes/",
+    "finalUrl": "https://taksh.codes/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 86,
+      "accessibility": 82,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 46
+    },
+    "timings": {
+      "fcp": 1012,
+      "lcp": 1012,
+      "si": 2473,
+      "tbt": 472,
+      "tti": 4919,
+      "cls": 0.092,
+      "ttfb": 615,
+      "maxPotentialFid": 261,
+      "serverResponseTime": 49,
+      "networkRtt": 6.2,
+      "networkServerLatency": 38.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 50.3,
+      "elementRenderDelay": 62.7
+    },
+    "weight": {
+      "total": 508906,
+      "requests": 31,
+      "mainDocument": 27757,
+      "byType": {
+        "total": {
+          "bytes": 505739,
+          "requests": 29
+        },
+        "script": {
+          "bytes": 288917,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 85124,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 58161,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 43808,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 27757,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1336,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 636,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 281762,
+          "requests": 15
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 7,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 281762,
+      "mainThreadMs": 141.4,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183119,
+          "mainThreadMs": 69.2,
+          "byType": {
+            "script": 183119
+          },
+          "typedBytes": 183119
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 59497,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1336,
+            "font": 58161
+          },
+          "typedBytes": 59497
+        },
+        {
+          "entity": "Clarity",
+          "bytes": 27428,
+          "mainThreadMs": 64.1,
+          "byType": {
+            "script": 26603,
+            "other": 825
+          },
+          "typedBytes": 27428
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 7.8,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        },
+        {
+          "entity": "instant.page",
+          "bytes": 1308,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "script": 1308
+          },
+          "typedBytes": 1308
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3392.3,
+      "byGroup": {
+        "scriptEvaluation": 1447.8,
+        "other": 877.1,
+        "styleLayout": 756.8,
+        "paintCompositeRender": 151.4,
+        "scriptParseCompile": 88.3,
+        "parseHTML": 44.6,
+        "garbageCollection": 26.4
+      },
+      "bootupMs": 1472.2,
+      "longTasks": 6,
+      "longestTaskMs": 261
+    },
+    "dom": {
+      "elements": 657,
+      "depth": 21,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 355808,
+      "unusedCssBytes": 34304,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 14437.600000000002,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 15,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 2
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 5
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2488,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:46:35.410Z",
+      "runtimeMs": 10546.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a601ca0d68cd939f-IAD",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M89P713CX82FD5VFT5C3BVE2"
+    },
+    "violations": 18,
+    "passes": 228,
+    "incomplete": 0,
+    "violationRules": 6,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".index-about-me > h3",
+            "snippet": "<h3> Shopify Select Partner </h3>"
+          },
+          {
+            "selector": ".index-about-me > p",
+            "snippet": "<p> As a Shopify Select Partner, I help brands worldwide solve their toughest technical challenges across the entire Shopify ecosystem. I deliver complete solutions from responsive themes and custom …"
+          },
+          {
+            "selector": "h5 > em",
+            "snippet": "<em> Technical expertise with measurable business results. </em>"
+          },
+          {
+            "selector": ".tt-col-lg-7 > .margin-bottom-75.tt-btn-light.max-width-300 > div[data-hover=\"Book a slot!\"]",
+            "snippet": "<div data-hover=\"Book a slot!\">"
+          },
+          {
+            "selector": ".tt-scrolling-text[data-scroll-speed=\"12\"]:nth-child(1) > .tt-scrolling-text-inner",
+            "snippet": "<div class=\"tt-scrolling-text-inner\" data-text=\"Trusted by brands &amp; agencies worldwides →\" style=\"animation-duration: 12s;\"> Trusted by brands &amp; agencies worldwide → </div>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"/#index-contact\"]",
+            "snippet": "<a href=\"/#index-contact\">"
+          },
+          {
+            "selector": ".tt-ol-menu-toggle-btn",
+            "snippet": "<a href=\"#\" class=\"tt-ol-menu-toggle-btn magnetic-item\"> <span></span> </a>"
+          },
+          {
+            "selector": "li:nth-child(1) > a[href$=\"takshshahh\"][rel=\"noopener\"][target=\"_blank\"]",
+            "snippet": "<a href=\"https://twitter.com/takshshahh\" class=\"magnetic-item\" target=\"_blank\" rel=\"noopener\">"
+          },
+          {
+            "selector": "li:nth-child(2) > .magnetic-item[rel=\"noopener\"][target=\"_blank\"]",
+            "snippet": "<a href=\"https://www.instagram.com/takshshahh/\" class=\"magnetic-item\" target=\"_blank\" rel=\"noopener\">"
+          },
+          {
+            "selector": "li:nth-child(3) > a[href$=\"taksh108\"][rel=\"noopener\"][target=\"_blank\"]",
+            "snippet": "<a href=\"https://github.com/taksh108\" class=\"magnetic-item\" target=\"_blank\" rel=\"noopener\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".index-about-me > h3",
+            "snippet": "<h3> Shopify Select Partner </h3>"
+          },
+          {
+            "selector": ".index-about-me > h5",
+            "snippet": "<h5 class=\"text-stroke-light\"> <em> Technical expertise with measurable business results. </em> </h5>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#play-pause-button",
+            "snippet": "<button id=\"play-pause-button\">"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1 class=\"ph-caption-title\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#helper-text > span",
+            "snippet": "<span>Listen to my audio pitch</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9207487f3ae6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "28439",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31507561",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "9207487f3ae6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "28451",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31507549",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "9207487f3ae6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "28462",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31507538",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "9207487f3ae6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "28",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535972",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
