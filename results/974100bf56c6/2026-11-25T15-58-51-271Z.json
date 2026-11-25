@@ -1,0 +1,270 @@
+{
+  "url": "https://www.sylvain.dev/",
+  "name": "www.sylvain.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795622331271,
+  "date": "2026-11-25T15:58:51.271Z",
+  "runId": "2026-11-25T15-45-03-601Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22428,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.sylvain.dev/",
+    "finalUrl": "https://www.sylvain.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 99
+    },
+    "timings": {
+      "fcp": 956,
+      "lcp": 956,
+      "si": 956,
+      "tbt": 0,
+      "tti": 956,
+      "cls": 0.059,
+      "ttfb": 473,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 221,
+      "networkRtt": 0.9,
+      "networkServerLatency": 22.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 222.7,
+      "elementRenderDelay": 84.3
+    },
+    "weight": {
+      "total": 123231,
+      "requests": 13,
+      "mainDocument": 15419,
+      "byType": {
+        "total": {
+          "bytes": 123231,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 87963,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 16321,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 15419,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3528,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10388,
+          "requests": 3
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 0,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 10388,
+      "mainThreadMs": 8.5,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 8.4,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 36,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 36
+          },
+          "typedBytes": 36
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 309,
+      "byGroup": {
+        "other": 144.5,
+        "styleLayout": 61.1,
+        "scriptEvaluation": 58.4,
+        "paintCompositeRender": 20.8,
+        "parseHTML": 18.5,
+        "scriptParseCompile": 5.7
+      },
+      "bootupMs": 45.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 308,
+      "depth": 9,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4140.8,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 35
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2458.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:58:59.420Z",
+      "runtimeMs": 6443.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a601dbf18e421105-ORD",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 631,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2e4e2e5ccfdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"8e80a4ba1ea79131d36832d9367d219a\""
+        }
+      },
+      {
+        "hash": "2e4e2e5ccfdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"8e80a4ba1ea79131d36832d9367d219a\""
+        }
+      },
+      {
+        "hash": "2e4e2e5ccfdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"8e80a4ba1ea79131d36832d9367d219a\""
+        }
+      },
+      {
+        "hash": "2e4e2e5ccfdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"8e80a4ba1ea79131d36832d9367d219a\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

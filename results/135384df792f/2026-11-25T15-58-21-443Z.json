@@ -1,0 +1,303 @@
+{
+  "url": "https://tydac.ch/",
+  "name": "tydac.ch",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795622301443,
+  "date": "2026-11-25T15:58:21.443Z",
+  "runId": "2026-11-25T15-45-03-601Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26827,
+  "error": null,
+  "variance": {
+    "min": 83,
+    "max": 87,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://tydac.ch/",
+    "finalUrl": "https://tydac.ch/en/",
+    "redirect": {
+      "from": "https://tydac.ch/",
+      "to": "https://tydac.ch/en",
+      "chain": [
+        {
+          "url": "https://tydac.ch/",
+          "status": 200
+        },
+        {
+          "url": "https://tydac.ch/en/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        200
+      ],
+      "change": "path",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 87,
+      "accessibility": 87,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1552,
+      "lcp": 3948,
+      "si": 1758,
+      "tbt": 0,
+      "tti": 3948,
+      "cls": 0.014,
+      "ttfb": 614,
+      "maxPotentialFid": 34,
+      "serverResponseTime": 122,
+      "networkRtt": 0.1,
+      "networkServerLatency": 38.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 126.3,
+      "resourceLoadDelay": 9.9,
+      "resourceLoadDuration": 20.7,
+      "elementRenderDelay": 68.8
+    },
+    "weight": {
+      "total": 966936,
+      "requests": 50,
+      "mainDocument": 4658,
+      "byType": {
+        "total": {
+          "bytes": 966936,
+          "requests": 50
+        },
+        "image": {
+          "bytes": 853029,
+          "requests": 41
+        },
+        "font": {
+          "bytes": 88100,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 11554,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 5851,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5479,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 2923,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 89965,
+          "requests": 3
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 3,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 89965,
+      "mainThreadMs": 0.4,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 89965,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 1865,
+            "font": 88100
+          },
+          "typedBytes": 89965
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 455.9,
+      "byGroup": {
+        "other": 277.3,
+        "styleLayout": 88.1,
+        "paintCompositeRender": 34.7,
+        "parseHTML": 33.3,
+        "scriptEvaluation": 18.3,
+        "scriptParseCompile": 4.2
+      },
+      "bootupMs": 16.8,
+      "longTasks": 1,
+      "longestTaskMs": 50
+    },
+    "dom": {
+      "elements": 225,
+      "depth": 12,
+      "maxChildren": 28
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2139,
+      "renderBlockingMs": 788,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 590626.9200000002,
+      "poorlyCachedCount": 44
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 11,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 764.1,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2461,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:58:32.299Z",
+      "runtimeMs": 7631.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a601db2d8bac726c-ORD",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 483,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"/en/posts/map-2026-10/\"] > h4",
+            "snippet": "<h4 class=\"text-md font-medium px-3 mb-0 \"> News from the MAP+ Atelier </h4>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "119b2fd190b0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 29 Oct 2026 05:50:55 GMT"
+        }
+      },
+      {
+        "hash": "119b2fd190b0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 29 Oct 2026 05:50:55 GMT"
+        }
+      },
+      {
+        "hash": "119b2fd190b0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 29 Oct 2026 05:50:55 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,312 @@
+{
+  "url": "https://sport-game-catalog.netlify.app/",
+  "name": "sport-game-catalog.netlify.app",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795621784411,
+  "date": "2026-11-25T15:49:44.411Z",
+  "runId": "2026-11-25T15-45-03-601Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 33871,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://sport-game-catalog.netlify.app/",
+    "finalUrl": "https://sport-game-catalog.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 964,
+      "lcp": 1690,
+      "si": 964,
+      "tbt": 83,
+      "tti": 3195,
+      "cls": 0.043,
+      "ttfb": 621,
+      "maxPotentialFid": 164,
+      "serverResponseTime": 19,
+      "networkRtt": 0.1,
+      "networkServerLatency": 73.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.9,
+      "resourceLoadDelay": 18.9,
+      "resourceLoadDuration": 28.8,
+      "elementRenderDelay": 58.2
+    },
+    "weight": {
+      "total": 436782,
+      "requests": 40,
+      "mainDocument": 15295,
+      "byType": {
+        "total": {
+          "bytes": 436782,
+          "requests": 40
+        },
+        "image": {
+          "bytes": 226747,
+          "requests": 19
+        },
+        "script": {
+          "bytes": 119736,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 65021,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 15295,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 5783,
+          "requests": 11
+        },
+        "stylesheet": {
+          "bytes": 4200,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 98771,
+          "requests": 13
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 98771,
+      "mainThreadMs": 58.7,
+      "top": [
+        {
+          "entity": "FullStory",
+          "bytes": 86780,
+          "mainThreadMs": 50.6,
+          "byType": {
+            "script": 84236,
+            "other": 2544
+          },
+          "typedBytes": 86780
+        },
+        {
+          "entity": "honeybadger.io",
+          "bytes": 8777,
+          "mainThreadMs": 6.2,
+          "byType": {
+            "script": 8777
+          },
+          "typedBytes": 8777
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3214,
+          "mainThreadMs": 1.9,
+          "byType": {
+            "script": 2779,
+            "image": 435
+          },
+          "typedBytes": 3214
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2877.9,
+      "byGroup": {
+        "other": 960,
+        "paintCompositeRender": 736.5,
+        "scriptEvaluation": 684.2,
+        "styleLayout": 379.4,
+        "scriptParseCompile": 67,
+        "parseHTML": 41.2,
+        "garbageCollection": 9.6
+      },
+      "bootupMs": 736.4,
+      "longTasks": 3,
+      "longestTaskMs": 164
+    },
+    "dom": {
+      "elements": 320,
+      "depth": 14,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 36891,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 6425,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 67388.8,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2489,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:49:54.792Z",
+      "runtimeMs": 12075.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.13.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M89PD24717RZQW18NKDW92PA"
+    },
+    "violations": 4,
+    "passes": 470,
+    "incomplete": 5,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 4,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-4xl",
+            "snippet": "<h1 class=\"text-4xl sm:text-5xl font-bold mb-3 sm:mb-4 mt-6 sm:mt-0\" x-text=\"selectedGame?.title\"></h1>"
+          },
+          {
+            "selector": "h1:nth-child(2)",
+            "snippet": "<h1><p class=\"text-slate-500 max-w-xl sm:text-xl\" x-text=\"selectedGame?.description\"></p></h1>"
+          },
+          {
+            "selector": "h3[x-text=\"previousGame?.title\"]",
+            "snippet": "<h3 class=\"text-xl font-bold\" x-text=\"previousGame?.title\"></h3>"
+          },
+          {
+            "selector": "h3[x-text=\"nextGame?.title\"]",
+            "snippet": "<h3 class=\"text-xl font-bold\" x-text=\"nextGame?.title\"></h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0b414e0913ec",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"9df30a64fb941e65cf7df19e1fc7ce89-ssl\""
+        }
+      },
+      {
+        "hash": "0b414e0913ec",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"9df30a64fb941e65cf7df19e1fc7ce89-ssl\""
+        }
+      },
+      {
+        "hash": "0b414e0913ec",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"9df30a64fb941e65cf7df19e1fc7ce89-ssl\""
+        }
+      },
+      {
+        "hash": "0b414e0913ec",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535969",
+          "etag": "W/\"9df30a64fb941e65cf7df19e1fc7ce89-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

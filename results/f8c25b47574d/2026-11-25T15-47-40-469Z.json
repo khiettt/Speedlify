@@ -1,0 +1,280 @@
+{
+  "url": "https://sonnet.io/",
+  "name": "sonnet.io",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795621660469,
+  "date": "2026-11-25T15:47:40.469Z",
+  "runId": "2026-11-25T15-45-03-601Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24290,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://sonnet.io/",
+    "finalUrl": "https://sonnet.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 99
+    },
+    "timings": {
+      "fcp": 1550,
+      "lcp": 1550,
+      "si": 1550,
+      "tbt": 0,
+      "tti": 1550,
+      "cls": 0.056,
+      "ttfb": 618,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 10,
+      "networkRtt": 0.1,
+      "networkServerLatency": 91.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 11.8,
+      "elementRenderDelay": 131.3
+    },
+    "weight": {
+      "total": 195001,
+      "requests": 11,
+      "mainDocument": 1989,
+      "byType": {
+        "total": {
+          "bytes": 195001,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 180491,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 8854,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 2108,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 1989,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 1559,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 183608,
+          "requests": 7
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 183608,
+      "mainThreadMs": 2.2,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 181334,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 843,
+            "font": 180491
+          },
+          "typedBytes": 181334
+        },
+        {
+          "entity": "vercel.app",
+          "bytes": 2274,
+          "mainThreadMs": 2.1,
+          "byType": {
+            "script": 1559,
+            "other": 715
+          },
+          "typedBytes": 2274
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 175.5,
+      "byGroup": {
+        "other": 90.7,
+        "styleLayout": 43.2,
+        "scriptEvaluation": 24.3,
+        "paintCompositeRender": 8,
+        "parseHTML": 6.7,
+        "scriptParseCompile": 2.6
+      },
+      "bootupMs": 16.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 42,
+      "depth": 8,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 783,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 13,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2464.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:47:58.267Z",
+      "runtimeMs": 6117.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::l6hms-1795621683410-1122151ad017"
+    },
+    "violations": 0,
+    "passes": 98,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c9a8e4d16b76",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "228119",
+          "etag": "W/\"aa5aa9df2052e99fd80e08b0cc103456\"",
+          "last-modified": "Mon, 23 Nov 2026 00:25:41 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "c9a8e4d16b76",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "228130",
+          "etag": "W/\"aa5aa9df2052e99fd80e08b0cc103456\"",
+          "last-modified": "Mon, 23 Nov 2026 00:25:41 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "c9a8e4d16b76",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "228136",
+          "etag": "W/\"aa5aa9df2052e99fd80e08b0cc103456\"",
+          "last-modified": "Mon, 23 Nov 2026 00:25:41 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "c9a8e4d16b76",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"aa5aa9df2052e99fd80e08b0cc103456\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
