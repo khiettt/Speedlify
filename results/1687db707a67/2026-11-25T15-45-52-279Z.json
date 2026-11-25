@@ -1,0 +1,295 @@
+{
+  "url": "https://www.southpawspetservice.com/",
+  "name": "southpawspetservice.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795621552279,
+  "date": "2026-11-25T15:45:52.279Z",
+  "runId": "2026-11-25T15-45-09-110Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 29076,
+  "error": null,
+  "variance": {
+    "min": 64,
+    "max": 91,
+    "spread": 27,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.southpawspetservice.com/",
+    "finalUrl": "https://www.southpawspetservice.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 91,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 969,
+      "lcp": 3400,
+      "si": 1354,
+      "tbt": 75,
+      "tti": 4495,
+      "cls": 0.012,
+      "ttfb": 604,
+      "maxPotentialFid": 96,
+      "serverResponseTime": 6,
+      "networkRtt": 0.9,
+      "networkServerLatency": 26.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 7.2,
+      "resourceLoadDelay": 24.4,
+      "resourceLoadDuration": 8.3,
+      "elementRenderDelay": 71
+    },
+    "weight": {
+      "total": 696945,
+      "requests": 49,
+      "mainDocument": 31218,
+      "byType": {
+        "total": {
+          "bytes": 693487,
+          "requests": 42
+        },
+        "script": {
+          "bytes": 452314,
+          "requests": 21
+        },
+        "font": {
+          "bytes": 100198,
+          "requests": 7
+        },
+        "stylesheet": {
+          "bytes": 58931,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 49026,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 31218,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1800,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 662269,
+          "requests": 41
+        }
+      },
+      "scripts": 21,
+      "stylesheets": 5,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 662269,
+      "mainThreadMs": 102,
+      "top": [
+        {
+          "entity": "cdn-website.com",
+          "bytes": 459823,
+          "mainThreadMs": 53.6,
+          "byType": {
+            "script": 250486,
+            "stylesheet": 58931,
+            "image": 48658,
+            "font": 100198,
+            "other": 1550
+          },
+          "typedBytes": 459823
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183041,
+          "mainThreadMs": 42.7,
+          "byType": {
+            "script": 183041
+          },
+          "typedBytes": 183041
+        },
+        {
+          "entity": "Snowplow",
+          "bytes": 19155,
+          "mainThreadMs": 5.7,
+          "byType": {
+            "script": 18787,
+            "image": 368
+          },
+          "typedBytes": 19155
+        },
+        {
+          "entity": "multiscreensite.com",
+          "bytes": 250,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 250
+          },
+          "typedBytes": 250
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1316.9,
+      "byGroup": {
+        "scriptEvaluation": 461.9,
+        "other": 343.1,
+        "styleLayout": 291.4,
+        "scriptParseCompile": 93.2,
+        "paintCompositeRender": 68.6,
+        "parseHTML": 45.9,
+        "garbageCollection": 12.7
+      },
+      "bootupMs": 371.7,
+      "longTasks": 4,
+      "longestTaskMs": 96
+    },
+    "dom": {
+      "elements": 711,
+      "depth": 29,
+      "maxChildren": 30
+    },
+    "waste": {
+      "unusedJsBytes": 145631,
+      "unusedCssBytes": 38874,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 368,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 28,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 35
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3452,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:46:03.118Z",
+      "runtimeMs": 8667.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 0,
+    "passes": 931,
+    "incomplete": 11,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c869224d0423",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1712636274\""
+        }
+      },
+      {
+        "hash": "c869224d0423",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1712636274\""
+        }
+      },
+      {
+        "hash": "c869224d0423",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1712636274\""
+        }
+      },
+      {
+        "hash": "59d669cc7a9a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"-1253701279\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

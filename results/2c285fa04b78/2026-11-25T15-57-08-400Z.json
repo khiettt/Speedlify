@@ -1,0 +1,328 @@
+{
+  "url": "https://www.briangershon.com/",
+  "name": "www.briangershon.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795622228400,
+  "date": "2026-11-25T15:57:08.400Z",
+  "runId": "2026-11-25T15-45-09-110Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20014,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.briangershon.com/",
+    "finalUrl": "https://www.briangershon.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 91,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 782,
+      "lcp": 1551,
+      "si": 782,
+      "tbt": 0,
+      "tti": 1551,
+      "cls": 0,
+      "ttfb": 610,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 1,
+      "networkRtt": 0,
+      "networkServerLatency": 41.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 3.1,
+      "resourceLoadDelay": 19.2,
+      "resourceLoadDuration": 10.1,
+      "elementRenderDelay": 53.1
+    },
+    "weight": {
+      "total": 227325,
+      "requests": 15,
+      "mainDocument": 4487,
+      "byType": {
+        "total": {
+          "bytes": 227325,
+          "requests": 15
+        },
+        "image": {
+          "bytes": 141954,
+          "requests": 9
+        },
+        "other": {
+          "bytes": 58011,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 14412,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 8461,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4487,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 133572,
+          "requests": 5
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 133572,
+      "mainThreadMs": 1.5,
+      "top": [
+        {
+          "entity": "stashfive.com",
+          "bytes": 130359,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 130359
+          },
+          "typedBytes": 130359
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3213,
+          "mainThreadMs": 1.5,
+          "byType": {
+            "script": 2779,
+            "image": 434
+          },
+          "typedBytes": 3213
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1392.9,
+      "byGroup": {
+        "other": 1023,
+        "scriptEvaluation": 303.3,
+        "styleLayout": 28.5,
+        "paintCompositeRender": 27.3,
+        "parseHTML": 8.8,
+        "scriptParseCompile": 2
+      },
+      "bootupMs": 292.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 99,
+      "depth": 9,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 88644.12,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 12,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3498,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:57:15.837Z",
+      "runtimeMs": 6022.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::sv8mr-1795622247178-785ca8c4d00c"
+    },
+    "violations": 7,
+    "passes": 179,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-redundant-alt",
+        "impact": "minor",
+        "nodes": 4,
+        "help": "Alternative text of images should not be repeated as text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[alt=\"LinkedIn\"]",
+            "snippet": "<img src=\"/assets/images/social/linkedin.svg\" alt=\"LinkedIn\" class=\"w-8 h-8 object-contain flex-shrink-0\" width=\"32\" height=\"32\">"
+          },
+          {
+            "selector": "img[alt=\"GitHub\"]",
+            "snippet": "<img src=\"/assets/images/social/github.svg\" alt=\"GitHub\" class=\"w-8 h-8 object-contain flex-shrink-0\" width=\"32\" height=\"32\">"
+          },
+          {
+            "selector": "img[alt=\"Bluesky\"]",
+            "snippet": "<img src=\"/assets/images/social/bluesky.svg\" alt=\"Bluesky\" class=\"w-8 h-8 object-contain flex-shrink-0\" width=\"32\" height=\"32\">"
+          },
+          {
+            "selector": "img[alt=\"Codewars\"]",
+            "snippet": "<img src=\"/assets/images/social/codewars.svg\" alt=\"Codewars\" class=\"w-8 h-8 object-contain flex-shrink-0\" width=\"32\" height=\"32\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article:nth-child(1) > .block.mb-4",
+            "snippet": "<a href=\"/blog/openclaw-avoid-runaway-api-costs/\" class=\"block mb-4\">"
+          },
+          {
+            "selector": "article:nth-child(2) > .block.mb-4",
+            "snippet": "<a href=\"/blog/securing-claude-and-your-skills/\" class=\"block mb-4\">"
+          },
+          {
+            "selector": "article:nth-child(3) > .block.mb-4",
+            "snippet": "<a href=\"/blog/make-tool-you-wish-existed-with-llm/\" class=\"block mb-4\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "02c34385db64",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "211528",
+          "etag": "W/\"ef010f55adda293512b3fc2805b00af5\"",
+          "last-modified": "Mon, 23 Nov 2026 05:11:41 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "02c34385db64",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "211534",
+          "etag": "W/\"ef010f55adda293512b3fc2805b00af5\"",
+          "last-modified": "Mon, 23 Nov 2026 05:11:41 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "02c34385db64",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "211540",
+          "etag": "W/\"ef010f55adda293512b3fc2805b00af5\"",
+          "last-modified": "Mon, 23 Nov 2026 05:11:41 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "02c34385db64",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"ef010f55adda293512b3fc2805b00af5\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,281 @@
+{
+  "url": "https://www.bridgestew.com/",
+  "name": "www.bridgestew.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795622251415,
+  "date": "2026-11-25T15:57:31.415Z",
+  "runId": "2026-11-25T15-45-09-110Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20028,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.bridgestew.com/",
+    "finalUrl": "https://www.bridgestew.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 776,
+      "lcp": 776,
+      "si": 776,
+      "tbt": 0,
+      "tti": 776,
+      "cls": 0,
+      "ttfb": 604,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 3,
+      "networkRtt": 0.1,
+      "networkServerLatency": 19.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.4,
+      "elementRenderDelay": 33.8
+    },
+    "weight": {
+      "total": 104300,
+      "requests": 12,
+      "mainDocument": 2909,
+      "byType": {
+        "total": {
+          "bytes": 104300,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 74678,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 22700,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 4013,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 2909,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 50758,
+          "requests": 3
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 50758,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 50758,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 813,
+            "font": 49945
+          },
+          "typedBytes": 50758
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 119.8,
+      "byGroup": {
+        "other": 70.5,
+        "styleLayout": 23.2,
+        "scriptEvaluation": 12.7,
+        "parseHTML": 6.5,
+        "paintCompositeRender": 5.3,
+        "scriptParseCompile": 1.5
+      },
+      "bootupMs": 3.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 109,
+      "depth": 7,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3450.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:57:45.363Z",
+      "runtimeMs": 5451.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M89PTWWDNXP3S9FKYK851XTC"
+    },
+    "violations": 1,
+    "passes": 234,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".logo",
+            "snippet": "<a class=\"logo u-url\" href=\"/\" aria-label=\"bridge stew dot com homepage\" rel=\"me\">bridgestew</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c6a6e9b5b49c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"9c5e222fe0ec3e647f6ea7f016ed0980-ssl\""
+        }
+      },
+      {
+        "hash": "c6a6e9b5b49c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"9c5e222fe0ec3e647f6ea7f016ed0980-ssl\""
+        }
+      },
+      {
+        "hash": "c6a6e9b5b49c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"9c5e222fe0ec3e647f6ea7f016ed0980-ssl\""
+        }
+      },
+      {
+        "hash": "c6a6e9b5b49c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"9c5e222fe0ec3e647f6ea7f016ed0980-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

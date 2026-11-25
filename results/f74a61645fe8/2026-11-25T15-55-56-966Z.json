@@ -1,0 +1,294 @@
+{
+  "url": "https://www.artofmusic.lu/en",
+  "name": "www.artofmusic.lu",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795622156966,
+  "date": "2026-11-25T15:55:56.966Z",
+  "runId": "2026-11-25T15-45-09-110Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19280,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 98,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.artofmusic.lu/en",
+    "finalUrl": "https://www.artofmusic.lu/en/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1850,
+      "lcp": 1850,
+      "si": 1850,
+      "tbt": 0,
+      "tti": 1850,
+      "cls": 0.026,
+      "ttfb": 603,
+      "maxPotentialFid": 44,
+      "serverResponseTime": 2,
+      "networkRtt": 0,
+      "networkServerLatency": 327
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 33.8,
+      "elementRenderDelay": 56.2
+    },
+    "weight": {
+      "total": 431528,
+      "requests": 11,
+      "mainDocument": 5320,
+      "byType": {
+        "total": {
+          "bytes": 431528,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 279095,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 83958,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 57526,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5320,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 4599,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1030,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 54749,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 54749,
+      "mainThreadMs": 20.1,
+      "top": [
+        {
+          "entity": "Netlify",
+          "bytes": 54749,
+          "mainThreadMs": 20.1,
+          "byType": {
+            "script": 54749
+          },
+          "typedBytes": 54749
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 271.1,
+      "byGroup": {
+        "scriptEvaluation": 78.7,
+        "other": 75.9,
+        "styleLayout": 75.6,
+        "scriptParseCompile": 19.4,
+        "paintCompositeRender": 9.3,
+        "parseHTML": 9,
+        "garbageCollection": 3.2
+      },
+      "bootupMs": 90.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 72,
+      "depth": 10,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 21305,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 13107,
+      "renderBlockingMs": 1054,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4407.375,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 24,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 753.2,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3474,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T15:56:10.417Z",
+      "runtimeMs": 5615.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M89PQVVVXJ5X6NN3GC1N8VZC"
+    },
+    "violations": 3,
+    "passes": 169,
+    "incomplete": 4,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[aria-label=\"English\"]",
+            "snippet": "<a href=\"/en/\" class=\"bevel-after current\" aria-label=\"English\">EN</a>"
+          },
+          {
+            "selector": "a[aria-label=\"français\"]",
+            "snippet": "<a href=\"/fr/\" class=\"bevel-after\" aria-label=\"français\">FR</a>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"looking-for-an-alto/\"]",
+            "snippet": "<a href=\"/en/news/looking-for-an-alto/\"></a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a615356d7fcc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"a631b216cd6e19706eaa41adff98c165-ssl\""
+        }
+      },
+      {
+        "hash": "a615356d7fcc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535994",
+          "etag": "W/\"a631b216cd6e19706eaa41adff98c165-ssl\""
+        }
+      },
+      {
+        "hash": "a615356d7fcc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535988",
+          "etag": "W/\"a631b216cd6e19706eaa41adff98c165-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
