@@ -1,0 +1,320 @@
+{
+  "url": "https://retroweird.netlify.app/",
+  "name": "retroweird.netlify.app",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795582701996,
+  "date": "2026-11-25T04:58:21.996Z",
+  "runId": "2026-11-25T04-56-49-582Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24227,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 99,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://retroweird.netlify.app/",
+    "finalUrl": "https://retroweird.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1722,
+      "lcp": 1722,
+      "si": 2929,
+      "tbt": 9,
+      "tti": 2010,
+      "cls": 0,
+      "ttfb": 657,
+      "maxPotentialFid": 68,
+      "serverResponseTime": 205,
+      "networkRtt": 32.1,
+      "networkServerLatency": 56.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 286.1,
+      "elementRenderDelay": 1173.2
+    },
+    "weight": {
+      "total": 617255,
+      "requests": 37,
+      "mainDocument": 7593,
+      "byType": {
+        "total": {
+          "bytes": 611260,
+          "requests": 36
+        },
+        "image": {
+          "bytes": 571970,
+          "requests": 24
+        },
+        "font": {
+          "bytes": 18740,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 8402,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 7593,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 4555,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 20401,
+          "requests": 5
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 5,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 20401,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 20401,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1661,
+            "font": 18740
+          },
+          "typedBytes": 20401
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 894.4,
+      "byGroup": {
+        "other": 324.3,
+        "styleLayout": 276.1,
+        "paintCompositeRender": 238.3,
+        "scriptEvaluation": 41.6,
+        "parseHTML": 10.6,
+        "scriptParseCompile": 3.6
+      },
+      "bootupMs": 37.9,
+      "longTasks": 1,
+      "longestTaskMs": 68
+    },
+    "dom": {
+      "elements": 345,
+      "depth": 10,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 819,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 24
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 24,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3059,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T04:58:23.213Z",
+      "runtimeMs": 8372.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M88H42M0XDS6X84VHNCV4T48"
+    },
+    "violations": 5,
+    "passes": 681,
+    "incomplete": 134,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".skip-link",
+            "snippet": "<a href=\"#main-content\" class=\"skip-link\">Skip to main content</a>"
+          },
+          {
+            "selector": ".active",
+            "snippet": "<a href=\"/\" class=\"nav-link active\"> 🏠 Home </a>"
+          },
+          {
+            "selector": ".read-more[href$=\"welcome-to-my-site/\"]",
+            "snippet": "<a href=\"/posts/welcome-to-my-site/\" class=\"read-more\">Read more →</a>"
+          },
+          {
+            "selector": ".read-more[href$=\"why-i-love-the-old-web/\"]",
+            "snippet": "<a href=\"/posts/why-i-love-the-old-web/\" class=\"read-more\">Read more →</a>"
+          },
+          {
+            "selector": ".read-more[href$=\"building-with-eleventy/\"]",
+            "snippet": "<a href=\"/posts/building-with-eleventy/\" class=\"read-more\">Read more →</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d909825cbf54",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"b1646e301e9af5c2d100b7c51c51322b-ssl\""
+        }
+      },
+      {
+        "hash": "d909825cbf54",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"b1646e301e9af5c2d100b7c51c51322b-ssl\""
+        }
+      },
+      {
+        "hash": "d909825cbf54",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"b1646e301e9af5c2d100b7c51c51322b-ssl\""
+        }
+      },
+      {
+        "hash": "d909825cbf54",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"b1646e301e9af5c2d100b7c51c51322b-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

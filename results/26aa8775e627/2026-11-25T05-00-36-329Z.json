@@ -1,0 +1,386 @@
+{
+  "url": "https://samdalmonte.com/",
+  "name": "samdalmonte.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795582836329,
+  "date": "2026-11-25T05:00:36.329Z",
+  "runId": "2026-11-25T04-56-49-582Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 35360,
+  "error": null,
+  "variance": {
+    "min": 69,
+    "max": 87,
+    "spread": 18,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://samdalmonte.com/",
+    "finalUrl": "https://samdalmonte.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 85,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 926,
+      "lcp": 4076,
+      "si": 926,
+      "tbt": 144,
+      "tti": 4076,
+      "cls": 0,
+      "ttfb": 626,
+      "maxPotentialFid": 136,
+      "serverResponseTime": 36,
+      "networkRtt": 0.1,
+      "networkServerLatency": 132.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 37.9,
+      "resourceLoadDelay": 8.7,
+      "resourceLoadDuration": 76.2,
+      "elementRenderDelay": 81
+    },
+    "weight": {
+      "total": 34503710,
+      "requests": 115,
+      "mainDocument": 11669,
+      "byType": {
+        "total": {
+          "bytes": 34502957,
+          "requests": 114
+        },
+        "media": {
+          "bytes": 29758950,
+          "requests": 19
+        },
+        "image": {
+          "bytes": 4560658,
+          "requests": 87
+        },
+        "font": {
+          "bytes": 159064,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 11669,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 8973,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 3261,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 382,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 4771,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 4771,
+      "mainThreadMs": 2.9,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4389,
+          "mainThreadMs": 2.9,
+          "byType": {
+            "script": 4389
+          },
+          "typedBytes": 4389
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1999.3,
+      "byGroup": {
+        "other": 1545,
+        "paintCompositeRender": 159.5,
+        "styleLayout": 128.2,
+        "scriptEvaluation": 81.1,
+        "parseHTML": 64.5,
+        "garbageCollection": 17.9,
+        "scriptParseCompile": 3
+      },
+      "bootupMs": 31.9,
+      "longTasks": 6,
+      "longestTaskMs": 136
+    },
+    "dom": {
+      "elements": 1052,
+      "depth": 8,
+      "maxChildren": 27
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 29,
+      "failingNodes": 99,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 98
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2891.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T05:00:49.563Z",
+      "runtimeMs": 10326.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.0.0",
+      "source": "meta",
+      "raw": "Eleventy v3.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M88H8FYDQD4Z28FHRYJV9FBR"
+    },
+    "violations": 108,
+    "passes": 2723,
+    "incomplete": 127,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 90,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".header",
+            "snippet": "<section class=\"header\">"
+          },
+          {
+            "selector": "#project-destinationbc > .project-title",
+            "snippet": "<div class=\"project-title\"> <h2>Iconic Regions of BC</h2> </div>"
+          },
+          {
+            "selector": "#project-destinationbc > .project-category",
+            "snippet": "<h3 class=\"project-category\">Identity</h3>"
+          },
+          {
+            "selector": "#project-destinationbc > .project-description",
+            "snippet": "<div class=\"project-description\">"
+          },
+          {
+            "selector": "#project-destinationbc > .project-metadata",
+            "snippet": "<div class=\"project-metadata\"><p>designed with <a href=\"https://www.zulualphakilo.com/\" rel=\"noopener\">Zulu Alpha&nbsp;Kilo</a></p> </div>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 14,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#project-clubharry > .project-images.carousel.carousel-active > .carousel-content",
+            "snippet": "<div class=\"carousel-content\" style=\"scroll-behavior: smooth;\">"
+          },
+          {
+            "selector": "#project-splashspots > .project-images.carousel.carousel-active > .carousel-content",
+            "snippet": "<div class=\"carousel-content\" style=\"scroll-behavior: smooth;\">"
+          },
+          {
+            "selector": "#project-parkland > .project-images.carousel.carousel-active > .carousel-content",
+            "snippet": "<div class=\"carousel-content\" style=\"scroll-behavior: smooth;\">"
+          },
+          {
+            "selector": "#project-calendar > .project-images.carousel.carousel-active > .carousel-content",
+            "snippet": "<div class=\"carousel-content\" style=\"scroll-behavior: smooth;\">"
+          },
+          {
+            "selector": "#project-two-sisters > .project-images.carousel.carousel-active > .carousel-content",
+            "snippet": "<div class=\"carousel-content\" style=\"scroll-behavior: smooth;\">"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 3,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#project-apple > .project-category",
+            "snippet": "<h3 class=\"project-category\"></h3>"
+          },
+          {
+            "selector": "#project-selfinitiated > .project-category",
+            "snippet": "<h3 class=\"project-category\"></h3>"
+          },
+          {
+            "selector": "#project-logos > .project-category",
+            "snippet": "<h3 class=\"project-category\"></h3>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en-CA\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d4e002d36ccb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"ceb55c385a2a8e69d2a732de6b67f44f-ssl\""
+        }
+      },
+      {
+        "hash": "d4e002d36ccb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535988",
+          "etag": "W/\"ceb55c385a2a8e69d2a732de6b67f44f-ssl\""
+        }
+      },
+      {
+        "hash": "d4e002d36ccb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "23",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535977",
+          "etag": "W/\"ceb55c385a2a8e69d2a732de6b67f44f-ssl\""
+        }
+      },
+      {
+        "hash": "d4e002d36ccb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535968",
+          "etag": "W/\"ceb55c385a2a8e69d2a732de6b67f44f-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,297 @@
+{
+  "url": "https://stebre.ch/en",
+  "name": "stebre.ch",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795583357866,
+  "date": "2026-11-25T05:09:17.866Z",
+  "runId": "2026-11-25T04-56-49-582Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23752,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://stebre.ch/en",
+    "finalUrl": "https://stebre.ch/en/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1077,
+      "lcp": 1077,
+      "si": 1263,
+      "tbt": 0,
+      "tti": 1077,
+      "cls": 0,
+      "ttfb": 627,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 26,
+      "networkRtt": 0,
+      "networkServerLatency": 26.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 75.2,
+      "elementRenderDelay": 156.6
+    },
+    "weight": {
+      "total": 522604,
+      "requests": 17,
+      "mainDocument": 18530,
+      "byType": {
+        "total": {
+          "bytes": 522604,
+          "requests": 17
+        },
+        "font": {
+          "bytes": 303370,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 161729,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 34039,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 18530,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 2540,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2396,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1921,
+          "requests": 1
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 1921,
+      "mainThreadMs": 0.9,
+      "top": [
+        {
+          "entity": "Plausible",
+          "bytes": 1921,
+          "mainThreadMs": 0.9,
+          "byType": {
+            "script": 1921
+          },
+          "typedBytes": 1921
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 542.5,
+      "byGroup": {
+        "other": 278.7,
+        "styleLayout": 112.4,
+        "paintCompositeRender": 70.2,
+        "scriptEvaluation": 37.9,
+        "parseHTML": 23.9,
+        "scriptParseCompile": 13.9,
+        "garbageCollection": 5.5
+      },
+      "bootupMs": 9.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 302,
+      "depth": 13,
+      "maxChildren": 39
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 12597,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 151,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 28,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 776.5,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 25
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2912.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T05:09:27.441Z",
+      "runtimeMs": 6720.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M88HQX2FJG1MJW68V4XZAGBH"
+    },
+    "violations": 3,
+    "passes": 651,
+    "incomplete": 3,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"@stebre\"]",
+            "snippet": "<a rel=\"me\" href=\"https://fosstodon.org/@stebre\">"
+          },
+          {
+            "selector": ".socialList > li:nth-child(2) > a",
+            "snippet": "<a href=\"https://www.linkedin.com/in/stefan-brechbuehl/\">"
+          },
+          {
+            "selector": "li:nth-child(3) > a[rel=\"me\"]",
+            "snippet": "<a rel=\"me\" href=\"https://www.github.com/stebrech/\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "dfe0cccfbdcb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"b50e4ec5aed99b16d3db96179ad639d4-ssl\""
+        }
+      },
+      {
+        "hash": "dfe0cccfbdcb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"b50e4ec5aed99b16d3db96179ad639d4-ssl\""
+        }
+      },
+      {
+        "hash": "dfe0cccfbdcb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"b50e4ec5aed99b16d3db96179ad639d4-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,381 @@
+{
+  "url": "https://shimma.info/",
+  "name": "shimma.info",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795583097388,
+  "date": "2026-11-25T05:04:57.388Z",
+  "runId": "2026-11-25T04-56-49-582Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 31359,
+  "error": null,
+  "variance": {
+    "min": 65,
+    "max": 71,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://shimma.info/",
+    "finalUrl": "https://shimma.info/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 67,
+      "accessibility": 84,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 25
+    },
+    "timings": {
+      "fcp": 1664,
+      "lcp": 13802,
+      "si": 4766,
+      "tbt": 241,
+      "tti": 13802,
+      "cls": 0,
+      "ttfb": 751,
+      "maxPotentialFid": 154,
+      "serverResponseTime": 146,
+      "networkRtt": 0.1,
+      "networkServerLatency": 151.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 148.1,
+      "resourceLoadDelay": 311,
+      "resourceLoadDuration": 441.2,
+      "elementRenderDelay": 1454.6
+    },
+    "weight": {
+      "total": 3055952,
+      "requests": 19,
+      "mainDocument": 8196,
+      "byType": {
+        "total": {
+          "bytes": 2671852,
+          "requests": 17
+        },
+        "image": {
+          "bytes": 2025936,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 501566,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 69892,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 44267,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 21995,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 8196,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 485761,
+          "requests": 5
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 485761,
+      "mainThreadMs": 113.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 480946,
+          "mainThreadMs": 113.7,
+          "byType": {
+            "script": 480946
+          },
+          "typedBytes": 480946
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 4815,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 639,
+            "font": 4176
+          },
+          "typedBytes": 4815
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 981.7,
+      "byGroup": {
+        "scriptEvaluation": 395.7,
+        "other": 264.1,
+        "styleLayout": 187.3,
+        "scriptParseCompile": 95.3,
+        "parseHTML": 15,
+        "paintCompositeRender": 12.3,
+        "garbageCollection": 12
+      },
+      "bootupMs": 489.4,
+      "longTasks": 4,
+      "longestTaskMs": 154
+    },
+    "dom": {
+      "elements": 617,
+      "depth": 13,
+      "maxChildren": 64
+    },
+    "waste": {
+      "unusedJsBytes": 225192,
+      "unusedCssBytes": 18363,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 5751,
+      "unminifiedCssBytes": 3486,
+      "renderBlockingMs": 1213,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 2133628,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 23,
+      "failingNodes": 51,
+      "failing": [
+        {
+          "id": "valid-lang",
+          "title": "`[lang]` attributes do not have a valid value",
+          "weight": 7,
+          "nodes": 48
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "meta-viewport",
+          "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 666
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2989.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T05:05:08.189Z",
+      "runtimeMs": 9383.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 51,
+    "passes": 1013,
+    "incomplete": 18,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "valid-lang",
+        "impact": "serious",
+        "nodes": 48,
+        "help": "lang attribute must have a valid value",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/valid-lang?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sideOpener__item--sakuin > .biLang--jp.biLang[lang=\"jp\"]",
+            "snippet": "<span class=\"biLang biLang--jp\" lang=\"jp\">五十音</span>"
+          },
+          {
+            "selector": ".sideOpener__item--area > .biLang--jp.biLang[lang=\"jp\"]",
+            "snippet": "<span class=\"biLang biLang--jp\" lang=\"jp\">地域</span>"
+          },
+          {
+            "selector": ".sideOpener__item--key > .biLang--jp.biLang[lang=\"jp\"]",
+            "snippet": "<span class=\"biLang biLang--jp\" lang=\"jp\">キ<span class=\"clockwise\">ー</span>ワ<span class=\"clockwise\">ー</span>ド</span>"
+          },
+          {
+            "selector": "button[data-side=\"sakuin.a\"] > .biLang--jp.biLang[lang=\"jp\"]",
+            "snippet": "<span class=\"biLang biLang--jp\" lang=\"jp\">あ</span>"
+          },
+          {
+            "selector": "button[data-side=\"sakuin.i\"] > .biLang--jp.biLang[lang=\"jp\"]",
+            "snippet": "<span class=\"biLang biLang--jp\" lang=\"jp\">い</span>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".slide__listItem.jscSlide:nth-child(1) > .slide__listItemLink[href$=\"ka/#karura\"] > .slide__listItemInner > h3",
+            "snippet": "<h3 class=\"slide__listItemTitle\">迦楼羅</h3>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".share",
+            "snippet": "<a class=\"share share__tw\" target=\"_blank\" href=\"https://x.com/intent/tweet?text=%E7%A5%9E%E9%AD%94%E7%B2%BE%E5%A6%96%E5%90%8D%E8%BE%9E%E5%85%B8&amp;url=https%3A%2F%2Fshimma.info\"><i class=\"icon icon…"
+          }
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "meta[name=\"viewport\"]",
+            "snippet": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scarable=no, minimal-ui\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "cba5cb3cc695",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"c2a8-6603a558df400\"",
+          "last-modified": "Sat, 14 Nov 2026 10:52:00 GMT"
+        }
+      },
+      {
+        "hash": "cba5cb3cc695",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"c2a8-6603a558df400\"",
+          "last-modified": "Sat, 14 Nov 2026 10:52:00 GMT"
+        }
+      },
+      {
+        "hash": "cba5cb3cc695",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"c2a8-6603a558df400\"",
+          "last-modified": "Sat, 14 Nov 2026 10:52:00 GMT"
+        }
+      },
+      {
+        "hash": "cba5cb3cc695",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"c2a8-6603a558df400\"",
+          "last-modified": "Sat, 14 Nov 2026 10:52:00 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

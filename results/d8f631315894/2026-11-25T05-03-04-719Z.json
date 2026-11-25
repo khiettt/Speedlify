@@ -1,0 +1,308 @@
+{
+  "url": "https://scrambletheduck.org/",
+  "name": "scrambletheduck.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795582984719,
+  "date": "2026-11-25T05:03:04.719Z",
+  "runId": "2026-11-25T04-56-49-582Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23365,
+  "error": null,
+  "variance": {
+    "min": 92,
+    "max": 92,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://scrambletheduck.org/",
+    "finalUrl": "https://scrambletheduck.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 85
+    },
+    "timings": {
+      "fcp": 810,
+      "lcp": 1694,
+      "si": 810,
+      "tbt": 0,
+      "tti": 1694,
+      "cls": 0.174,
+      "ttfb": 476,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 40,
+      "networkRtt": 19,
+      "networkServerLatency": 366.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 41.6,
+      "resourceLoadDelay": 8.3,
+      "resourceLoadDuration": 53.9,
+      "elementRenderDelay": 19
+    },
+    "weight": {
+      "total": 167368,
+      "requests": 24,
+      "mainDocument": 3402,
+      "byType": {
+        "total": {
+          "bytes": 167368,
+          "requests": 23
+        },
+        "image": {
+          "bytes": 121263,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 19851,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 13871,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 5214,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3767,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 3402,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 27756,
+          "requests": 4
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 27756,
+      "mainThreadMs": 6.2,
+      "top": [
+        {
+          "entity": "YouTube",
+          "bytes": 16773,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 16773
+          },
+          "typedBytes": 16773
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 6.2,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 632,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 632
+          },
+          "typedBytes": 632
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 286.1,
+      "byGroup": {
+        "other": 145.2,
+        "scriptEvaluation": 53.9,
+        "styleLayout": 53.7,
+        "paintCompositeRender": 19.7,
+        "parseHTML": 9.9,
+        "scriptParseCompile": 3.7
+      },
+      "bootupMs": 19.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 90,
+      "depth": 10,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2329,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 16720.15,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 27,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 20
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2957,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T05:03:19.999Z",
+      "runtimeMs": 6565.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5fe1b58ec17812b-MSP",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 167,
+    "incomplete": 7,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".navbar",
+            "snippet": "<nav class=\"navbar col -w12 -n12 header_nav\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#content",
+            "snippet": "<div class=\"landing__jumbotron\" id=\"content\"> <h1 class=\"landing__jumbotron__header\">Scramble<br>the Duck</h1> <figure class=\"landing__jumbotron__duck\"> <img src=\"/assets/images/site/scramble.svg\" al…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "bff7914b0eae",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "bff7914b0eae",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "bff7914b0eae",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "bff7914b0eae",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

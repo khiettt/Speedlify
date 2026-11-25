@@ -1,0 +1,380 @@
+{
+  "url": "https://storybot.dev/",
+  "name": "storybot.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795583409289,
+  "date": "2026-11-25T05:10:09.289Z",
+  "runId": "2026-11-25T04-56-49-582Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22273,
+  "error": null,
+  "variance": {
+    "min": 76,
+    "max": 76,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://storybot.dev/",
+    "finalUrl": "https://storybot.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 76,
+      "accessibility": 82,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1545,
+      "lcp": 6760,
+      "si": 1545,
+      "tbt": 0,
+      "tti": 6760,
+      "cls": 0,
+      "ttfb": 610,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 9,
+      "networkRtt": 0.1,
+      "networkServerLatency": 123.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 11.1,
+      "resourceLoadDelay": 47.9,
+      "resourceLoadDuration": 12.7,
+      "elementRenderDelay": 39.3
+    },
+    "weight": {
+      "total": 1008106,
+      "requests": 17,
+      "mainDocument": 4170,
+      "byType": {
+        "total": {
+          "bytes": 1008106,
+          "requests": 16
+        },
+        "image": {
+          "bytes": 893626,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 87777,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 19584,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 4170,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 2425,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 524,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 93720,
+          "requests": 9
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 93720,
+      "mainThreadMs": 2.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 89850,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 2073,
+            "font": 87777
+          },
+          "typedBytes": 89850
+        },
+        {
+          "entity": "bullrich.dev",
+          "bytes": 2949,
+          "mainThreadMs": 1.9,
+          "byType": {
+            "script": 2425,
+            "other": 524
+          },
+          "typedBytes": 2949
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 921,
+          "mainThreadMs": 0,
+          "byType": {
+            "stylesheet": 921
+          },
+          "typedBytes": 921
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 593.4,
+      "byGroup": {
+        "other": 264.8,
+        "paintCompositeRender": 151.6,
+        "styleLayout": 127,
+        "scriptEvaluation": 33.1,
+        "parseHTML": 14.7,
+        "scriptParseCompile": 2.1
+      },
+      "bootupMs": 25.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 99,
+      "depth": 9,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 13861,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1717,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 834364.6666666666,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 13,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 3
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2975.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T05:10:24.603Z",
+      "runtimeMs": 6468.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "d5d779bba64cc5387eabc5b842ae1e214fc82435",
+      "x-github-request-id": "5306:FBAA0:45E65C:5815FC:6B066DB2",
+      "x-served-by": "cache-chi-kmdw8640067-CHI"
+    },
+    "violations": 8,
+    "passes": 161,
+    "incomplete": 10,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "button[data-umami-event=\"create-main-page\"]",
+            "snippet": "<button class=\"btn btn-secondary\" data-umami-event=\"create-main-page\">Create a prompt</button>"
+          },
+          {
+            "selector": ".mt-16",
+            "snippet": "<button class=\"btn btn-secondary mt-16\" data-umami-event=\"learn-mode\">Learn more</button>"
+          },
+          {
+            "selector": ".link-accent",
+            "snippet": "<a href=\"/blog\" class=\"text-6xl link link-accent\">See all posts</a>"
+          },
+          {
+            "selector": "div:nth-child(2) > .footer-title",
+            "snippet": "<span class=\"footer-title\">Explore</span>"
+          },
+          {
+            "selector": "div:nth-child(3) > .footer-title",
+            "snippet": "<span class=\"footer-title\">Social</span>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".indicator.w-full:nth-child(1) > .card.card-compact.w-96 > .card-body > h6",
+            "snippet": "<h6 class=\"text-lg text-base-content\">5th of May 2026</h6>"
+          },
+          {
+            "selector": ".indicator.w-full:nth-child(2) > .card.card-compact.w-96 > .card-body > h6",
+            "snippet": "<h6 class=\"text-lg text-base-content\">19th of April 2026</h6>"
+          },
+          {
+            "selector": ".indicator.w-full:nth-child(3) > .card.card-compact.w-96 > .card-body > h6",
+            "snippet": "<h6 class=\"text-lg text-base-content\">1st of March 2026</h6>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7be55e950270",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"69f996ad-33c3\"",
+          "last-modified": "Tue, 05 May 2026 07:05:17 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7be55e950270",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "etag": "W/\"69f996ad-33c3\"",
+          "last-modified": "Tue, 05 May 2026 07:05:17 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7be55e950270",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "etag": "W/\"69f996ad-33c3\"",
+          "last-modified": "Tue, 05 May 2026 07:05:17 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7be55e950270",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "etag": "W/\"69f996ad-33c3\"",
+          "last-modified": "Tue, 05 May 2026 07:05:17 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
