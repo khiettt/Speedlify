@@ -1,0 +1,270 @@
+{
+  "url": "https://ujjwal.dev/",
+  "name": "ujjwal.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795583419122,
+  "date": "2026-11-25T05:10:19.122Z",
+  "runId": "2026-11-25T04-56-52-760Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23165,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://ujjwal.dev/",
+    "finalUrl": "https://ujjwal.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 790,
+      "lcp": 790,
+      "si": 790,
+      "tbt": 0,
+      "tti": 790,
+      "cls": 0,
+      "ttfb": 631,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 25,
+      "networkRtt": 17.6,
+      "networkServerLatency": 347.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 26.2,
+      "elementRenderDelay": 61.5
+    },
+    "weight": {
+      "total": 7785,
+      "requests": 6,
+      "mainDocument": 1524,
+      "byType": {
+        "total": {
+          "bytes": 7638,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 4716,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 1524,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 747,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 651,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5367,
+          "requests": 3
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 5367,
+      "mainThreadMs": 2.5,
+      "top": [
+        {
+          "entity": "umami.is",
+          "bytes": 5367,
+          "mainThreadMs": 2.5,
+          "byType": {
+            "script": 4716,
+            "other": 651
+          },
+          "typedBytes": 5367
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 103.1,
+      "byGroup": {
+        "other": 64.3,
+        "scriptEvaluation": 19.3,
+        "styleLayout": 10.9,
+        "parseHTML": 3.4,
+        "scriptParseCompile": 3,
+        "paintCompositeRender": 2.2
+      },
+      "bootupMs": 4.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 16,
+      "depth": 4,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 11,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2437.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T05:10:27.401Z",
+      "runtimeMs": 6462
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::glj9x-1795583439617-0ce2b3a22668"
+    },
+    "violations": 0,
+    "passes": 50,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a3fb11280ec7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "170526",
+          "etag": "W/\"24bb7458548cd5b104a59d2814021d96\"",
+          "last-modified": "Mon, 23 Nov 2026 05:48:14 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "a3fb11280ec7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "170532",
+          "etag": "W/\"24bb7458548cd5b104a59d2814021d96\"",
+          "last-modified": "Mon, 23 Nov 2026 05:48:14 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "a3fb11280ec7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "170539",
+          "etag": "W/\"24bb7458548cd5b104a59d2814021d96\"",
+          "last-modified": "Mon, 23 Nov 2026 05:48:14 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "a3fb11280ec7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"24bb7458548cd5b104a59d2814021d96\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

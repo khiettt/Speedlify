@@ -1,0 +1,270 @@
+{
+  "url": "https://karthikvaidhyanathan.com/",
+  "name": "karthikvaidhyanathan.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795583227613,
+  "date": "2026-11-25T05:07:07.613Z",
+  "runId": "2026-11-25T04-56-52-760Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22246,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://karthikvaidhyanathan.com/",
+    "finalUrl": "https://karthikvaidhyanathan.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 817,
+      "lcp": 817,
+      "si": 817,
+      "tbt": 0,
+      "tti": 817,
+      "cls": 0,
+      "ttfb": 632,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 33,
+      "networkRtt": 0,
+      "networkServerLatency": 32.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 34.3,
+      "elementRenderDelay": 68.9
+    },
+    "weight": {
+      "total": 25688,
+      "requests": 4,
+      "mainDocument": 3746,
+      "byType": {
+        "total": {
+          "bytes": 25688,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 17511,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 4084,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3746,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 347,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 151,
+      "byGroup": {
+        "other": 72,
+        "styleLayout": 50.5,
+        "paintCompositeRender": 11.5,
+        "scriptEvaluation": 9.2,
+        "parseHTML": 7.3,
+        "scriptParseCompile": 0.5
+      },
+      "bootupMs": 7.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 249,
+      "depth": 8,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 11
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2467.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T05:07:22.447Z",
+      "runtimeMs": 6357.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M88HM1EYNJAABNGF3Z1Z0S8E"
+    },
+    "violations": 1,
+    "passes": 458,
+    "incomplete": 13,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".brand",
+            "snippet": "<a class=\"brand\" href=\"/\" aria-label=\"Karthik Vaidhyanathan, home\"> <span class=\"brand-mark\" aria-hidden=\"true\">KV</span> <span class=\"brand-name\">Karthik Vaidhyanathan</span> </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f43840da854f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"0555aa4132cd1679399916bb7e64ec88-ssl\""
+        }
+      },
+      {
+        "hash": "f43840da854f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535994",
+          "etag": "W/\"0555aa4132cd1679399916bb7e64ec88-ssl\""
+        }
+      },
+      {
+        "hash": "f43840da854f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"0555aa4132cd1679399916bb7e64ec88-ssl\""
+        }
+      },
+      {
+        "hash": "f43840da854f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"0555aa4132cd1679399916bb7e64ec88-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

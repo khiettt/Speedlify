@@ -1,0 +1,295 @@
+{
+  "url": "https://syntackle.com/",
+  "name": "syntackle.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795582620912,
+  "date": "2026-11-25T04:57:00.912Z",
+  "runId": "2026-11-25T04-56-52-760Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 32289,
+  "error": null,
+  "variance": {
+    "min": 71,
+    "max": 95,
+    "spread": 24,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://syntackle.com/",
+    "finalUrl": "https://syntackle.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1667,
+      "lcp": 1667,
+      "si": 1667,
+      "tbt": 275,
+      "tti": 4731,
+      "cls": 0,
+      "ttfb": 602,
+      "maxPotentialFid": 189,
+      "serverResponseTime": 20,
+      "networkRtt": 0.2,
+      "networkServerLatency": 111.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 21.5,
+      "elementRenderDelay": 93.2
+    },
+    "weight": {
+      "total": 894439,
+      "requests": 116,
+      "mainDocument": 15505,
+      "byType": {
+        "total": {
+          "bytes": 890315,
+          "requests": 114
+        },
+        "other": {
+          "bytes": 410551,
+          "requests": 84
+        },
+        "script": {
+          "bytes": 303934,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 127857,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 18114,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 15505,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 14354,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 635398,
+          "requests": 16
+        }
+      },
+      "scripts": 13,
+      "stylesheets": 3,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 288954,
+      "mainThreadMs": 133,
+      "top": [
+        {
+          "entity": "posthog.com",
+          "bytes": 269626,
+          "mainThreadMs": 125.1,
+          "byType": {
+            "script": 268822,
+            "other": 804
+          },
+          "typedBytes": 269626
+        },
+        {
+          "entity": "ethicalads.io",
+          "bytes": 15624,
+          "mainThreadMs": 6.8,
+          "byType": {
+            "script": 14290,
+            "image": 1334
+          },
+          "typedBytes": 15624
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 3704,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 3538,
+            "stylesheet": 166
+          },
+          "typedBytes": 3704
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1527.7,
+      "byGroup": {
+        "scriptEvaluation": 807.2,
+        "other": 424.3,
+        "styleLayout": 113.1,
+        "scriptParseCompile": 111.5,
+        "garbageCollection": 27.3,
+        "paintCompositeRender": 22.4,
+        "parseHTML": 21.8
+      },
+      "bootupMs": 759.1,
+      "longTasks": 2,
+      "longestTaskMs": 189
+    },
+    "dom": {
+      "elements": 256,
+      "depth": 10,
+      "maxChildren": 31
+    },
+    "waste": {
+      "unusedJsBytes": 150819,
+      "unusedCssBytes": 10701,
+      "legacyJsBytes": 19721,
+      "duplicatedJsBytes": 18683,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 765,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 134907.33333333334,
+      "poorlyCachedCount": 9
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 55
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2477,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T04:57:23.994Z",
+      "runtimeMs": 8454.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::kxjwp-1795582651508-813a47a3dedb"
+    },
+    "violations": 0,
+    "passes": 525,
+    "incomplete": 12,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "78c29ddf9ebd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "130697",
+          "etag": "W/\"1aab1a1da7c228298d75b7c00572011a\"",
+          "last-modified": "Mon, 23 Nov 2026 16:38:47 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "78c29ddf9ebd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "130707",
+          "etag": "W/\"1aab1a1da7c228298d75b7c00572011a\"",
+          "last-modified": "Mon, 23 Nov 2026 16:38:47 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "78c29ddf9ebd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "130716",
+          "etag": "W/\"1aab1a1da7c228298d75b7c00572011a\"",
+          "last-modified": "Mon, 23 Nov 2026 16:38:47 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "78c29ddf9ebd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "130720",
+          "etag": "W/\"1aab1a1da7c228298d75b7c00572011a\"",
+          "last-modified": "Mon, 23 Nov 2026 16:38:47 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

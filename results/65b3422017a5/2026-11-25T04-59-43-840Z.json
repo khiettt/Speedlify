@@ -1,0 +1,298 @@
+{
+  "url": "https://thisis11ty.netlify.app/",
+  "name": "thisis11ty.netlify.app",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795582783840,
+  "date": "2026-11-25T04:59:43.840Z",
+  "runId": "2026-11-25T04-56-52-760Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21701,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://thisis11ty.netlify.app/",
+    "finalUrl": "https://thisis11ty.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 952,
+      "lcp": 952,
+      "si": 952,
+      "tbt": 0,
+      "tti": 952,
+      "cls": 0,
+      "ttfb": 629,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 29,
+      "networkRtt": 0,
+      "networkServerLatency": 65
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 31,
+      "elementRenderDelay": 59.7
+    },
+    "weight": {
+      "total": 35049,
+      "requests": 2,
+      "mainDocument": 29992,
+      "byType": {
+        "total": {
+          "bytes": 35049,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 29992,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 5057,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5057,
+          "requests": 1
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 5057,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "pages.dev",
+          "bytes": 5057,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 5057
+          },
+          "typedBytes": 5057
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 151.6,
+      "byGroup": {
+        "other": 75.3,
+        "parseHTML": 32.8,
+        "styleLayout": 28.6,
+        "scriptEvaluation": 8.9,
+        "paintCompositeRender": 5.4,
+        "scriptParseCompile": 0.4
+      },
+      "bootupMs": 7.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 148,
+      "depth": 10,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 27607,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2429.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T04:59:52.077Z",
+      "runtimeMs": 6058.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M88H6FJ3KSTJ7FEZX9CQD9R7"
+    },
+    "violations": 9,
+    "passes": 309,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 9,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".col-md-12",
+            "snippet": "<div class=\"col-md-12 p-3\"> <h1><strong>Thisis Classic SEO template</strong></h1> <h2>Super SEO for built your site and blog with this is 11ty eleventy.</h2> </div>"
+          },
+          {
+            "selector": ".intro",
+            "snippet": "<p class=\"intro text-center bg-dark text-white p-3 p-md-5 rounded\">11<span class=\"here\">ty</span></p>"
+          },
+          {
+            "selector": ".col-md-4 > h3",
+            "snippet": "<h3>Menu</h3>"
+          },
+          {
+            "selector": "small:nth-child(2) > a[href=\"/\"]",
+            "snippet": "<a href=\"/\">Home</a>"
+          },
+          {
+            "selector": "small:nth-child(3) > a[href$=\"posts/\"]",
+            "snippet": "<a href=\"/posts/\">Article</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b10c8222a043",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"a4bfd6a2f359fc35c04743798db421b2-ssl\""
+        }
+      },
+      {
+        "hash": "b10c8222a043",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"a4bfd6a2f359fc35c04743798db421b2-ssl\""
+        }
+      },
+      {
+        "hash": "b10c8222a043",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"a4bfd6a2f359fc35c04743798db421b2-ssl\""
+        }
+      },
+      {
+        "hash": "b10c8222a043",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"a4bfd6a2f359fc35c04743798db421b2-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
