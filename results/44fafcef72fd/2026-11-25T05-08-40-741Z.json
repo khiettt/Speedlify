@@ -1,0 +1,339 @@
+{
+  "url": "https://shannonethomas.com/",
+  "name": "shannonethomas.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795583320741,
+  "date": "2026-11-25T05:08:40.741Z",
+  "runId": "2026-11-25T04-56-53-538Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 30227,
+  "error": null,
+  "variance": {
+    "min": 71,
+    "max": 73,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://shannonethomas.com/",
+    "finalUrl": "https://shannonethomas.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 73,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1644,
+      "lcp": 10622,
+      "si": 1644,
+      "tbt": 149,
+      "tti": 10622,
+      "cls": 0.003,
+      "ttfb": 721,
+      "maxPotentialFid": 170,
+      "serverResponseTime": 121,
+      "networkRtt": 0.3,
+      "networkServerLatency": 121.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 123,
+      "resourceLoadDelay": 157.5,
+      "resourceLoadDuration": 305.8,
+      "elementRenderDelay": 43.6
+    },
+    "weight": {
+      "total": 10045193,
+      "requests": 25,
+      "mainDocument": 4987,
+      "byType": {
+        "total": {
+          "bytes": 10044957,
+          "requests": 24
+        },
+        "image": {
+          "bytes": 9586023,
+          "requests": 16
+        },
+        "script": {
+          "bytes": 303686,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 146111,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 4987,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 4150,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 448141,
+          "requests": 5
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 448141,
+      "mainThreadMs": 77.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 301055,
+          "mainThreadMs": 77,
+          "byType": {
+            "script": 301055
+          },
+          "typedBytes": 301055
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 147086,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 975,
+            "font": 146111
+          },
+          "typedBytes": 147086
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 834.1,
+      "byGroup": {
+        "other": 334.3,
+        "scriptEvaluation": 311.9,
+        "scriptParseCompile": 70.6,
+        "styleLayout": 67.2,
+        "paintCompositeRender": 37.5,
+        "parseHTML": 12.7
+      },
+      "bootupMs": 372,
+      "longTasks": 2,
+      "longestTaskMs": 170
+    },
+    "dom": {
+      "elements": 280,
+      "depth": 10,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 150120,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 773,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 15,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 4
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2424.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T05:09:01.443Z",
+      "runtimeMs": 8781.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx/1.30.6"
+    },
+    "violations": 11,
+    "passes": 485,
+    "incomplete": 1,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 9,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#introduction",
+            "snippet": "<section id=\"introduction\" class=\"module\">"
+          },
+          {
+            "selector": ".bg-pansy",
+            "snippet": "<section class=\"bg-pansy\">"
+          },
+          {
+            "selector": ".bg-grey-10:nth-child(4)",
+            "snippet": "<section class=\"bg-grey-10\">"
+          },
+          {
+            "selector": "section:nth-child(5)",
+            "snippet": "<section>"
+          },
+          {
+            "selector": ".bg-grey-10:nth-child(6)",
+            "snippet": "<section class=\"bg-grey-10\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "92f67a2b4f0c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6ad5f12c-4a5d\"",
+          "last-modified": "Mon, 19 Oct 2026 10:30:04 GMT"
+        }
+      },
+      {
+        "hash": "92f67a2b4f0c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6ad5f12c-4a5d\"",
+          "last-modified": "Mon, 19 Oct 2026 10:30:04 GMT"
+        }
+      },
+      {
+        "hash": "92f67a2b4f0c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6ad5f12c-4a5d\"",
+          "last-modified": "Mon, 19 Oct 2026 10:30:04 GMT"
+        }
+      },
+      {
+        "hash": "92f67a2b4f0c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6ad5f12c-4a5d\"",
+          "last-modified": "Mon, 19 Oct 2026 10:30:04 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

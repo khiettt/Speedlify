@@ -1,0 +1,299 @@
+{
+  "url": "https://precious-prana.com/",
+  "name": "precious-prana.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795582748378,
+  "date": "2026-11-25T04:59:08.378Z",
+  "runId": "2026-11-25T04-56-53-538Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20268,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://precious-prana.com/",
+    "finalUrl": "https://precious-prana.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 795,
+      "lcp": 1983,
+      "si": 795,
+      "tbt": 0,
+      "tti": 1983,
+      "cls": 0.012,
+      "ttfb": 609,
+      "maxPotentialFid": 32,
+      "serverResponseTime": 9,
+      "networkRtt": 0.1,
+      "networkServerLatency": 24.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 10.6,
+      "resourceLoadDelay": 9.8,
+      "resourceLoadDuration": 35.6,
+      "elementRenderDelay": 33.6
+    },
+    "weight": {
+      "total": 246347,
+      "requests": 10,
+      "mainDocument": 5870,
+      "byType": {
+        "total": {
+          "bytes": 246347,
+          "requests": 10
+        },
+        "image": {
+          "bytes": 150881,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 63870,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 20875,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5870,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4851,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 171756,
+          "requests": 5
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 171756,
+      "mainThreadMs": 12.4,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 150881,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 150881
+          },
+          "typedBytes": 150881
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20875,
+          "mainThreadMs": 12.4,
+          "byType": {
+            "script": 20875
+          },
+          "typedBytes": 20875
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 244.9,
+      "byGroup": {
+        "other": 94.9,
+        "styleLayout": 70.4,
+        "scriptEvaluation": 54.1,
+        "paintCompositeRender": 9.7,
+        "parseHTML": 8.5,
+        "scriptParseCompile": 7.3
+      },
+      "bootupMs": 59.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 91,
+      "depth": 7,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 15656.25,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2449.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T04:59:16.326Z",
+      "runtimeMs": 5930.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M88H5C9Q3SZWM0ZC6Q778SCJ"
+    },
+    "violations": 3,
+    "passes": 189,
+    "incomplete": 10,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".intro:nth-child(1)",
+            "snippet": "<p class=\"intro\">"
+          },
+          {
+            "selector": ".intro:nth-child(13)",
+            "snippet": "<p class=\"intro\">Vous êtes plus dynamique, plus confiant(e) et vos relations le sont aussi. </p>"
+          },
+          {
+            "selector": ".intro:nth-child(14)",
+            "snippet": "<p class=\"intro\">Pétillez et soyez acteur/actrice de votre vie. </p>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b6a6aa32ee84",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"96bce5e719f2e2b994e74ea81dba07f0-ssl\""
+        }
+      },
+      {
+        "hash": "b6a6aa32ee84",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"96bce5e719f2e2b994e74ea81dba07f0-ssl\""
+        }
+      },
+      {
+        "hash": "b6a6aa32ee84",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"96bce5e719f2e2b994e74ea81dba07f0-ssl\""
+        }
+      },
+      {
+        "hash": "b6a6aa32ee84",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"96bce5e719f2e2b994e74ea81dba07f0-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
