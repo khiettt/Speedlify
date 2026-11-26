@@ -1,0 +1,452 @@
+{
+  "url": "https://bunny.net/",
+  "name": "Bunny",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795686829390,
+  "date": "2026-11-26T09:53:49.390Z",
+  "runId": "2026-11-26T09-39-32-107Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 106452,
+  "error": null,
+  "variance": {
+    "min": 64,
+    "max": 69,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://bunny.net/",
+    "finalUrl": "https://bunny.net/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 67,
+      "accessibility": 92,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2024,
+      "lcp": 12539,
+      "si": 2889,
+      "tbt": 285,
+      "tti": 12791,
+      "cls": 0.045,
+      "ttfb": 632,
+      "maxPotentialFid": 178,
+      "serverResponseTime": 29,
+      "networkRtt": 0.1,
+      "networkServerLatency": 169.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 30.1,
+      "elementRenderDelay": 870.6
+    },
+    "weight": {
+      "total": 5277788,
+      "requests": 149,
+      "mainDocument": 20055,
+      "byType": {
+        "total": {
+          "bytes": 5277788,
+          "requests": 144
+        },
+        "media": {
+          "bytes": 2865962,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 1155011,
+          "requests": 17
+        },
+        "font": {
+          "bytes": 573069,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 521884,
+          "requests": 94
+        },
+        "stylesheet": {
+          "bytes": 92719,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 44528,
+          "requests": 17
+        },
+        "document": {
+          "bytes": 24615,
+          "requests": 6
+        },
+        "third-party": {
+          "bytes": 3535434,
+          "requests": 26
+        }
+      },
+      "scripts": 17,
+      "stylesheets": 2,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 3497089,
+      "mainThreadMs": 110.2,
+      "top": [
+        {
+          "entity": "b-cdn.net",
+          "bytes": 2865962,
+          "mainThreadMs": 0,
+          "byType": {
+            "media": 2865962
+          },
+          "typedBytes": 2865962
+        },
+        {
+          "entity": "Cookiebot",
+          "bytes": 449824,
+          "mainThreadMs": 26.1,
+          "byType": {
+            "script": 449192,
+            "other": 632
+          },
+          "typedBytes": 449824
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 172734,
+          "mainThreadMs": 76.1,
+          "byType": {
+            "script": 172734
+          },
+          "typedBytes": 172734
+        },
+        {
+          "entity": "Trust Pilot",
+          "bytes": 8548,
+          "mainThreadMs": 8,
+          "byType": {
+            "script": 8548
+          },
+          "typedBytes": 8548
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 21,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 21
+          },
+          "typedBytes": 21
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3303.8,
+      "byGroup": {
+        "other": 1268.2,
+        "scriptEvaluation": 1061.4,
+        "styleLayout": 484.7,
+        "scriptParseCompile": 187,
+        "paintCompositeRender": 171.9,
+        "parseHTML": 91.6,
+        "garbageCollection": 39
+      },
+      "bootupMs": 1086.7,
+      "longTasks": 8,
+      "longestTaskMs": 178
+    },
+    "dom": {
+      "elements": 2128,
+      "depth": 22,
+      "maxChildren": 26
+    },
+    "waste": {
+      "unusedJsBytes": 449316,
+      "unusedCssBytes": 96501,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1819,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 49606.86541666667,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 29,
+      "failingNodes": 18,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 8
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 9
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 9,
+      "baselineLimitedFeatures": 35
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4200,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:54:12.554Z",
+      "runtimeMs": 14429.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.5,
+    "elementRenderDelay": 18073.6
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "gatsby",
+      "name": "Gatsby",
+      "icon": "Gatsby",
+      "version": "4.25.9",
+      "source": "meta",
+      "raw": "Gatsby 4.25.9"
+    },
+    "probe": {
+      "metas": [
+        "Gatsby 4.25.9"
+      ],
+      "marks": [
+        "gatsby",
+        "react",
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "bunny",
+      "name": "Bunny CDN",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "BunnyCDN-MSP1-1084"
+    },
+    "violations": 20,
+    "passes": 1375,
+    "incomplete": 75,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".product--right-bottom.product-wr.has-link > a[href$=\"cdn/\"]",
+            "snippet": "<a href=\"/cdn/\"></a>"
+          },
+          {
+            "selector": ".product--left-bottom.product-wr.has-link > a[href$=\"stream/\"]",
+            "snippet": "<a href=\"/stream/\"></a>"
+          },
+          {
+            "selector": ".product--right-bottom.product-wr.has-link > a[href$=\"storage/\"]",
+            "snippet": "<a href=\"/storage/\"></a>"
+          },
+          {
+            "selector": ".product--left-bottom.product-wr.has-link > a[href$=\"optimizer/\"]",
+            "snippet": "<a href=\"/optimizer/\"></a>"
+          },
+          {
+            "selector": ".product--right-top.product-wr.has-link > a[href$=\"edge-scripting/\"]",
+            "snippet": "<a href=\"/edge-scripting/\"></a>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+            "snippet": "<button id=\"CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll\" class=\"CybotCookiebotDialogBodyButton\" tabindex=\"0\" lang=\"en\">Allow all</button>"
+          },
+          {
+            "selector": "li:nth-child(1) > .numbers-wr > .flex-start.value-holder.items-end > .value:nth-child(1)",
+            "snippet": "<p class=\"value\" style=\"font-size: 7.8rem; line-height: 0.65; color: rgb(253, 141, 50); margin-bottom: 0.1rem;\">24</p>"
+          },
+          {
+            "selector": "li:nth-child(1) > .numbers-wr > .flex-start.value-holder.items-end > .value:nth-child(2)",
+            "snippet": "<p class=\"value\" style=\"font-size: 5.4rem; line-height: 0.65; color: rgb(253, 141, 50); margin-bottom: 0.1rem;\">&nbsp;ms</p>"
+          },
+          {
+            "selector": ".value-holder.items-end.justify-center > .value:nth-child(1)",
+            "snippet": "<p class=\"value\" style=\"font-size: 7.8rem; line-height: 0.65; color: rgb(253, 141, 50); margin-bottom: 0.1rem;\">119</p>"
+          },
+          {
+            "selector": ".ml-\\[-9px\\]",
+            "snippet": "<p class=\"value ml-[-9px]\" style=\"font-size: 7.8rem; line-height: 0.65; color: rgb(253, 141, 50); margin-bottom: 0.1rem;\">1.5</p>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".product.product-8:nth-child(1) > .product--right-bottom.product-wr.has-link > .product-content > h4",
+            "snippet": "<h4>CDN </h4>"
+          },
+          {
+            "selector": ".content-wr > h4",
+            "snippet": "<h4>Unlock every corner of the globe</h4>"
+          },
+          {
+            "selector": ".menu-col.col-lg-3.col-6:nth-child(1) > h4",
+            "snippet": "<h4><a href=\"https://bunny.net\">bunny.net</a></h4>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[data-theme=\"dark\"] > iframe[loading=\"auto\"] >>> #profile-link",
+            "snippet": "<a id=\"profile-link\" target=\"_blank\" aria-describedby=\"screen-reader-only-rating screen-reader-only-instruction\" href=\"https://www.trustpilot.com/review/bunny.net?utm_medium=trustbox&utm_source=Micro…"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".case-controller",
+            "snippet": "<div class=\"case-controller\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9435cfcb3efb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b05b25f-13df4\"",
+          "last-modified": "Tue, 24 Nov 2026 15:50:55 GMT"
+        }
+      },
+      {
+        "hash": "9435cfcb3efb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b05b25f-13df4\"",
+          "last-modified": "Tue, 24 Nov 2026 15:50:55 GMT"
+        }
+      },
+      {
+        "hash": "9435cfcb3efb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b05b25f-13df4\"",
+          "last-modified": "Tue, 24 Nov 2026 15:50:55 GMT"
+        }
+      },
+      {
+        "hash": "9435cfcb3efb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b05b25f-13df4\"",
+          "last-modified": "Tue, 24 Nov 2026 15:50:55 GMT"
+        }
+      },
+      {
+        "hash": "9435cfcb3efb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6b05b25f-13df4\"",
+          "last-modified": "Tue, 24 Nov 2026 15:50:55 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

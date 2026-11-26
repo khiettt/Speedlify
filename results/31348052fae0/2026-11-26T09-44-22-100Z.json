@@ -1,0 +1,333 @@
+{
+  "url": "https://yonga.io/",
+  "name": "yonga.io",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795686262100,
+  "date": "2026-11-26T09:44:22.100Z",
+  "runId": "2026-11-26T09-39-32-107Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27978,
+  "error": null,
+  "variance": {
+    "min": 71,
+    "max": 76,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://yonga.io/",
+    "finalUrl": "https://yonga.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 74,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 998,
+      "lcp": 7742,
+      "si": 1116,
+      "tbt": 146,
+      "tti": 7750,
+      "cls": 0.052,
+      "ttfb": 467,
+      "maxPotentialFid": 168,
+      "serverResponseTime": 180,
+      "networkRtt": 0.1,
+      "networkServerLatency": 47.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 181.4,
+      "resourceLoadDelay": 31.8,
+      "resourceLoadDuration": 22,
+      "elementRenderDelay": 80.5
+    },
+    "weight": {
+      "total": 1773099,
+      "requests": 53,
+      "mainDocument": 15648,
+      "byType": {
+        "total": {
+          "bytes": 1761433,
+          "requests": 52
+        },
+        "other": {
+          "bytes": 990341,
+          "requests": 14
+        },
+        "script": {
+          "bytes": 516276,
+          "requests": 25
+        },
+        "font": {
+          "bytes": 140615,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 78514,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 20039,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 15648,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 321540,
+          "requests": 3
+        }
+      },
+      "scripts": 25,
+      "stylesheets": 2,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 321540,
+      "mainThreadMs": 71.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 311188,
+          "mainThreadMs": 64.4,
+          "byType": {
+            "script": 311188
+          },
+          "typedBytes": 311188
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 7.1,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1162.7,
+      "byGroup": {
+        "scriptEvaluation": 492.8,
+        "other": 313.2,
+        "styleLayout": 208.8,
+        "scriptParseCompile": 54.4,
+        "paintCompositeRender": 51.7,
+        "garbageCollection": 21.3,
+        "parseHTML": 20.5
+      },
+      "bootupMs": 498,
+      "longTasks": 5,
+      "longestTaskMs": 168
+    },
+    "dom": {
+      "elements": 671,
+      "depth": 15,
+      "maxChildren": 78
+    },
+    "waste": {
+      "unusedJsBytes": 236904,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 13478.728674768518,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 39,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 39
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 42
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4317,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:44:32.525Z",
+      "runtimeMs": 8219.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "icon": "Nuxt",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "nuxt",
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.42"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a607f4e46e889007-MSP",
+      "server": "cloudflare"
+    },
+    "violations": 40,
+    "passes": 1018,
+    "incomplete": 70,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 39,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".btn-secondary.btn[href$=\"iletisim/\"]",
+            "snippet": "<a href=\"/iletisim/\" class=\"btn btn-secondary\">15 dk Görüşme Al</a>"
+          },
+          {
+            "selector": ".hero-safe > .min-w-0:nth-child(2) > .code-block > div:nth-child(2) > .code-tabs > .code-tab:nth-child(2)",
+            "snippet": "<button class=\"code-tab\">JavaScript</button>"
+          },
+          {
+            "selector": ".code-tab:nth-child(3)",
+            "snippet": "<button class=\"code-tab\">Python</button>"
+          },
+          {
+            "selector": ".hero-safe > .min-w-0:nth-child(2) > .code-block > div:nth-child(2) > pre > .tok-cmt:nth-child(1)",
+            "snippet": "<span class=\"tok-cmt\"># Ankara çevresinde 25 km içindeki 100 kW+ DC istasyonlar</span>"
+          },
+          {
+            "selector": ".\\!rounded-md.p-3.gap-2\\.5:nth-child(1) > .text-\\[10px\\].w-8.h-8",
+            "snippet": "<div class=\"w-8 h-8 rounded bg-teal/15 grid place-items-center text-[10px] font-display font-bold text-teal-deep dark:text-teal\">ZES</div>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".overflow-x-auto",
+            "snippet": "<div class=\"overflow-x-auto\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b1e3c874c5d6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "10d112fc25b1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "72f560b4d4f7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "e7ceb44be499",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,269 @@
+{
+  "url": "https://www.tim-kleyersburg.de/",
+  "name": "www.tim-kleyersburg.de",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795686159228,
+  "date": "2026-11-26T09:42:39.228Z",
+  "runId": "2026-11-26T09-39-32-107Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22742,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 99,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.tim-kleyersburg.de/",
+    "finalUrl": "https://www.tim-kleyersburg.de/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1549,
+      "lcp": 1963,
+      "si": 1549,
+      "tbt": 0,
+      "tti": 1963,
+      "cls": 0,
+      "ttfb": 463,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 149,
+      "networkRtt": 0,
+      "networkServerLatency": 131
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 150.1,
+      "resourceLoadDelay": 7.3,
+      "resourceLoadDuration": 17.3,
+      "elementRenderDelay": 36.5
+    },
+    "weight": {
+      "total": 226246,
+      "requests": 12,
+      "mainDocument": 5822,
+      "byType": {
+        "total": {
+          "bytes": 226246,
+          "requests": 12
+        },
+        "image": {
+          "bytes": 103568,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 74541,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 22896,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 17187,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5822,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2232,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 78252,
+          "requests": 5
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 78252,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "bunny.net",
+          "bytes": 75955,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1414,
+            "font": 74541
+          },
+          "typedBytes": 75955
+        },
+        {
+          "entity": "wacg.dev",
+          "bytes": 2297,
+          "mainThreadMs": 0,
+          "byType": {
+            "script": 2297
+          },
+          "typedBytes": 2297
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 186.3,
+      "byGroup": {
+        "other": 85.7,
+        "styleLayout": 48.1,
+        "scriptEvaluation": 27.6,
+        "parseHTML": 12.2,
+        "paintCompositeRender": 10.5,
+        "scriptParseCompile": 2.2
+      },
+      "bootupMs": 8.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 99,
+      "depth": 9,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 936,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 94759.82364930554,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 13,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4193.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:42:48.231Z",
+      "runtimeMs": 6472
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.17.5"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a607f245deb403f3-MSP",
+      "server": "cloudflare",
+      "x-powered-by": "PHP/8.5.13"
+    },
+    "violations": 0,
+    "passes": 206,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "8aad8fc97955",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "8aad8fc97955",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "8aad8fc97955",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "8aad8fc97955",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

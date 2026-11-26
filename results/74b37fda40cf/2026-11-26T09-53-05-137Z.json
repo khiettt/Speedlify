@@ -1,0 +1,281 @@
+{
+  "url": "https://www.11ty.dev/",
+  "name": "Eleventy",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795686785137,
+  "date": "2026-11-26T09:53:05.137Z",
+  "runId": "2026-11-26T09-39-32-107Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 44114,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.11ty.dev/",
+    "finalUrl": "https://www.11ty.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1121,
+      "lcp": 1121,
+      "si": 1121,
+      "tbt": 0,
+      "tti": 1121,
+      "cls": 0,
+      "ttfb": 627,
+      "maxPotentialFid": 44,
+      "serverResponseTime": 20,
+      "networkRtt": 0,
+      "networkServerLatency": 27.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 21.7,
+      "elementRenderDelay": 121.1
+    },
+    "weight": {
+      "total": 102679,
+      "requests": 14,
+      "mainDocument": 41052,
+      "byType": {
+        "total": {
+          "bytes": 102679,
+          "requests": 13
+        },
+        "document": {
+          "bytes": 41052,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 23689,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 21929,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 9496,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4104,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 2409,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 508.2,
+      "byGroup": {
+        "other": 163.3,
+        "styleLayout": 162.7,
+        "scriptEvaluation": 76,
+        "paintCompositeRender": 49.4,
+        "parseHTML": 49,
+        "garbageCollection": 5.6,
+        "scriptParseCompile": 2.1
+      },
+      "bootupMs": 58.1,
+      "longTasks": 1,
+      "longestTaskMs": 52
+    },
+    "dom": {
+      "elements": 1663,
+      "depth": 20,
+      "maxChildren": 68
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 5401,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 30,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 47
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4139,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:53:22.674Z",
+      "runtimeMs": 6729.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 892.1,
+    "elementRenderDelay": 0
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [
+        "fontawesome",
+        "webawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::8sc8w-1795686826385-c9aef9d4f971"
+    },
+    "violations": 0,
+    "passes": 1852,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1fdf0592f69b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3065",
+          "etag": "W/\"eec7b3d2b0636812edba809442dc0dc7\"",
+          "last-modified": "Thu, 26 Nov 2026 09:02:00 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "1fdf0592f69b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3075",
+          "etag": "W/\"eec7b3d2b0636812edba809442dc0dc7\"",
+          "last-modified": "Thu, 26 Nov 2026 09:02:00 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "1fdf0592f69b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3082",
+          "etag": "W/\"eec7b3d2b0636812edba809442dc0dc7\"",
+          "last-modified": "Thu, 26 Nov 2026 09:02:00 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "1fdf0592f69b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3089",
+          "etag": "W/\"eec7b3d2b0636812edba809442dc0dc7\"",
+          "last-modified": "Thu, 26 Nov 2026 09:02:00 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "1fdf0592f69b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"eec7b3d2b0636812edba809442dc0dc7\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,329 @@
+{
+  "url": "https://www.seancdavis.com/twenty-ninety",
+  "name": "www.seancdavis.com",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795686031028,
+  "date": "2026-11-26T09:40:31.028Z",
+  "runId": "2026-11-26T09-39-32-107Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22144,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 100,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.seancdavis.com/twenty-ninety",
+    "finalUrl": "https://www.seancdavis.com/twenty-ninety",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 809,
+      "lcp": 809,
+      "si": 809,
+      "tbt": 50,
+      "tti": 3692,
+      "cls": 0.011,
+      "ttfb": 637,
+      "maxPotentialFid": 100,
+      "serverResponseTime": 37,
+      "networkRtt": 0,
+      "networkServerLatency": 43.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 39,
+      "elementRenderDelay": 24.9
+    },
+    "weight": {
+      "total": 218013,
+      "requests": 8,
+      "mainDocument": 6840,
+      "byType": {
+        "total": {
+          "bytes": 218013,
+          "requests": 8
+        },
+        "script": {
+          "bytes": 204872,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 6840,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 2387,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 2084,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1830,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 192123,
+          "requests": 4
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 192123,
+      "mainThreadMs": 31.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 169125,
+          "mainThreadMs": 26.1,
+          "byType": {
+            "script": 169125
+          },
+          "typedBytes": 169125
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20914,
+          "mainThreadMs": 5.7,
+          "byType": {
+            "script": 20876,
+            "other": 38
+          },
+          "typedBytes": 20914
+        },
+        {
+          "entity": "Netlify",
+          "bytes": 2084,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 2084
+          },
+          "typedBytes": 2084
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 349.1,
+      "byGroup": {
+        "scriptEvaluation": 185,
+        "other": 73.4,
+        "styleLayout": 42,
+        "scriptParseCompile": 27.2,
+        "paintCompositeRender": 16,
+        "parseHTML": 5.6
+      },
+      "bootupMs": 192.3,
+      "longTasks": 1,
+      "longestTaskMs": 100
+    },
+    "dom": {
+      "elements": 247,
+      "depth": 6,
+      "maxChildren": 102
+    },
+    "waste": {
+      "unusedJsBytes": 76663,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 15657,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 14,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4490,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:40:39.357Z",
+      "runtimeMs": 6305.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8BKNBCBS8CE5S1TJHSVQHRV"
+    },
+    "violations": 4,
+    "passes": 575,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".bg-blue",
+            "snippet": "<div class=\"bg-blue mb-12\">"
+          },
+          {
+            "selector": ".max-w-2xl",
+            "snippet": "<div class=\"container max-w-2xl\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "pre:nth-child(37) > .hljs",
+            "snippet": "<code class=\"hljs\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c8c680733bc4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"0e4bfe7dd067dba0b9ae8bbe597ae1d9-ssl\""
+        }
+      },
+      {
+        "hash": "c8c680733bc4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"0e4bfe7dd067dba0b9ae8bbe597ae1d9-ssl\""
+        }
+      },
+      {
+        "hash": "c8c680733bc4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"0e4bfe7dd067dba0b9ae8bbe597ae1d9-ssl\""
+        }
+      },
+      {
+        "hash": "c8c680733bc4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "etag": "W/\"0e4bfe7dd067dba0b9ae8bbe597ae1d9-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

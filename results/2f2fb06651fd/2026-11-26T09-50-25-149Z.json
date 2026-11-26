@@ -1,0 +1,279 @@
+{
+  "url": "https://michaelharley.net/",
+  "name": "mharley.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795686625149,
+  "date": "2026-11-26T09:50:25.149Z",
+  "runId": "2026-11-26T09-39-32-107Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21678,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://michaelharley.net/",
+    "finalUrl": "https://michaelharley.net/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1014,
+      "lcp": 1014,
+      "si": 1014,
+      "tbt": 0,
+      "tti": 1014,
+      "cls": 0,
+      "ttfb": 644,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 35,
+      "networkRtt": 0,
+      "networkServerLatency": 73.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 36.6,
+      "elementRenderDelay": 126.6
+    },
+    "weight": {
+      "total": 769113,
+      "requests": 33,
+      "mainDocument": 14868,
+      "byType": {
+        "total": {
+          "bytes": 768028,
+          "requests": 27
+        },
+        "image": {
+          "bytes": 604546,
+          "requests": 15
+        },
+        "font": {
+          "bytes": 101536,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 24987,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 19312,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 14868,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 2779,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3214,
+          "requests": 2
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3214,
+      "mainThreadMs": 1.2,
+      "top": [
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3214,
+          "mainThreadMs": 1.2,
+          "byType": {
+            "script": 2779,
+            "image": 435
+          },
+          "typedBytes": 3214
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 692.3,
+      "byGroup": {
+        "other": 350.3,
+        "styleLayout": 200.3,
+        "paintCompositeRender": 83.5,
+        "scriptEvaluation": 27.8,
+        "parseHTML": 17.9,
+        "scriptParseCompile": 6.9,
+        "garbageCollection": 5.7
+      },
+      "bootupMs": 26.4,
+      "longTasks": 1,
+      "longestTaskMs": 66
+    },
+    "dom": {
+      "elements": 574,
+      "depth": 12,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 15860,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4114,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:50:39.876Z",
+      "runtimeMs": 6564.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "webserver",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "webserver"
+    },
+    "violations": 1,
+    "passes": 839,
+    "incomplete": 1,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "cite",
+            "snippet": "<cite class=\"quote-cite\">J.R.R. Tolkien, The Fellowship of the Ring, 1954</cite>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "56cb3be1d8c9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dn4td24m2gyg-1w2w-gzip\"",
+          "last-modified": "Thu, 26 Nov 2026 03:14:29 GMT"
+        }
+      },
+      {
+        "hash": "56cb3be1d8c9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dn4td24m2gyg-1w2w-gzip\"",
+          "last-modified": "Thu, 26 Nov 2026 03:14:29 GMT"
+        }
+      },
+      {
+        "hash": "56cb3be1d8c9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dn4td24m2gyg-1w2w-gzip\"",
+          "last-modified": "Thu, 26 Nov 2026 03:14:29 GMT"
+        }
+      },
+      {
+        "hash": "56cb3be1d8c9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dn4td24m2gyg-1w2w-gzip\"",
+          "last-modified": "Thu, 26 Nov 2026 03:14:29 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
