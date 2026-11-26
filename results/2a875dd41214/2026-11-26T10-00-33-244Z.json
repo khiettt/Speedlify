@@ -1,0 +1,396 @@
+{
+  "url": "https://angular.dev/",
+  "name": "Angular",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795687233244,
+  "date": "2026-11-26T10:00:33.244Z",
+  "runId": "2026-11-26T09-39-44-866Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 61328,
+  "error": null,
+  "variance": {
+    "min": 71,
+    "max": 71,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://angular.dev/",
+    "finalUrl": "https://angular.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 71,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 83,
+      "agentic-browsing": 49
+    },
+    "timings": {
+      "fcp": 1681,
+      "lcp": 1681,
+      "si": 2951,
+      "tbt": 1571,
+      "tti": 8382,
+      "cls": 0.067,
+      "ttfb": 606,
+      "maxPotentialFid": 1315,
+      "serverResponseTime": 6,
+      "networkRtt": 0.3,
+      "networkServerLatency": 26.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 7.6,
+      "elementRenderDelay": 170.7
+    },
+    "weight": {
+      "total": 1390576,
+      "requests": 30,
+      "mainDocument": 15475,
+      "byType": {
+        "total": {
+          "bytes": 1386500,
+          "requests": 28
+        },
+        "script": {
+          "bytes": 733744,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 531061,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 92383,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 15475,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 12671,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 1166,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 715823,
+          "requests": 10
+        }
+      },
+      "scripts": 12,
+      "stylesheets": 3,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 715823,
+      "mainThreadMs": 71.2,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 532679,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 1618,
+            "font": 531061
+          },
+          "typedBytes": 532679
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183087,
+          "mainThreadMs": 70.8,
+          "byType": {
+            "script": 183087
+          },
+          "typedBytes": 183087
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 57,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 57
+          },
+          "typedBytes": 57
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4920.7,
+      "byGroup": {
+        "scriptEvaluation": 2248.8,
+        "styleLayout": 1257.8,
+        "other": 872.8,
+        "paintCompositeRender": 325.1,
+        "garbageCollection": 73.5,
+        "parseHTML": 73.3,
+        "scriptParseCompile": 69.3
+      },
+      "bootupMs": 2304.9,
+      "longTasks": 12,
+      "longestTaskMs": 1315
+    },
+    "dom": {
+      "elements": 427,
+      "depth": 21,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 208589,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 775,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 2013.6000000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 29,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 96
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 38
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2525.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T10:00:52.692Z",
+      "runtimeMs": 8839.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "elementRenderDelay": 233.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "angular",
+      "name": "Angular",
+      "icon": "Angular",
+      "version": "22.3.0",
+      "source": "dom",
+      "raw": "22.3.0+sha-bf111c4"
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "angular"
+      ],
+      "markVersions": {
+        "angular": "22.3.0+sha-bf111c4"
+      }
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "x-served-by": "cache-iad-kiad7000127-IAD"
+    },
+    "violations": 10,
+    "passes": 911,
+    "incomplete": 33,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".description > code:nth-child(1)",
+            "snippet": "<code _ngcontent-ng-c1717890839=\"\">computed</code>"
+          },
+          {
+            "selector": "code:nth-child(2)",
+            "snippet": "<code _ngcontent-ng-c1717890839=\"\">filteredItems</code>"
+          },
+          {
+            "selector": "code:nth-child(3)",
+            "snippet": "<code _ngcontent-ng-c1717890839=\"\">searchTerm</code>"
+          },
+          {
+            "selector": ".line:nth-child(8) > span:nth-child(8)",
+            "snippet": "<span style=\"color:#E36209\">item</span>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "adev-progress-bar",
+            "snippet": "<adev-progress-bar _ngcontent-ng-c447433156=\"\">"
+          },
+          {
+            "selector": ".docs-cookies-popup-header > p",
+            "snippet": "<p _ngcontent-ng-c552615940=\"\">This site uses cookies from Google to deliver its services and to analyze traffic.</p>"
+          },
+          {
+            "selector": ".docs-primary-btn[text=\"Learn more\"][_ngcontent-ng-c552615940=\"\"]",
+            "snippet": "<a _ngcontent-ng-c552615940=\"\" href=\"https://policies.google.com/technologies/cookies\" target=\"_blank\" rel=\"noopener\" aria-label=\"Learn more about how Google uses cookies\" text=\"Learn more\" class=\"do…"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".demo-list",
+            "snippet": "<div _ngcontent-ng-c1717890839=\"\" class=\"demo-list\">"
+          },
+          {
+            "selector": ".code-block[_ngcontent-ng-c1717890839=\"\"]:nth-child(1) > adev-code-block > pre > code[_ngcontent-ng-c457789045=\"\"] > .shiki.github-light > code",
+            "snippet": "<code>"
+          },
+          {
+            "selector": "adev-code-block[language=\"angular-html\"] > pre > code[_ngcontent-ng-c457789045=\"\"] > .shiki.github-light > code",
+            "snippet": "<code>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "54fa3ece0d0e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"4236d8eb046fadcc251586c0d05e80c10cf4b7f9696b15a38ba8aaec2b38b6a7-br\"",
+          "last-modified": "Wed, 25 Nov 2026 18:53:25 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "54fa3ece0d0e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"4236d8eb046fadcc251586c0d05e80c10cf4b7f9696b15a38ba8aaec2b38b6a7-br\"",
+          "last-modified": "Wed, 25 Nov 2026 18:53:25 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "54fa3ece0d0e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"4236d8eb046fadcc251586c0d05e80c10cf4b7f9696b15a38ba8aaec2b38b6a7-br\"",
+          "last-modified": "Wed, 25 Nov 2026 18:53:25 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "54fa3ece0d0e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"4236d8eb046fadcc251586c0d05e80c10cf4b7f9696b15a38ba8aaec2b38b6a7-br\"",
+          "last-modified": "Wed, 25 Nov 2026 18:53:25 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "54fa3ece0d0e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"4236d8eb046fadcc251586c0d05e80c10cf4b7f9696b15a38ba8aaec2b38b6a7-br\"",
+          "last-modified": "Wed, 25 Nov 2026 18:53:25 GMT",
+          "x-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

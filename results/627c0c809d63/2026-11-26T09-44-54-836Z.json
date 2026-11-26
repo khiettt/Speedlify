@@ -1,0 +1,359 @@
+{
+  "url": "https://www.readhostel.com/",
+  "name": "www.readhostel.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795686294836,
+  "date": "2026-11-26T09:44:54.836Z",
+  "runId": "2026-11-26T09-39-44-866Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20843,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 94,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.readhostel.com/",
+    "finalUrl": "https://www.readhostel.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 94,
+      "accessibility": 92,
+      "best-practices": 96,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2279,
+      "lcp": 2579,
+      "si": 2279,
+      "tbt": 0,
+      "tti": 2579,
+      "cls": 0,
+      "ttfb": 609,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 6,
+      "networkRtt": 0.1,
+      "networkServerLatency": 20.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 7.6,
+      "elementRenderDelay": 270.5
+    },
+    "weight": {
+      "total": 261326,
+      "requests": 6,
+      "mainDocument": 5116,
+      "byType": {
+        "total": {
+          "bytes": 261157,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 128193,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 126772,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5116,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 801,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 275,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 127848,
+          "requests": 3
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 127573,
+      "mainThreadMs": 30.9,
+      "top": [
+        {
+          "entity": "tailwindcss.com",
+          "bytes": 126772,
+          "mainThreadMs": 30.7,
+          "byType": {
+            "script": 126772
+          },
+          "typedBytes": 126772
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 801,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 801
+          },
+          "typedBytes": 801
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 696.2,
+      "byGroup": {
+        "scriptEvaluation": 431.2,
+        "styleLayout": 132.6,
+        "other": 80.9,
+        "scriptParseCompile": 32.4,
+        "parseHTML": 7.1,
+        "paintCompositeRender": 6.7,
+        "garbageCollection": 5.3
+      },
+      "bootupMs": 461.4,
+      "longTasks": 4,
+      "longestTaskMs": 254
+    },
+    "dom": {
+      "elements": 154,
+      "depth": 6,
+      "maxChildren": 40
+    },
+    "waste": {
+      "unusedJsBytes": 40634,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2155,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failingNodes": 74,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 73
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 6
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2525.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:45:02.777Z",
+      "runtimeMs": 6097.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::5dvxm-1795686314207-03532c9ffe9a"
+    },
+    "violations": 76,
+    "passes": 369,
+    "incomplete": 5,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 73,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".mt-12:nth-child(3) > .mt-3 > .text-gray-300:nth-child(1)",
+            "snippet": "<h3 class=\"text-gray-300 text-lg\">動物として強ければ細かいことは気にならない？</h3>"
+          },
+          {
+            "selector": ".mt-12:nth-child(3) > .mt-3 > .text-gray-300:nth-child(2)",
+            "snippet": "<h3 class=\"text-gray-300 text-lg\">ラヴィーニャ</h3>"
+          },
+          {
+            "selector": ".mt-12:nth-child(3) > .mt-3 > .text-gray-300:nth-child(3)",
+            "snippet": "<h3 class=\"text-gray-300 text-lg\">ジムに行き始めた</h3>"
+          },
+          {
+            "selector": ".mt-12:nth-child(3) > .mt-3 > .text-gray-300:nth-child(4)",
+            "snippet": "<h3 class=\"text-gray-300 text-lg\">動物として強ければ細かいことは気にならない!</h3>"
+          },
+          {
+            "selector": ".mt-12:nth-child(3) > .mt-3 > .text-gray-300:nth-child(5)",
+            "snippet": "<h3 class=\"text-gray-300 text-lg\">小籠包と2秒間のアイコンタクト</h3>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#title-mobile",
+            "snippet": "<div id=\"title-mobile\" class=\"md:hidden relative w-full h-screen\">"
+          },
+          {
+            "selector": ".max-w-4xl",
+            "snippet": "<div class=\"max-w-4xl mx-auto px-4 pt-40 pb-12\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".font-normal",
+            "snippet": "<h3 class=\"font-normal\">この物語のこと</h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e21e26202270",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "233337",
+          "etag": "W/\"eb60fa7fbdf95e6481286e40da8a3d4e\"",
+          "last-modified": "Mon, 23 Nov 2026 16:55:59 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "e21e26202270",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "233343",
+          "etag": "W/\"eb60fa7fbdf95e6481286e40da8a3d4e\"",
+          "last-modified": "Mon, 23 Nov 2026 16:55:59 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "e21e26202270",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "233349",
+          "etag": "W/\"eb60fa7fbdf95e6481286e40da8a3d4e\"",
+          "last-modified": "Mon, 23 Nov 2026 16:55:59 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "e21e26202270",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"eb60fa7fbdf95e6481286e40da8a3d4e\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

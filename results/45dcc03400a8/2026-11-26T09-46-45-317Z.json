@@ -1,0 +1,328 @@
+{
+  "url": "https://www.splitinfinities.com/",
+  "name": "www.splitinfinities.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795686405317,
+  "date": "2026-11-26T09:46:45.317Z",
+  "runId": "2026-11-26T09-39-44-866Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 31715,
+  "error": null,
+  "variance": {
+    "min": 64,
+    "max": 64,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.splitinfinities.com/",
+    "finalUrl": "https://www.splitinfinities.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 64,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 4411,
+      "lcp": 9586,
+      "si": 4411,
+      "tbt": 87,
+      "tti": 9593,
+      "cls": 0.001,
+      "ttfb": 618,
+      "maxPotentialFid": 88,
+      "serverResponseTime": 6,
+      "networkRtt": 0.1,
+      "networkServerLatency": 28.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 8,
+      "elementRenderDelay": 749.8
+    },
+    "weight": {
+      "total": 1580804,
+      "requests": 101,
+      "mainDocument": 3332,
+      "byType": {
+        "total": {
+          "bytes": 1580804,
+          "requests": 100
+        },
+        "font": {
+          "bytes": 854240,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 443810,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 203618,
+          "requests": 63
+        },
+        "image": {
+          "bytes": 56822,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 18982,
+          "requests": 27
+        },
+        "document": {
+          "bytes": 3332,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1503925,
+          "requests": 76
+        }
+      },
+      "scripts": 63,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 1501668,
+      "mainThreadMs": 147.8,
+      "top": [
+        {
+          "entity": "rsms.me",
+          "bytes": 856285,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 2045,
+            "font": 854240
+          },
+          "typedBytes": 856285
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 645383,
+          "mainThreadMs": 147.5,
+          "byType": {
+            "script": 203618,
+            "stylesheet": 441765
+          },
+          "typedBytes": 645383
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2371.4,
+      "byGroup": {
+        "other": 821.8,
+        "scriptEvaluation": 656.5,
+        "styleLayout": 557.6,
+        "parseHTML": 228,
+        "paintCompositeRender": 100.3,
+        "scriptParseCompile": 7.2
+      },
+      "bootupMs": 570.8,
+      "longTasks": 5,
+      "longestTaskMs": 245
+    },
+    "dom": {
+      "elements": 444,
+      "depth": 14,
+      "maxChildren": 32
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 440296,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 56611,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 3642,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 1390.6,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 24
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2487.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:47:05.606Z",
+      "runtimeMs": 8821.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::5pvtw-1795686433465-dea001674de1"
+    },
+    "violations": 5,
+    "passes": 343,
+    "incomplete": 8,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "midwest-tab[open=\"\"] .title.cursor-pointer label",
+            "snippet": "<label><slot></slot></label>"
+          },
+          {
+            "selector": "copy-wrap[align=\"right\"] > midwest-tag[pill=\"\"] .tag label",
+            "snippet": "<label><slot></slot></label>"
+          },
+          {
+            "selector": "midwest-tag[size=\"tiny\"] .tag[size=\"tiny\"] label",
+            "snippet": "<label><slot></slot></label>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "midwest-layout[type=\"supporting-content\"] > aside",
+            "snippet": "<aside>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "midwest-progress",
+            "snippet": "<midwest-progress class=\"fixed top-0 left-0 right-0 z-50 hydrated\" slender=\"\" max=\"100\" ease=\"\" value=\"0\" secondary=\"0\"></midwest-progress>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "de0844ba2e9c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "277250",
+          "etag": "W/\"54d0242ea1e77b95c0b305d8ba737ea9d7ad64fdcced494af626016fdaab7b7b\"",
+          "last-modified": "Mon, 23 Nov 2026 04:45:55 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "de0844ba2e9c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "277260",
+          "etag": "W/\"54d0242ea1e77b95c0b305d8ba737ea9d7ad64fdcced494af626016fdaab7b7b\"",
+          "last-modified": "Mon, 23 Nov 2026 04:45:55 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "de0844ba2e9c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "277269",
+          "etag": "W/\"54d0242ea1e77b95c0b305d8ba737ea9d7ad64fdcced494af626016fdaab7b7b\"",
+          "last-modified": "Mon, 23 Nov 2026 04:45:55 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "de0844ba2e9c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"54d0242ea1e77b95c0b305d8ba737ea9d7ad64fdcced494af626016fdaab7b7b\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,425 @@
+{
+  "url": "https://gruntjs.com/",
+  "name": "Grunt",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795686901047,
+  "date": "2026-11-26T09:55:01.047Z",
+  "runId": "2026-11-26T09-39-44-866Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 40872,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gruntjs.com/",
+    "finalUrl": "https://gruntjs.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 73,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 914,
+      "lcp": 914,
+      "si": 914,
+      "tbt": 0,
+      "tti": 914,
+      "cls": 0,
+      "ttfb": 614,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 13,
+      "networkRtt": 0,
+      "networkServerLatency": 13.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 14.3,
+      "elementRenderDelay": 75.3
+    },
+    "weight": {
+      "total": 101155,
+      "requests": 24,
+      "mainDocument": 3192,
+      "byType": {
+        "total": {
+          "bytes": 98080,
+          "requests": 23
+        },
+        "image": {
+          "bytes": 76647,
+          "requests": 19
+        },
+        "stylesheet": {
+          "bytes": 14793,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3192,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 3156,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 292,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 333.6,
+      "byGroup": {
+        "other": 193.2,
+        "styleLayout": 95.6,
+        "paintCompositeRender": 18,
+        "parseHTML": 13.2,
+        "scriptEvaluation": 11.8,
+        "scriptParseCompile": 1.8
+      },
+      "bootupMs": 12.4,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 185,
+      "depth": 11,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 12721,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 90654.5,
+      "poorlyCachedCount": 21
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 14,
+      "failingNodes": 28,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 15
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 11
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 16
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": null,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 6
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2491.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:55:15.954Z",
+      "runtimeMs": 6187.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "elementRenderDelay": 605.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a60804cf3a535848-IAD",
+      "server": "cloudflare",
+      "x-powered-by": "Express"
+    },
+    "violations": 32,
+    "passes": 363,
+    "incomplete": 16,
+    "violationRules": 6,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 15,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pull-left > p > a[href$=\"sample-gruntfile\"]",
+            "snippet": "<a href=\"/sample-gruntfile\">Gruntfile</a>"
+          },
+          {
+            "selector": ".why.pull-right > p > a[href$=\"getting-started\"]",
+            "snippet": "<a href=\"/getting-started\">get started</a>"
+          },
+          {
+            "selector": "p > a[href$=\"plugins\"]",
+            "snippet": "<a href=\"/plugins\">plugin listing</a>"
+          },
+          {
+            "selector": "p > a[href$=\"who-uses-grunt\"]",
+            "snippet": "<a href=\"/who-uses-grunt\">See more here.</a>"
+          },
+          {
+            "selector": ".how-get-started > p > a[href$=\"getting-started\"]",
+            "snippet": "<a href=\"/getting-started\">Getting Started</a>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 11,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pull-left > p > a[href$=\"sample-gruntfile\"]",
+            "snippet": "<a href=\"/sample-gruntfile\">Gruntfile</a>"
+          },
+          {
+            "selector": "p > a[href$=\"plugins\"]",
+            "snippet": "<a href=\"/plugins\">plugin listing</a>"
+          },
+          {
+            "selector": "p > a[href$=\"who-uses-grunt\"]",
+            "snippet": "<a href=\"/who-uses-grunt\">See more here.</a>"
+          },
+          {
+            "selector": ".how-get-started > p > a[href$=\"getting-started\"]",
+            "snippet": "<a href=\"/getting-started\">Getting Started</a>"
+          },
+          {
+            "selector": ".how-get-started > p > a[href$=\"sample-gruntfile\"]",
+            "snippet": "<a href=\"/sample-gruntfile\">Sample Gruntfile</a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".banner",
+            "snippet": "<div class=\"banner\"> <a href=\"support\">V1.6.1 is the current version, and previous versions are not supported. Upgrade to the latest version or consider other support options.</a></div>"
+          },
+          {
+            "selector": ".nav",
+            "snippet": "<ul class=\"nav\">"
+          },
+          {
+            "selector": ".content",
+            "snippet": "<div class=\"content\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\" itemscope=\"\" itemtype=\"http://schema.org/WebPage\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".brand",
+            "snippet": "<a class=\"brand\" href=\"/\"><span class=\"logo\"></span></a>"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\" itemscope=\"\" itemtype=\"http://schema.org/WebPage\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "44bdb10d38ab",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "271",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sun, 02 Aug 2026 23:48:25 GMT"
+        }
+      },
+      {
+        "hash": "44bdb10d38ab",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "278",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sun, 02 Aug 2026 23:48:25 GMT"
+        }
+      },
+      {
+        "hash": "44bdb10d38ab",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "285",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sun, 02 Aug 2026 23:48:25 GMT"
+        }
+      },
+      {
+        "hash": "44bdb10d38ab",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "291",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sun, 02 Aug 2026 23:48:25 GMT"
+        }
+      },
+      {
+        "hash": "44bdb10d38ab",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "cf-cache-status": "HIT",
+          "etag": "W/\"2a40-19fc4e0f8fc\"",
+          "last-modified": "Sun, 02 Aug 2026 23:48:25 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

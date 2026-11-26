@@ -1,0 +1,306 @@
+{
+  "url": "https://deno.com/deploy",
+  "name": "Deno Deploy",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795686745427,
+  "date": "2026-11-26T09:52:25.427Z",
+  "runId": "2026-11-26T09-39-44-866Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 80635,
+  "error": null,
+  "variance": {
+    "min": 52,
+    "max": 71,
+    "spread": 19,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://deno.com/deploy",
+    "finalUrl": "https://deno.com/deploy",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 52,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 28
+    },
+    "timings": {
+      "fcp": 1975,
+      "lcp": 6859,
+      "si": 2991,
+      "tbt": 9,
+      "tti": 6933,
+      "cls": 0.614,
+      "ttfb": 625,
+      "maxPotentialFid": 67,
+      "serverResponseTime": 52,
+      "networkRtt": 0,
+      "networkServerLatency": 25
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 54.1,
+      "resourceLoadDelay": 26.3,
+      "resourceLoadDuration": 157.9,
+      "elementRenderDelay": 248.4
+    },
+    "weight": {
+      "total": 3913515,
+      "requests": 64,
+      "mainDocument": 43585,
+      "byType": {
+        "total": {
+          "bytes": 3913515,
+          "requests": 58
+        },
+        "media": {
+          "bytes": 1967579,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 975522,
+          "requests": 18
+        },
+        "font": {
+          "bytes": 407159,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 309786,
+          "requests": 26
+        },
+        "stylesheet": {
+          "bytes": 204679,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 43585,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 5205,
+          "requests": 2
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 26,
+      "stylesheets": 4,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 2276.5,
+      "byGroup": {
+        "other": 1111.8,
+        "styleLayout": 579.2,
+        "scriptEvaluation": 371,
+        "paintCompositeRender": 107.2,
+        "parseHTML": 68.8,
+        "scriptParseCompile": 21.2,
+        "garbageCollection": 17.2
+      },
+      "bootupMs": 367.5,
+      "longTasks": 3,
+      "longestTaskMs": 203
+    },
+    "dom": {
+      "elements": 921,
+      "depth": 22,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 157652,
+      "unusedCssBytes": 47770,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1050,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 29,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 16,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 46
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2503.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:52:40.316Z",
+      "runtimeMs": 13194.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 653,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 8962.4,
+    "elementRenderDelay": 126.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "deployd",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "deployd",
+      "via": "HTTP/2 ord.vultr.prod.deno-cluster.net"
+    },
+    "violations": 2,
+    "passes": 1120,
+    "incomplete": 19,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Interactive controls must not be nested",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".lg\\:p-8.bg-deploy-dots[role=\"img\"]",
+            "snippet": "<div class=\"relative p-4 lg:p-8 ...\" role=\"img\" aria-label=\"Database management ...\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".my-4",
+            "snippet": "<div class=\"font-bold my-4 flex flex-wrap justify-start md:justify-center gap-y-2 gap-x-4 items-center flex-grow\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "58a0246b170d",
+        "nonce": "03574826cdcf",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "deno; fwd=bypass; detail=zero-ttl"
+        }
+      },
+      {
+        "hash": "58a0246b170d",
+        "nonce": "a7bcaa3e7e76",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "deno; fwd=bypass; detail=zero-ttl"
+        }
+      },
+      {
+        "hash": "58a0246b170d",
+        "nonce": "3f5b45aab761",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "deno; fwd=bypass; detail=zero-ttl"
+        }
+      },
+      {
+        "hash": "58a0246b170d",
+        "nonce": "bbcd583985bb",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "deno; fwd=bypass; detail=zero-ttl"
+        }
+      },
+      {
+        "hash": "58a0246b170d",
+        "nonce": "bc6040456b41",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "deno; fwd=bypass; detail=zero-ttl"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

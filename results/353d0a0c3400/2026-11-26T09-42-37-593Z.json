@@ -1,0 +1,298 @@
+{
+  "url": "https://mier.info/",
+  "name": "mier.info",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795686157593,
+  "date": "2026-11-26T09:42:37.593Z",
+  "runId": "2026-11-26T09-39-44-866Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26234,
+  "error": null,
+  "variance": {
+    "min": 75,
+    "max": 100,
+    "spread": 25,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mier.info/",
+    "finalUrl": "https://mier.info/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 75,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 782,
+      "lcp": 10748,
+      "si": 2360,
+      "tbt": 0,
+      "tti": 10771,
+      "cls": 0.009,
+      "ttfb": 623,
+      "maxPotentialFid": 51,
+      "serverResponseTime": 50,
+      "networkRtt": 0.9,
+      "networkServerLatency": 41.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 51.8,
+      "resourceLoadDelay": 225.5,
+      "resourceLoadDuration": 16.7,
+      "elementRenderDelay": 206.9
+    },
+    "weight": {
+      "total": 3394167,
+      "requests": 86,
+      "mainDocument": 7214,
+      "byType": {
+        "total": {
+          "bytes": 3394167,
+          "requests": 86
+        },
+        "media": {
+          "bytes": 3123356,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 129362,
+          "requests": 55
+        },
+        "font": {
+          "bytes": 82680,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 26753,
+          "requests": 15
+        },
+        "other": {
+          "bytes": 18366,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 7214,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6436,
+          "requests": 2
+        },
+        "third-party": {
+          "bytes": 10388,
+          "requests": 3
+        }
+      },
+      "scripts": 15,
+      "stylesheets": 2,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 10388,
+      "mainThreadMs": 8.5,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 8.5,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 36,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 36
+          },
+          "typedBytes": 36
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 951,
+      "byGroup": {
+        "other": 738.7,
+        "scriptEvaluation": 87,
+        "styleLayout": 80.4,
+        "parseHTML": 27.6,
+        "paintCompositeRender": 9.3,
+        "scriptParseCompile": 8
+      },
+      "bootupMs": 35.2,
+      "longTasks": 1,
+      "longestTaskMs": 51
+    },
+    "dom": {
+      "elements": 488,
+      "depth": 12,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 4140.8,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 11,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 20
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2462,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:42:55.311Z",
+      "runtimeMs": 7895.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.0.0",
+      "source": "meta",
+      "raw": "Eleventy v3.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a607f24eed37ebd6-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 4,
+    "passes": 34,
+    "incomplete": 10,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 4,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#main-container",
+            "snippet": "<div id=\"main-container\">"
+          },
+          {
+            "selector": "#background",
+            "snippet": "<video id=\"background\" autoplay=\"\" muted=\"\" playsinline=\"\"> <source src=\"/assets/media/background/ram-unboxed.mp4\" type=\"video/mp4; codecs=av01.0.05M.08\"> <source src=\"/assets/media/background/ram-un…"
+          },
+          {
+            "selector": "#messages-span",
+            "snippet": "<span id=\"messages-span\" style=\"display: block;\"><b>now playing:</b> Random Access Memories Unboxed</span>"
+          },
+          {
+            "selector": "#version-tag",
+            "snippet": "<a id=\"version-tag\" class=\"\" href=\"/changelog/\">0.25.5</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "55c5eb0589c3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "55c5eb0589c3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "55c5eb0589c3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "55c5eb0589c3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
