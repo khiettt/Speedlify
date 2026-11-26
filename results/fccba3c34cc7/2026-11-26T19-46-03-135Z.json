@@ -1,0 +1,306 @@
+{
+  "url": "https://lastguru.lv/",
+  "name": "lastguru.lv",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795722363135,
+  "date": "2026-11-26T19:46:03.135Z",
+  "runId": "2026-11-26T19-42-57-297Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22834,
+  "error": null,
+  "variance": {
+    "min": 84,
+    "max": 95,
+    "spread": 11,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://lastguru.lv/",
+    "finalUrl": "https://lastguru.lv/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 86,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 858,
+      "lcp": 4106,
+      "si": 858,
+      "tbt": 107,
+      "tti": 5124,
+      "cls": 0.007,
+      "ttfb": 482,
+      "maxPotentialFid": 149,
+      "serverResponseTime": 10,
+      "networkRtt": 0.2,
+      "networkServerLatency": 31.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 11.8,
+      "resourceLoadDelay": 56.2,
+      "resourceLoadDuration": 32.6,
+      "elementRenderDelay": 77.3
+    },
+    "weight": {
+      "total": 843050,
+      "requests": 24,
+      "mainDocument": 8949,
+      "byType": {
+        "total": {
+          "bytes": 843050,
+          "requests": 24
+        },
+        "script": {
+          "bytes": 302943,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 270279,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 256430,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 8949,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4449,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 557082,
+          "requests": 10
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 8
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 557082,
+      "mainThreadMs": 77.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 300652,
+          "mainThreadMs": 77.9,
+          "byType": {
+            "script": 300652
+          },
+          "typedBytes": 300652
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 256430,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 256430
+          },
+          "typedBytes": 256430
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 766.2,
+      "byGroup": {
+        "scriptEvaluation": 317.5,
+        "other": 164.5,
+        "styleLayout": 142.5,
+        "scriptParseCompile": 71.3,
+        "paintCompositeRender": 56,
+        "parseHTML": 14.5
+      },
+      "bootupMs": 382.2,
+      "longTasks": 3,
+      "longestTaskMs": 149
+    },
+    "dom": {
+      "elements": 345,
+      "depth": 13,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 149627,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 30
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2572,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T19:46:11.820Z",
+      "runtimeMs": 6669.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a60b6626785750b2-ATL",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 622,
+    "incomplete": 1,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#mobile-top-bar > a[aria-label=\"Visi raksti\"][href=\"/\"]",
+            "snippet": "<a href=\"/\" aria-label=\"Visi raksti\">Dmitrijs Golubevs </a>"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"lv\" class=\"dark\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2b84133989a8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2b84133989a8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2b84133989a8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2b84133989a8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

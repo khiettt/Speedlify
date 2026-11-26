@@ -1,0 +1,316 @@
+{
+  "url": "https://loosethought.com/",
+  "name": "loosethought.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795722446806,
+  "date": "2026-11-26T19:47:26.806Z",
+  "runId": "2026-11-26T19-42-57-297Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24244,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://loosethought.com/",
+    "finalUrl": "https://loosethought.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1063,
+      "lcp": 1063,
+      "si": 1063,
+      "tbt": 0,
+      "tti": 1063,
+      "cls": 0,
+      "ttfb": 618,
+      "maxPotentialFid": 24,
+      "serverResponseTime": 43,
+      "networkRtt": 0.1,
+      "networkServerLatency": 128.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 45.2,
+      "elementRenderDelay": 117.6
+    },
+    "weight": {
+      "total": 311178,
+      "requests": 18,
+      "mainDocument": 17468,
+      "byType": {
+        "total": {
+          "bytes": 311178,
+          "requests": 18
+        },
+        "font": {
+          "bytes": 218384,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 60357,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 17468,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6807,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 4368,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3794,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 9843,
+          "requests": 4
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 9843,
+      "mainThreadMs": 2.3,
+      "top": [
+        {
+          "entity": "betalist.com",
+          "bytes": 5093,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 5093
+          },
+          "typedBytes": 5093
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4368,
+          "mainThreadMs": 2.3,
+          "byType": {
+            "script": 4368
+          },
+          "typedBytes": 4368
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 502.8,
+      "byGroup": {
+        "styleLayout": 270.6,
+        "other": 147.2,
+        "paintCompositeRender": 32.1,
+        "scriptEvaluation": 27.5,
+        "parseHTML": 21,
+        "scriptParseCompile": 4.5
+      },
+      "bootupMs": 20.5,
+      "longTasks": 1,
+      "longestTaskMs": 80
+    },
+    "dom": {
+      "elements": 433,
+      "depth": 9,
+      "maxChildren": 42
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 23
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2614,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T19:47:43.792Z",
+      "runtimeMs": 6745
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.0",
+      "source": "meta",
+      "raw": "Eleventy v3.1.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8CPCR5VTDR3G893S25G7JAR"
+    },
+    "violations": 3,
+    "passes": 826,
+    "incomplete": 15,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[data-goatcounter-click=\"cta-hero\"]",
+            "snippet": "<a class=\"cta\" href=\"https://app.loosethought.com/?landing=%2F#register\" data-goatcounter-click=\"cta-hero\" data-goatcounter-bound=\"true\">Get Started</a>"
+          },
+          {
+            "selector": "a[data-goatcounter-click=\"cta-pricing-lifetime\"]",
+            "snippet": "<a class=\"cta\" href=\"https://app.loosethought.com/?landing=%2F#register\" data-goatcounter-click=\"cta-pricing-lifetime\" data-goatcounter-bound=\"true\">Start your free trial</a>"
+          },
+          {
+            "selector": "button",
+            "snippet": "<button type=\"submit\">Sign Up</button>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "045c31c8d422",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"914664ea4fdb6a6b907205d5d5a54cae-ssl\""
+        }
+      },
+      {
+        "hash": "045c31c8d422",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"914664ea4fdb6a6b907205d5d5a54cae-ssl\""
+        }
+      },
+      {
+        "hash": "045c31c8d422",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"914664ea4fdb6a6b907205d5d5a54cae-ssl\""
+        }
+      },
+      {
+        "hash": "045c31c8d422",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535980",
+          "etag": "W/\"914664ea4fdb6a6b907205d5d5a54cae-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
