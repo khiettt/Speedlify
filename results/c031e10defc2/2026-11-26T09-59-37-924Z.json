@@ -1,0 +1,398 @@
+{
+  "url": "https://www.samsung.com/",
+  "name": "Samsung",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1795687177924,
+  "date": "2026-11-26T09:59:37.924Z",
+  "runId": "2026-11-26T09-39-43-751Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 165170,
+  "error": null,
+  "variance": {
+    "min": 26,
+    "max": 35,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.samsung.com/",
+    "finalUrl": "https://www.samsung.com/us/",
+    "redirect": {
+      "from": "https://www.samsung.com/",
+      "to": "https://www.samsung.com/us",
+      "chain": [
+        {
+          "url": "https://www.samsung.com/",
+          "status": 301
+        },
+        {
+          "url": "https://www.samsung.com/us/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "path",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 35,
+      "accessibility": 94,
+      "best-practices": 58,
+      "seo": 92,
+      "agentic-browsing": 62
+    },
+    "timings": {
+      "fcp": 2094,
+      "lcp": 6167,
+      "si": 7968,
+      "tbt": 6265,
+      "tti": 41111,
+      "cls": 0.109,
+      "ttfb": 543,
+      "maxPotentialFid": 3807,
+      "serverResponseTime": 90,
+      "networkRtt": 96.4,
+      "networkServerLatency": 1146.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 139.4,
+      "resourceLoadDelay": 14.2,
+      "resourceLoadDuration": 44.9,
+      "elementRenderDelay": 108
+    },
+    "weight": {
+      "total": 5093884,
+      "requests": 275,
+      "mainDocument": 49176,
+      "byType": {
+        "total": {
+          "bytes": 5093885,
+          "requests": 265
+        },
+        "script": {
+          "bytes": 3314056,
+          "requests": 114
+        },
+        "other": {
+          "bytes": 919422,
+          "requests": 68
+        },
+        "font": {
+          "bytes": 419215,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 261831,
+          "requests": 30
+        },
+        "stylesheet": {
+          "bytes": 115670,
+          "requests": 32
+        },
+        "document": {
+          "bytes": 63691,
+          "requests": 12
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3063854,
+          "requests": 194
+        }
+      },
+      "scripts": 115,
+      "stylesheets": 32,
+      "fonts": 9
+    },
+    "thirdParty": {
+      "count": 34,
+      "bytes": 3039074,
+      "mainThreadMs": 3825.7,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 861375,
+          "mainThreadMs": 31,
+          "byType": {
+            "script": 861375
+          },
+          "typedBytes": 861375
+        },
+        {
+          "entity": "audioeye.com",
+          "bytes": 407245,
+          "mainThreadMs": 2736.2,
+          "byType": {
+            "script": 394862,
+            "stylesheet": 12323,
+            "other": 60
+          },
+          "typedBytes": 407245
+        },
+        {
+          "entity": "Wunderkind",
+          "bytes": 342533,
+          "mainThreadMs": 117.1,
+          "byType": {
+            "script": 334369,
+            "stylesheet": 6050,
+            "other": 1758,
+            "image": 356
+          },
+          "typedBytes": 342533
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 302421,
+          "mainThreadMs": 140.9,
+          "byType": {
+            "script": 302402,
+            "image": 19
+          },
+          "typedBytes": 302421
+        },
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 184927,
+          "mainThreadMs": 97.2,
+          "byType": {
+            "script": 184927
+          },
+          "typedBytes": 184927
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 26090,
+      "byGroup": {
+        "scriptEvaluation": 21514.7,
+        "other": 2243.2,
+        "scriptParseCompile": 830.2,
+        "styleLayout": 822.5,
+        "garbageCollection": 304,
+        "parseHTML": 190,
+        "paintCompositeRender": 185.4
+      },
+      "bootupMs": 21348,
+      "longTasks": 20,
+      "longestTaskMs": 3807
+    },
+    "dom": {
+      "elements": 3932,
+      "depth": 16,
+      "maxChildren": 427
+    },
+    "waste": {
+      "unusedJsBytes": 1415086,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 72121,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 10136,
+      "unminifiedCssBytes": 6402,
+      "renderBlockingMs": 2375,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 1390220.007222222,
+      "poorlyCachedCount": 127
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 32,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "aria-command-name",
+          "title": "`button`, `link`, and `menuitem` elements do not have accessible names.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "aria-dialog-name",
+          "title": "Elements with `role=\"dialog\"` or `role=\"alertdialog\"` do not have accessible names.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 45
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 4
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 2,
+      "protocol": "h3",
+      "legacyHttpRequests": 29,
+      "redirectMs": 843.4,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 59
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3094,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T10:00:07.768Z",
+      "runtimeMs": 28747.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1341.4,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 2565.2,
+    "elementRenderDelay": 96.1
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "preact",
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 3,
+    "passes": 1355,
+    "incomplete": 18,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".truste-custom-wrapper",
+            "snippet": "<div class=\"truste-custom-wrapper\"> <div class=\"truste-custom-img\"> <img alt=\"Samsung\" src=\"https://consent.trustarc.com/get?name=samsungblack_logo.png\"> </div> </div>"
+          },
+          {
+            "selector": ".truste-custom-text-wrapper",
+            "snippet": "<p class=\"truste-custom-text-wrapper\">"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".footer-copyright-wrap > .footer-language > .footer-language__anchor[data-di-id=\"di-id-8a51b6e9-9a22d789\"][an-ac=\"footer\"]",
+            "snippet": "<a class=\"footer-language__anc...\" href=\"/us/function/ipredir...\" aria-label=\"Choose your location...\" an-tr=\"nv02_footer bottom--...\" an-ca=\"navigation\" an-ac=\"footer\" an-la=\"bottom:country selec...…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4a3d8fc4fb27",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"63f4d-6612844f793f0\"",
+          "last-modified": "Thu, 26 Nov 2026 06:44:03 GMT"
+        }
+      },
+      {
+        "hash": "9e92b3313fc7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"63f4d-6612844f793f0\"",
+          "last-modified": "Thu, 26 Nov 2026 06:44:03 GMT"
+        }
+      },
+      {
+        "hash": "e10fad6faa5c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"63f4d-6612844f793f0\"",
+          "last-modified": "Thu, 26 Nov 2026 06:44:03 GMT"
+        }
+      },
+      {
+        "hash": "ded55b5d9557",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"63f4d-6612844f793f0\"",
+          "last-modified": "Thu, 26 Nov 2026 06:44:03 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

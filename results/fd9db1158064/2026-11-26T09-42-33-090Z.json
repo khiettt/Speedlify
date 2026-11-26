@@ -1,0 +1,282 @@
+{
+  "url": "https://www.patrickxchong.com/",
+  "name": "www.patrickxchong.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795686153090,
+  "date": "2026-11-26T09:42:33.090Z",
+  "runId": "2026-11-26T09-39-43-751Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19969,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.patrickxchong.com/",
+    "finalUrl": "https://www.patrickxchong.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 912,
+      "lcp": 1544,
+      "si": 912,
+      "tbt": 0,
+      "tti": 1544,
+      "cls": 0,
+      "ttfb": 612,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 6,
+      "networkRtt": 0,
+      "networkServerLatency": 32.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 7.3,
+      "resourceLoadDelay": 16.2,
+      "resourceLoadDuration": 11.4,
+      "elementRenderDelay": 22.6
+    },
+    "weight": {
+      "total": 244045,
+      "requests": 14,
+      "mainDocument": 11654,
+      "byType": {
+        "total": {
+          "bytes": 244045,
+          "requests": 14
+        },
+        "image": {
+          "bytes": 205441,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 20403,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 11654,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 5567,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 980,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 20669,
+          "requests": 2
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 20403,
+      "mainThreadMs": 5.6,
+      "top": [
+        {
+          "entity": "Unpkg",
+          "bytes": 20403,
+          "mainThreadMs": 5.6,
+          "byType": {
+            "script": 20403
+          },
+          "typedBytes": 20403
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 178.6,
+      "byGroup": {
+        "other": 82.1,
+        "styleLayout": 36.6,
+        "scriptEvaluation": 31.9,
+        "paintCompositeRender": 11.7,
+        "parseHTML": 10.7,
+        "scriptParseCompile": 5.5
+      },
+      "bootupMs": 12.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 223,
+      "depth": 15,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2963,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:42:46.414Z",
+      "runtimeMs": 5841.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.17.5"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::mm7tl-1795686171277-1f9cfafccc6a"
+    },
+    "violations": 1,
+    "passes": 411,
+    "incomplete": 5,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"/\"]",
+            "snippet": "<a href=\"/\"> <img width=\"40px\" height=\"40px\" src=\"/assets/images/site/icon.png\" alt=\"Patrick Chong's Website Logo\"> </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4b2d3c87c03b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "147672",
+          "etag": "W/\"9061b976dc709cf88c34ba401ef0229b\"",
+          "last-modified": "Tue, 24 Nov 2026 16:41:22 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4b2d3c87c03b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "147678",
+          "etag": "W/\"9061b976dc709cf88c34ba401ef0229b\"",
+          "last-modified": "Tue, 24 Nov 2026 16:41:22 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4b2d3c87c03b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "147684",
+          "etag": "W/\"9061b976dc709cf88c34ba401ef0229b\"",
+          "last-modified": "Tue, 24 Nov 2026 16:41:22 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4b2d3c87c03b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"9061b976dc709cf88c34ba401ef0229b\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

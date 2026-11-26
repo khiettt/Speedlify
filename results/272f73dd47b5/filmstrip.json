@@ -1,47 +1,47 @@
 {
-  "timestamp": 1795361922109,
+  "timestamp": 1795686423261,
   "height": 498,
   "width": 250,
-  "settledAt": 7067,
+  "settledAt": 5840,
   "throttlingMethod": "devtools",
   "markers": {
-    "ttfb": 1128,
-    "fcp": 1951,
-    "lcp": 5118
+    "ttfb": 1127,
+    "fcp": 1885,
+    "lcp": 4838
   },
   "frames": [
     {
-      "timing": 1178,
+      "timing": 1168,
       "file": "e687bc0fd368.jpg"
     },
     {
-      "timing": 2356,
+      "timing": 2336,
       "file": "3b1a03ab3274.jpg"
     },
     {
-      "timing": 3534,
-      "file": "407597be6e57.jpg"
+      "timing": 3504,
+      "file": "a3f9bce45a62.jpg"
     },
     {
-      "timing": 4712,
-      "file": "5b1855385d9f.jpg"
+      "timing": 4672,
+      "file": "70c0a3a9e5b1.jpg"
     },
     {
-      "timing": 5889,
-      "file": "adbb3c03c919.jpg"
+      "timing": 5840,
+      "file": "1af5491e43f2.jpg"
     },
     {
-      "timing": 7067,
-      "file": "09b74e67ea54.jpg"
+      "timing": 7008,
+      "file": "00a19ba8ee87.jpg"
     },
     {
-      "timing": 8245,
-      "file": "f2c275d13c53.jpg"
+      "timing": 8176,
+      "file": "ad61b4e3859f.jpg"
     },
     {
-      "timing": 9423,
-      "file": "39ff1d29c844.jpg"
+      "timing": 9344,
+      "file": "2f7723777491.jpg"
     }
   ],
-  "final": "39ff1d29c844.jpg"
+  "final": "2f7723777491.jpg"
 }

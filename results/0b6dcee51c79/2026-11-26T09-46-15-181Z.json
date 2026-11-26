@@ -1,0 +1,320 @@
+{
+  "url": "https://htmx.org/",
+  "name": "htmx",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795686375181,
+  "date": "2026-11-26T09:46:15.181Z",
+  "runId": "2026-11-26T09-39-43-751Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 48006,
+  "error": null,
+  "variance": {
+    "min": 82,
+    "max": 88,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://htmx.org/",
+    "finalUrl": "https://htmx.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 82,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1550,
+      "lcp": 4843,
+      "si": 1550,
+      "tbt": 0,
+      "tti": 4843,
+      "cls": 0,
+      "ttfb": 492,
+      "maxPotentialFid": 37,
+      "serverResponseTime": 60,
+      "networkRtt": 0.5,
+      "networkServerLatency": 42.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 61.3,
+      "resourceLoadDelay": 160.9,
+      "resourceLoadDuration": 62.7,
+      "elementRenderDelay": 77.1
+    },
+    "weight": {
+      "total": 980290,
+      "requests": 65,
+      "mainDocument": 6764,
+      "byType": {
+        "total": {
+          "bytes": 980290,
+          "requests": 65
+        },
+        "image": {
+          "bytes": 763932,
+          "requests": 45
+        },
+        "script": {
+          "bytes": 159866,
+          "requests": 13
+        },
+        "stylesheet": {
+          "bytes": 37159,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 14120,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 5213,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 132142,
+          "requests": 12
+        }
+      },
+      "scripts": 13,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 19996,
+      "mainThreadMs": 7.3,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 5.1,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        },
+        {
+          "entity": "GitHub",
+          "bytes": 9644,
+          "mainThreadMs": 2.2,
+          "byType": {
+            "script": 6905,
+            "other": 2739
+          },
+          "typedBytes": 9644
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 863,
+      "byGroup": {
+        "other": 557.6,
+        "styleLayout": 135.9,
+        "scriptEvaluation": 80.2,
+        "parseHTML": 34.3,
+        "paintCompositeRender": 27.3,
+        "scriptParseCompile": 21.4,
+        "garbageCollection": 6.4
+      },
+      "bootupMs": 9.4,
+      "longTasks": 1,
+      "longestTaskMs": 50
+    },
+    "dom": {
+      "elements": 295,
+      "depth": 13,
+      "maxChildren": 31
+    },
+    "waste": {
+      "unusedJsBytes": 25528,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 19948,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 750,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 10470.383333333333,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 26,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2962,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:46:23.705Z",
+      "runtimeMs": 7012.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.1,
+    "resourceLoadDelay": 1003.4,
+    "resourceLoadDuration": 3199.4,
+    "elementRenderDelay": 34.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "zola",
+      "name": "Zola",
+      "icon": null,
+      "version": null,
+      "source": "meta",
+      "raw": "Zola v.TODO"
+    },
+    "probe": {
+      "metas": [
+        "Zola v.TODO"
+      ],
+      "marks": [
+        "htmx"
+      ],
+      "markVersions": {
+        "htmx": "2.0.11"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a607f81b683d0ab0-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 623,
+    "incomplete": 12,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "main",
+            "snippet": "<main class=\"c content \">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "pre",
+            "snippet": "<pre data-lang=\"html\" style=\"background-color:#1f2329;color:#abb2bf;\" class=\"language-html \">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5c238fedc636",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "5c238fedc636",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "5c238fedc636",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "5c238fedc636",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "5c238fedc636",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

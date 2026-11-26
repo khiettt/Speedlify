@@ -1,0 +1,22 @@
+{
+  "url": "https://webhint.io/",
+  "name": "webhint",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795688226992,
+  "date": "2026-11-26T10:17:06.992Z",
+  "runId": "2026-11-26T09-39-43-751Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 36342,
+  "error": "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+  "errors": [
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse."
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 1
+}
