@@ -1,0 +1,511 @@
+{
+  "url": "https://hexo.io/",
+  "name": "Hexo",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795722630839,
+  "date": "2026-11-26T19:50:30.839Z",
+  "runId": "2026-11-26T19-43-07-257Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 49896,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://hexo.io/",
+    "finalUrl": "https://hexo.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 62,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1656,
+      "lcp": 1656,
+      "si": 1656,
+      "tbt": 64,
+      "tti": 4904,
+      "cls": 0,
+      "ttfb": 603,
+      "maxPotentialFid": 177,
+      "serverResponseTime": 4,
+      "networkRtt": 0.1,
+      "networkServerLatency": 46.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 5.6,
+      "elementRenderDelay": 62
+    },
+    "weight": {
+      "total": 857362,
+      "requests": 25,
+      "mainDocument": 3575,
+      "byType": {
+        "total": {
+          "bytes": 857362,
+          "requests": 25
+        },
+        "image": {
+          "bytes": 320245,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 277621,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 224053,
+          "requests": 7
+        },
+        "stylesheet": {
+          "bytes": 31314,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 3575,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 554,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 536292,
+          "requests": 17
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 5,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 536189,
+      "mainThreadMs": 64.4,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 336663,
+          "mainThreadMs": 7.3,
+          "byType": {
+            "script": 33115,
+            "stylesheet": 25927,
+            "font": 277621
+          },
+          "typedBytes": 336663
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 168874,
+          "mainThreadMs": 45.9,
+          "byType": {
+            "script": 168874
+          },
+          "typedBytes": 168874
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20913,
+          "mainThreadMs": 11.2,
+          "byType": {
+            "script": 20875,
+            "other": 38
+          },
+          "typedBytes": 20913
+        },
+        {
+          "entity": "shields.io",
+          "bytes": 7869,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 7869
+          },
+          "typedBytes": 7869
+        },
+        {
+          "entity": "Netlify",
+          "bytes": 1870,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 1870
+          },
+          "typedBytes": 1870
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 667.7,
+      "byGroup": {
+        "scriptEvaluation": 276.6,
+        "other": 178,
+        "styleLayout": 115.8,
+        "scriptParseCompile": 57.2,
+        "parseHTML": 29.1,
+        "paintCompositeRender": 11.1
+      },
+      "bootupMs": 263.7,
+      "longTasks": 2,
+      "longestTaskMs": 177
+    },
+    "dom": {
+      "elements": 173,
+      "depth": 11,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 102761,
+      "unusedCssBytes": 17928,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 903,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 55070.04999999999,
+      "poorlyCachedCount": 12
+    },
+    "accessibility": {
+      "failingCount": 6,
+      "applicableCount": 17,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "select-name",
+          "title": "Select elements do not have associated label elements.",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2554.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T19:50:46.133Z",
+      "runtimeMs": 6072.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.8,
+    "elementRenderDelay": 347.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "hexo",
+      "name": "Hexo",
+      "icon": "Hexo",
+      "version": "8.1.2",
+      "source": "meta",
+      "raw": "Hexo 8.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Hexo 8.1.2"
+      ],
+      "marks": [
+        "preact",
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8CPK4GXYZYES2C9WZ17MYF0"
+    },
+    "violations": 15,
+    "passes": 225,
+    "incomplete": 0,
+    "violationRules": 9,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#banner-start-link",
+            "snippet": "<a id=\"banner-start-link\" href=\"docs/\"><i class=\"fa fa-arrow-right\"></i></a>"
+          },
+          {
+            "selector": "a[href$=\"netlify.com/\"]",
+            "snippet": "<a href=\"https://www.netlify.com/\" rel=\"external nofollow noreferrer\" class=\"footer-link\" target=\"_blank\"><img src=\"https://www.netlify.com/img/global/badges/netlify-dark.svg\" style=\"margin-bottom:-1…"
+          },
+          {
+            "selector": ".footer-link[href$=\"hexojs\"][rel=\"external nofollow noreferrer\"]",
+            "snippet": "<a href=\"https://twitter.com/hexojs\" rel=\"external nofollow noreferrer\" class=\"footer-link\" target=\"_blank\"><i class=\"fab fa-x-twitter\"></i></a>"
+          },
+          {
+            "selector": ".footer-link[href$=\"hexo\"][rel=\"external nofollow noreferrer\"]",
+            "snippet": "<a href=\"https://github.com/hexojs/hexo\" rel=\"external nofollow noreferrer\" class=\"footer-link\" target=\"_blank\"><i class=\"fab fa-github-alt\"></i></a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#intro-news-list",
+            "snippet": "<div id=\"intro-news-list\">"
+          },
+          {
+            "selector": "#content-wrap",
+            "snippet": "<div id=\"content-wrap\">"
+          },
+          {
+            "selector": "#theme-wrap",
+            "snippet": "<div id=\"theme-wrap\">"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".theme-thumbnail-container > img",
+            "snippet": "<img src=\"/themes/screenshots/landscape.png\">"
+          },
+          {
+            "selector": "a[href$=\"netlify.com/\"] > img",
+            "snippet": "<img src=\"https://www.netlify.com/img/global/badges/netlify-dark.svg\" style=\"margin-bottom:-14px\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#intro-get-started-link",
+            "snippet": "<a href=\"docs/\" id=\"intro-get-started-link\">Get started</a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-banner",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one banner landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-banner?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#header",
+            "snippet": "<header id=\"header\" class=\"wrapper\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" data-theme=\"light\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#header",
+            "snippet": "<header id=\"header\" class=\"wrapper\">"
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#mobile-nav-list",
+            "snippet": "<ul id=\"mobile-nav-list\">"
+          }
+        ]
+      },
+      {
+        "id": "select-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Select element must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/select-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#mobile-lang-select",
+            "snippet": "<select id=\"mobile-lang-select\" data-canonical=\"\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6757758a2f0b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5375",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31530625",
+          "etag": "W/\"1f0bd23e6e53364c53994ae21febf6a6-ssl\""
+        }
+      },
+      {
+        "hash": "6757758a2f0b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5382",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31530618",
+          "etag": "W/\"1f0bd23e6e53364c53994ae21febf6a6-ssl\""
+        }
+      },
+      {
+        "hash": "6757758a2f0b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5389",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31530611",
+          "etag": "W/\"1f0bd23e6e53364c53994ae21febf6a6-ssl\""
+        }
+      },
+      {
+        "hash": "6757758a2f0b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5395",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31530605",
+          "etag": "W/\"1f0bd23e6e53364c53994ae21febf6a6-ssl\""
+        }
+      },
+      {
+        "hash": "6757758a2f0b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31530579",
+          "etag": "W/\"1f0bd23e6e53364c53994ae21febf6a6-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

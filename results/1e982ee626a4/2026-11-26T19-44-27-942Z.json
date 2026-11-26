@@ -1,0 +1,334 @@
+{
+  "url": "https://www.orsymphony.org/",
+  "name": "www.orsymphony.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795722267942,
+  "date": "2026-11-26T19:44:27.942Z",
+  "runId": "2026-11-26T19-43-07-257Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 37406,
+  "error": null,
+  "variance": {
+    "min": 48,
+    "max": 69,
+    "spread": 21,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.orsymphony.org/",
+    "finalUrl": "https://www.orsymphony.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 69,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 42
+    },
+    "timings": {
+      "fcp": 2626,
+      "lcp": 6379,
+      "si": 2626,
+      "tbt": 104,
+      "tti": 6506,
+      "cls": 0.126,
+      "ttfb": 604,
+      "maxPotentialFid": 186,
+      "serverResponseTime": 6,
+      "networkRtt": 17.4,
+      "networkServerLatency": 103.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 41.4,
+      "elementRenderDelay": 1968.8
+    },
+    "weight": {
+      "total": 30449828,
+      "requests": 48,
+      "mainDocument": 147814,
+      "byType": {
+        "total": {
+          "bytes": 30433060,
+          "requests": 45
+        },
+        "media": {
+          "bytes": 28958062,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 758611,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 279476,
+          "requests": 19
+        },
+        "font": {
+          "bytes": 218692,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 148635,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 66228,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 3356,
+          "requests": 2
+        },
+        "third-party": {
+          "bytes": 29875860,
+          "requests": 15
+        }
+      },
+      "scripts": 19,
+      "stylesheets": 8,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 29556979,
+      "mainThreadMs": 66.6,
+      "top": [
+        {
+          "entity": "graphassets.com",
+          "bytes": 29303878,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 663876,
+            "media": 28640002
+          },
+          "typedBytes": 29303878
+        },
+        {
+          "entity": "Cookiebot",
+          "bytes": 158366,
+          "mainThreadMs": 66.6,
+          "byType": {
+            "script": 157740,
+            "other": 626
+          },
+          "typedBytes": 158366
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 94735,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 94735
+          },
+          "typedBytes": 94735
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2619.8,
+      "byGroup": {
+        "other": 1073.1,
+        "scriptEvaluation": 850.2,
+        "styleLayout": 334.7,
+        "paintCompositeRender": 133.7,
+        "parseHTML": 124.7,
+        "scriptParseCompile": 77.2,
+        "garbageCollection": 26.2
+      },
+      "bootupMs": 818.5,
+      "longTasks": 5,
+      "longestTaskMs": 186
+    },
+    "dom": {
+      "elements": 1172,
+      "depth": 22,
+      "maxChildren": 28
+    },
+    "waste": {
+      "unusedJsBytes": 73238,
+      "unusedCssBytes": 64442,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1163,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 105728.77227083333,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 30,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2546.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T19:44:29.232Z",
+      "runtimeMs": 10805.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "via": "1.1 b5695e36d7fbc522ece27885d73757ae.cloudfront.net (CloudFront), 1.1 33b871000011afaf6969997fc8fcc060.cloudfront.net (C",
+      "x-amz-cf-id": "Ml-fbMk5C3klBFnskQTxYBBL80Br2zAHXQt_KFuOUNsMgmSWUuM8xA=="
+    },
+    "violations": 9,
+    "passes": 1052,
+    "incomplete": 10,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 6,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".swiper-slide-active",
+            "snippet": "<a class=\"carousel__card card swiper-slide u-link-reset swiper-slide-active\" href=\"/productions/2627/music-of-hans-zimmer/\" animate-up-child=\"\" data-dates=\"2026-11-29T03:30:00+00:00,2026-11-29T22:00:…"
+          },
+          {
+            "selector": ".swiper-slide-next",
+            "snippet": "<a class=\"carousel__card card swiper-slide u-link-reset swiper-slide-next\" href=\"/productions/2627/john-craigie-with-the-oregon-symphony/\" animate-up-child=\"\" data-dates=\"2026-12-03T03:30:00+00:00\" r…"
+          },
+          {
+            "selector": "a[aria-label=\"3 / 6\"]",
+            "snippet": "<a class=\"carousel__card card swiper-slide u-link-reset\" href=\"/productions/2627/gospel-christmas-2026/\" animate-up-child=\"\" data-dates=\"2026-12-06T03:30:00+00:00,2026-12-07T00:00:00+00:00\" role=\"gro…"
+          },
+          {
+            "selector": "a[data-dates=\"2026-12-10T03:30:00+00:00\"]",
+            "snippet": "<a class=\"carousel__card card swiper-slide u-link-reset\" href=\"/productions/2627/merry-achi-christmas-with-mariachi-sol-de-mexicor-de-jose-hernandez-2026/\" animate-up-child=\"\" data-dates=\"2026-12-10T…"
+          },
+          {
+            "selector": "a[aria-label=\"5 / 6\"]",
+            "snippet": "<a class=\"carousel__card card swiper-slide u-link-reset\" href=\"/productions/2627/holiday-pops-spectacular/\" animate-up-child=\"\" data-dates=\"2026-12-12T22:00:00+00:00,2026-12-13T03:30:00+00:00,2026-12…"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".banner__content",
+            "snippet": "<div class=\"banner__content\"> <div class=\"text\"><p><strong>Ticket Office Holiday Hours: </strong>November 25, 10AM-4PM; Closed November 26 for Thanksgiving; November 27 &amp; 28, 1-6PM</p></div> </di…"
+          },
+          {
+            "selector": ".skipnav",
+            "snippet": "<a href=\"#main\" class=\"skipnav\">skip to content</a>"
+          },
+          {
+            "selector": "#nav-menu-checkbox",
+            "snippet": "<input aria-controls=\"nav__menu\" aria-expanded=\"true\" class=\"nav-menu-checkbox is-visually-hidden\" id=\"nav-menu-checkbox\" type=\"checkbox\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d2b39c7f1797",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2793",
+          "last-modified": "Thu, 26 Nov 2026 18:57:29 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "d2b39c7f1797",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2804",
+          "last-modified": "Thu, 26 Nov 2026 18:57:29 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "d2b39c7f1797",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2815",
+          "last-modified": "Thu, 26 Nov 2026 18:57:29 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "d2b39c7f1797",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2824",
+          "last-modified": "Thu, 26 Nov 2026 18:57:29 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

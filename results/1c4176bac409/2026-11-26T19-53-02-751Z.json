@@ -1,0 +1,288 @@
+{
+  "url": "https://nuxt.com/",
+  "name": "Nuxt",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795722782751,
+  "date": "2026-11-26T19:53:02.751Z",
+  "runId": "2026-11-26T19-43-07-257Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 65572,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 99,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://nuxt.com/",
+    "finalUrl": "https://nuxt.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1330,
+      "lcp": 1330,
+      "si": 1610,
+      "tbt": 139,
+      "tti": 4096,
+      "cls": 0,
+      "ttfb": 610,
+      "maxPotentialFid": 238,
+      "serverResponseTime": 2,
+      "networkRtt": 0.3,
+      "networkServerLatency": 10.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 3.6,
+      "elementRenderDelay": 225.6
+    },
+    "weight": {
+      "total": 1045594,
+      "requests": 170,
+      "mainDocument": 55479,
+      "byType": {
+        "total": {
+          "bytes": 1045594,
+          "requests": 133
+        },
+        "script": {
+          "bytes": 542594,
+          "requests": 69
+        },
+        "other": {
+          "bytes": 266432,
+          "requests": 47
+        },
+        "font": {
+          "bytes": 81133,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 55479,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 54056,
+          "requests": 10
+        },
+        "stylesheet": {
+          "bytes": 45900,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 69,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 2915.8,
+      "byGroup": {
+        "other": 1212.3,
+        "scriptEvaluation": 912.2,
+        "styleLayout": 520.5,
+        "paintCompositeRender": 115.8,
+        "parseHTML": 89,
+        "garbageCollection": 39.8,
+        "scriptParseCompile": 26.2
+      },
+      "bootupMs": 778,
+      "longTasks": 5,
+      "longestTaskMs": 238
+    },
+    "dom": {
+      "elements": 1156,
+      "depth": 21,
+      "maxChildren": 24
+    },
+    "waste": {
+      "unusedJsBytes": 394191,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 18020,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 32,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 53
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2530,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T19:53:25.510Z",
+      "runtimeMs": 9971.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.8,
+    "elementRenderDelay": 1688.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "icon": "Nuxt",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "nuxt",
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.46"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-powered-by": "Nuxt",
+      "x-vercel-id": "sfo1::sin1::5cnck-1795722844574-63faaecc19d4"
+    },
+    "violations": 1,
+    "passes": 2159,
+    "incomplete": 69,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".bg-linear-to-b.from-muted.dark\\:from-muted\\/40:nth-child(7) > .py-16.sm\\:py-24.lg\\:py-32 > div[aria-roledescription=\"carousel\"][role=\"region\"][data-orientation=\"horizontal\"]",
+            "snippet": "<div role=\"region\" aria-roledescription=\"carousel\" data-orientation=\"horizontal\" tabindex=\"0\" data-slot=\"root\" class=\"relative focus:outline-none min-w-0\" data-v-82c31a87=\"\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "dca680c77f75",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "181",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "dca680c77f75",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "192",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "dca680c77f75",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "203",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "dca680c77f75",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "213",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "dca680c77f75",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "242",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
