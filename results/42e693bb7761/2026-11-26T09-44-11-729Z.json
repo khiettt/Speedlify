@@ -1,0 +1,366 @@
+{
+  "url": "https://gallery.contentful.com/",
+  "name": "gallery.contentful.com",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795686251729,
+  "date": "2026-11-26T09:44:11.729Z",
+  "runId": "2026-11-26T09-39-40-601Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21434,
+  "error": null,
+  "variance": {
+    "min": 86,
+    "max": 99,
+    "spread": 13,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gallery.contentful.com/",
+    "finalUrl": "https://gallery.contentful.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 89,
+      "accessibility": 90,
+      "best-practices": 92,
+      "seo": 91,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1670,
+      "lcp": 3721,
+      "si": 1670,
+      "tbt": 24,
+      "tti": 3804,
+      "cls": 0.024,
+      "ttfb": 606,
+      "maxPotentialFid": 97,
+      "serverResponseTime": 6,
+      "networkRtt": 0.1,
+      "networkServerLatency": 18
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 7.6,
+      "resourceLoadDelay": 8,
+      "resourceLoadDuration": 12.5,
+      "elementRenderDelay": 23.5
+    },
+    "weight": {
+      "total": 444204,
+      "requests": 8,
+      "mainDocument": 1345,
+      "byType": {
+        "total": {
+          "bytes": 438730,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 359041,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 58115,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 20229,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 1345,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 438730,
+          "requests": 7
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 437090,
+      "mainThreadMs": 28.2,
+      "top": [
+        {
+          "entity": "FontAwesome CDN",
+          "bytes": 359041,
+          "mainThreadMs": 26.4,
+          "byType": {
+            "script": 359041
+          },
+          "typedBytes": 359041
+        },
+        {
+          "entity": "ctfassets.net",
+          "bytes": 58115,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 58115
+          },
+          "typedBytes": 58115
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 19934,
+          "mainThreadMs": 1.8,
+          "byType": {
+            "stylesheet": 19934
+          },
+          "typedBytes": 19934
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 225.6,
+      "byGroup": {
+        "scriptParseCompile": 79.9,
+        "other": 70.9,
+        "scriptEvaluation": 34.3,
+        "styleLayout": 24.8,
+        "parseHTML": 11.7,
+        "paintCompositeRender": 4
+      },
+      "bootupMs": 109.4,
+      "longTasks": 1,
+      "longestTaskMs": 97
+    },
+    "dom": {
+      "elements": 43,
+      "depth": 11,
+      "maxChildren": 4
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 19121,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 914,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 270.41666666666663,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 4
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2465.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:44:26.811Z",
+      "runtimeMs": 5749.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "74debb762f14d52d01ceb534addb3bdbe229896b",
+      "x-github-request-id": "A86C:223A13:166C:20F8:6B07EA41",
+      "x-served-by": "cache-bfi-krnt7300027-BFI"
+    },
+    "violations": 5,
+    "passes": 88,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".navbar-end > .navbar-item:nth-child(1)",
+            "snippet": "<a class=\"navbar-item\" href=\"https://github.com/contentful/11ty-contentful-gallery/\">"
+          },
+          {
+            "selector": "a[href=\"/\"]",
+            "snippet": "<a href=\"/\" class=\"navbar-item\">"
+          },
+          {
+            "selector": "p:nth-child(1) > a",
+            "snippet": "<a href=\"https://github.com/contentful/11ty-contentful-gallery/\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p:nth-child(2) > a",
+            "snippet": "<a href=\"https://www.contentful.com/developers/\">Contentful developer portal</a>"
+          },
+          {
+            "selector": "p:nth-child(3) > a",
+            "snippet": "<a href=\"https://www.contentful.com/events/\">Attend our future events</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e5526878bdfa",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"60a52f5f-c42\"",
+          "last-modified": "Wed, 19 May 2021 15:31:43 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "e5526878bdfa",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "etag": "W/\"60a52f5f-c42\"",
+          "last-modified": "Wed, 19 May 2021 15:31:43 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "e5526878bdfa",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "etag": "W/\"60a52f5f-c42\"",
+          "last-modified": "Wed, 19 May 2021 15:31:43 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "e5526878bdfa",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "etag": "W/\"60a52f5f-c42\"",
+          "last-modified": "Wed, 19 May 2021 15:31:43 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

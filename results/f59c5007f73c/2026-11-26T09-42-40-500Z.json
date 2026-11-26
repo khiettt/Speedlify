@@ -1,0 +1,276 @@
+{
+  "url": "https://www.beccishep.com/",
+  "name": "www.beccishep.co.uk",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795686160500,
+  "date": "2026-11-26T09:42:40.500Z",
+  "runId": "2026-11-26T09-39-40-601Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 32650,
+  "error": null,
+  "variance": {
+    "min": 81,
+    "max": 83,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.beccishep.com/",
+    "finalUrl": "https://www.beccishep.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 83,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1551,
+      "lcp": 4665,
+      "si": 1551,
+      "tbt": 0,
+      "tti": 4665,
+      "cls": 0,
+      "ttfb": 465,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 13,
+      "networkRtt": 0.1,
+      "networkServerLatency": 14.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 14.6,
+      "resourceLoadDelay": 9.5,
+      "resourceLoadDuration": 25.7,
+      "elementRenderDelay": 38.1
+    },
+    "weight": {
+      "total": 1659539,
+      "requests": 18,
+      "mainDocument": 9159,
+      "byType": {
+        "total": {
+          "bytes": 1659539,
+          "requests": 18
+        },
+        "image": {
+          "bytes": 1550152,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 52004,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 33809,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 9159,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 8981,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 5434,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10351,
+          "requests": 1
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10351,
+      "mainThreadMs": 7.1,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 7.1,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 305,
+      "byGroup": {
+        "other": 149.8,
+        "scriptEvaluation": 74.5,
+        "parseHTML": 35.7,
+        "styleLayout": 35.2,
+        "paintCompositeRender": 8.5,
+        "scriptParseCompile": 1.3
+      },
+      "bootupMs": 20.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 125,
+      "depth": 9,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 1554616.7100092592,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 23,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2501,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:43:01.806Z",
+      "runtimeMs": 11116.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a607f268db51f3dd-SEA",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 184,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0bc0133780de",
+        "nonce": null,
+        "stamp": {
+          "plugin": "WP Fastest Cache",
+          "at": "created in 0.16342997550964 seconds"
+        },
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 20 Aug 2026 22:27:21 GMT"
+        }
+      },
+      {
+        "hash": "0bc0133780de",
+        "nonce": null,
+        "stamp": {
+          "plugin": "WP Fastest Cache",
+          "at": "created in 0.16342997550964 seconds"
+        },
+        "marks": [],
+        "headers": {
+          "age": "4163",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 20 Aug 2026 22:27:21 GMT"
+        }
+      },
+      {
+        "hash": "0bc0133780de",
+        "nonce": null,
+        "stamp": {
+          "plugin": "WP Fastest Cache",
+          "at": "created in 0.16342997550964 seconds"
+        },
+        "marks": [],
+        "headers": {
+          "age": "4171",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 20 Aug 2026 22:27:21 GMT"
+        }
+      },
+      {
+        "hash": "0bc0133780de",
+        "nonce": null,
+        "stamp": {
+          "plugin": "WP Fastest Cache",
+          "at": "created in 0.16342997550964 seconds"
+        },
+        "marks": [],
+        "headers": {
+          "age": "4175",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 20 Aug 2026 22:27:21 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

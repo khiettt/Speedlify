@@ -1,0 +1,331 @@
+{
+  "url": "https://www.freecodecamp.org/news",
+  "name": "www.freecodecamp.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795686005888,
+  "date": "2026-11-26T09:40:05.888Z",
+  "runId": "2026-11-26T09-39-40-601Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 35176,
+  "error": null,
+  "variance": {
+    "min": 70,
+    "max": 72,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.freecodecamp.org/news",
+    "finalUrl": "https://www.freecodecamp.org/news",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 72,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1534,
+      "lcp": 7230,
+      "si": 1534,
+      "tbt": 212,
+      "tti": 9358,
+      "cls": 0.001,
+      "ttfb": 466,
+      "maxPotentialFid": 216,
+      "serverResponseTime": 126,
+      "networkRtt": 0.1,
+      "networkServerLatency": 234
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 127.3,
+      "resourceLoadDelay": 12.4,
+      "resourceLoadDuration": 41.3,
+      "elementRenderDelay": 88.1
+    },
+    "weight": {
+      "total": 10817677,
+      "requests": 58,
+      "mainDocument": 14144,
+      "byType": {
+        "total": {
+          "bytes": 10814182,
+          "requests": 57
+        },
+        "image": {
+          "bytes": 10058438,
+          "requests": 29
+        },
+        "script": {
+          "bytes": 552437,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 142102,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 32042,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 15019,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 14144,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10713368,
+          "requests": 38
+        }
+      },
+      "scripts": 12,
+      "stylesheets": 8,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 8,
+      "bytes": 10713368,
+      "mainThreadMs": 165.6,
+      "top": [
+        {
+          "entity": "hashnode.com",
+          "bytes": 9577416,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 9577416
+          },
+          "typedBytes": 9577416
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 487442,
+          "mainThreadMs": 143.9,
+          "byType": {
+            "script": 487442
+          },
+          "typedBytes": 487442
+        },
+        {
+          "entity": "GitHub",
+          "bytes": 287208,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 287208
+          },
+          "typedBytes": 287208
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 172664,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 172664
+          },
+          "typedBytes": 172664
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 128134,
+          "mainThreadMs": 2,
+          "byType": {
+            "stylesheet": 14234,
+            "font": 113900
+          },
+          "typedBytes": 128134
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1614.1,
+      "byGroup": {
+        "scriptEvaluation": 694.6,
+        "other": 467.2,
+        "styleLayout": 202.2,
+        "scriptParseCompile": 131.6,
+        "parseHTML": 62.8,
+        "paintCompositeRender": 55.7
+      },
+      "bootupMs": 755.4,
+      "longTasks": 5,
+      "longestTaskMs": 216
+    },
+    "dom": {
+      "elements": 643,
+      "depth": 14,
+      "maxChildren": 30
+    },
+    "waste": {
+      "unusedJsBytes": 220036,
+      "unusedCssBytes": 12589,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 918,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 8850339.066666666,
+      "poorlyCachedCount": 30
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2453.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T09:40:29.173Z",
+      "runtimeMs": 10003.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {
+        "fontawesome": "7.0.1"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a607eecae9ecde85-SEA",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 1378,
+    "incomplete": 1,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#banner",
+            "snippet": "<a class=\"banner\" id=\"banner\" data-test-label=\"banner\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.freecodecamp.org/\" text-variation=\"default\"> <p id=\"banner-text\">Learn Software Engi…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d7a64def5b82",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "d7a64def5b82",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "d7a64def5b82",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "d7a64def5b82",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
