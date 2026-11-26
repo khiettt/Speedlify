@@ -1,0 +1,381 @@
+{
+  "url": "https://www.vigorteq.com/",
+  "name": "www.vigorteq.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795722220146,
+  "date": "2026-11-26T19:43:40.146Z",
+  "runId": "2026-11-26T19-43-00-903Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23825,
+  "error": null,
+  "variance": {
+    "min": 62,
+    "max": 73,
+    "spread": 11,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.vigorteq.com/",
+    "finalUrl": "https://www.vigorteq.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 73,
+      "accessibility": 91,
+      "best-practices": 54,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2553,
+      "lcp": 6238,
+      "si": 2553,
+      "tbt": 97,
+      "tti": 6888,
+      "cls": 0.002,
+      "ttfb": 603,
+      "maxPotentialFid": 88,
+      "serverResponseTime": 3,
+      "networkRtt": 0.2,
+      "networkServerLatency": 154.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.8,
+      "elementRenderDelay": 168
+    },
+    "weight": {
+      "total": 1007835,
+      "requests": 47,
+      "mainDocument": 8922,
+      "byType": {
+        "total": {
+          "bytes": 1006418,
+          "requests": 46
+        },
+        "script": {
+          "bytes": 499703,
+          "requests": 21
+        },
+        "font": {
+          "bytes": 297425,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 152749,
+          "requests": 13
+        },
+        "image": {
+          "bytes": 43480,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 11798,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 1263,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 348329,
+          "requests": 7
+        }
+      },
+      "scripts": 21,
+      "stylesheets": 13,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 345453,
+      "mainThreadMs": 77.6,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 181483,
+          "mainThreadMs": 40.9,
+          "byType": {
+            "script": 181483
+          },
+          "typedBytes": 181483
+        },
+        {
+          "entity": "Yandex Metrica",
+          "bytes": 71936,
+          "mainThreadMs": 19.7,
+          "byType": {
+            "script": 70673,
+            "other": 1263
+          },
+          "typedBytes": 71936
+        },
+        {
+          "entity": "Netlify",
+          "bytes": 55032,
+          "mainThreadMs": 16.7,
+          "byType": {
+            "script": 55032
+          },
+          "typedBytes": 55032
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 37002,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1462,
+            "font": 35540
+          },
+          "typedBytes": 37002
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1045.7,
+      "byGroup": {
+        "scriptEvaluation": 425.7,
+        "other": 258.5,
+        "styleLayout": 150.5,
+        "scriptParseCompile": 101.8,
+        "parseHTML": 75.7,
+        "garbageCollection": 17.1,
+        "paintCompositeRender": 16.4
+      },
+      "bootupMs": 398.9,
+      "longTasks": 4,
+      "longestTaskMs": 88
+    },
+    "dom": {
+      "elements": 467,
+      "depth": 16,
+      "maxChildren": 26
+    },
+    "waste": {
+      "unusedJsBytes": 180948,
+      "unusedCssBytes": 153064,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 21080,
+      "unminifiedCssBytes": 25367,
+      "renderBlockingMs": 3924,
+      "renderBlockingCount": 15,
+      "poorlyCachedBytes": 56538.4,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 15
+        },
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3447,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T19:43:49.730Z",
+      "runtimeMs": 6741.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8CP5TA7CNXGEEMF2XRSGZK4"
+    },
+    "violations": 6,
+    "passes": 264,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-4-5",
+            "snippet": "<h2 class=\"font-weight-bold text-color-grey text-4-5 line-height-2 line-height-sm-7 mb-0 appear-animation animated appear-animation-visible\" data-appear-animation=\"maskUp\" data-appear-animation-delay…"
+          },
+          {
+            "selector": ".col-lg-3 > .feature-box.feature-box-style-2.float-lg-end > .feature-box-info.ps-1 > h5",
+            "snippet": "<h5 class=\"mb-0 opacity-7 font-weight-light\">Address</h5>"
+          },
+          {
+            "selector": ".col-lg-2.col-md-6 > .feature-box.feature-box-style-2.float-lg-end > .feature-box-info.ps-1 > h5",
+            "snippet": "<h5 class=\"mb-0 opacity-7 font-weight-light\">Call Us</h5>"
+          },
+          {
+            "selector": ".col-lg-5 > .feature-box.feature-box-style-2.float-lg-end > .feature-box-info.ps-1 > h5",
+            "snippet": "<h5 class=\"mb-0 opacity-7 font-weight-light\">Follow Us</h5>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".col-lg-7 > .text-6",
+            "snippet": "<h4 class=\"text-color-dark font-weight-normal line-height-3 text-6\">Company in <strong class=\"font-weight-extra-bold\">Numbers</strong></h4>"
+          },
+          {
+            "selector": ".col-lg-3 > .feature-box.feature-box-style-2.float-lg-end > .feature-box-info.ps-1 > h5",
+            "snippet": "<h5 class=\"mb-0 opacity-7 font-weight-light\">Address</h5>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0351357f0f41",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"0405a56fe91d16dc04ab17706477587a-ssl\""
+        }
+      },
+      {
+        "hash": "0351357f0f41",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"0405a56fe91d16dc04ab17706477587a-ssl\""
+        }
+      },
+      {
+        "hash": "0351357f0f41",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"0405a56fe91d16dc04ab17706477587a-ssl\""
+        }
+      },
+      {
+        "hash": "0351357f0f41",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"0405a56fe91d16dc04ab17706477587a-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

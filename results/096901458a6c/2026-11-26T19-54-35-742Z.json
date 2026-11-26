@@ -1,0 +1,269 @@
+{
+  "url": "https://landandsea.ch/",
+  "name": "going.bg",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795722875742,
+  "date": "2026-11-26T19:54:35.742Z",
+  "runId": "2026-11-26T19-43-00-903Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 140167,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://landandsea.ch/",
+    "finalUrl": "https://landandsea.ch/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 819,
+      "lcp": 819,
+      "si": 819,
+      "tbt": 0,
+      "tti": 819,
+      "cls": 0,
+      "ttfb": 625,
+      "maxPotentialFid": 27,
+      "serverResponseTime": 59,
+      "networkRtt": 0,
+      "networkServerLatency": 25.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 60.9,
+      "elementRenderDelay": 46.1
+    },
+    "weight": {
+      "total": 159906,
+      "requests": 9,
+      "mainDocument": 7508,
+      "byType": {
+        "total": {
+          "bytes": 159906,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 90838,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 56746,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 7508,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4814,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 353,
+      "byGroup": {
+        "other": 143.1,
+        "scriptEvaluation": 98.8,
+        "styleLayout": 58.9,
+        "scriptParseCompile": 27.7,
+        "paintCompositeRender": 14.3,
+        "parseHTML": 10.2
+      },
+      "bootupMs": 55.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 58,
+      "depth": 11,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 65958,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 8548,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 100357.12000000001,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 11,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3478.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T19:54:43.554Z",
+      "runtimeMs": 6051.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a60b729bfc394163-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 76,
+    "incomplete": 6,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".grow",
+            "snippet": "<section class=\"grow flex py-6\">"
+          },
+          {
+            "selector": ".-z-10",
+            "snippet": "<div class=\"-z-10 fixed top-0 bottom-0 min-h-screen min-w-full aspect-[4/3] opacity-20\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0ce77a27eaa8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0ce77a27eaa8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0ce77a27eaa8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0ce77a27eaa8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

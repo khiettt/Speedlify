@@ -1,0 +1,302 @@
+{
+  "url": "https://www.wildhair.fr/",
+  "name": "www.wildhair.fr",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795722246972,
+  "date": "2026-11-26T19:44:06.972Z",
+  "runId": "2026-11-26T19-43-00-903Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22310,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.wildhair.fr/",
+    "finalUrl": "https://www.wildhair.fr/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1550,
+      "lcp": 1550,
+      "si": 1550,
+      "tbt": 0,
+      "tti": 1550,
+      "cls": 0,
+      "ttfb": 617,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 115,
+      "networkRtt": 0,
+      "networkServerLatency": 19.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 116.1,
+      "resourceLoadDelay": 8.7,
+      "resourceLoadDuration": 20.6,
+      "elementRenderDelay": 21.5
+    },
+    "weight": {
+      "total": 85021,
+      "requests": 9,
+      "mainDocument": 2442,
+      "byType": {
+        "total": {
+          "bytes": 85021,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 46461,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 14136,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 10352,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 10232,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2442,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1398,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10352,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10352,
+      "mainThreadMs": 5.3,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 5.3,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 156.5,
+      "byGroup": {
+        "other": 86,
+        "scriptEvaluation": 32.4,
+        "styleLayout": 24.7,
+        "paintCompositeRender": 6.5,
+        "parseHTML": 6.2,
+        "scriptParseCompile": 0.7
+      },
+      "bootupMs": 4.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 63,
+      "depth": 9,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2614,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4140.8,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3459.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T19:44:23.124Z",
+      "runtimeMs": 6100.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a60b634318c6eb77-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 140,
+    "incomplete": 5,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"/\"]",
+            "snippet": "<a class=\"btn btn-ghost text-xl stardos-stencil-bold\" href=\"/\" aria-label=\"Accueil\">Wild Hair</a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "header > nav",
+            "snippet": "<nav>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "df5e2b8bf894",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 14:59:20 GMT"
+        }
+      },
+      {
+        "hash": "df5e2b8bf894",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 14:59:20 GMT"
+        }
+      },
+      {
+        "hash": "df5e2b8bf894",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 14:59:20 GMT"
+        }
+      },
+      {
+        "hash": "df5e2b8bf894",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 14:59:20 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
