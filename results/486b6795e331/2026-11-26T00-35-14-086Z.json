@@ -1,0 +1,279 @@
+{
+  "url": "https://www.gifgun.io/",
+  "name": "www.gifgun.io",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653314086,
+  "date": "2026-11-26T00:35:14.086Z",
+  "runId": "2026-11-26T00-30-29-159Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 42021,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.gifgun.io/",
+    "finalUrl": "https://www.gifgun.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1017,
+      "lcp": 1017,
+      "si": 1556,
+      "tbt": 1,
+      "tti": 2698,
+      "cls": 0,
+      "ttfb": 617,
+      "maxPotentialFid": 51,
+      "serverResponseTime": 18,
+      "networkRtt": 8.4,
+      "networkServerLatency": 71.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 113.2,
+      "elementRenderDelay": 155.2
+    },
+    "weight": {
+      "total": 7989379,
+      "requests": 23,
+      "mainDocument": 15429,
+      "byType": {
+        "total": {
+          "bytes": 7987273,
+          "requests": 22
+        },
+        "media": {
+          "bytes": 6889386,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 993855,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 55820,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 15660,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 15429,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 10033,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 7090,
+          "requests": 5
+        },
+        "third-party": {
+          "bytes": 7674796,
+          "requests": 2
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 8060362,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "gifgun.online",
+          "bytes": 8060362,
+          "mainThreadMs": 0,
+          "byType": {
+            "media": 7274952,
+            "image": 785410
+          },
+          "typedBytes": 8060362
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 822.1,
+      "byGroup": {
+        "other": 395.9,
+        "styleLayout": 212.9,
+        "scriptEvaluation": 127.7,
+        "paintCompositeRender": 48.3,
+        "parseHTML": 25.6,
+        "scriptParseCompile": 11.6
+      },
+      "bootupMs": 118.9,
+      "longTasks": 2,
+      "longestTaskMs": 88
+    },
+    "dom": {
+      "elements": 635,
+      "depth": 12,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2932,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 161699.61173184356,
+      "poorlyCachedCount": 8
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 34,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2584.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:35:15.306Z",
+      "runtimeMs": 8733.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::x9z6z-1795653339577-99166b9bbe14"
+    },
+    "violations": 0,
+    "passes": 827,
+    "incomplete": 17,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "56e03853b766",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "258830",
+          "etag": "W/\"628ac11be87e766f9d5a1af79fa34a24\"",
+          "last-modified": "Mon, 23 Nov 2026 00:41:25 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "56e03853b766",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "258839",
+          "etag": "W/\"628ac11be87e766f9d5a1af79fa34a24\"",
+          "last-modified": "Mon, 23 Nov 2026 00:41:25 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "56e03853b766",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "258847",
+          "etag": "W/\"628ac11be87e766f9d5a1af79fa34a24\"",
+          "last-modified": "Mon, 23 Nov 2026 00:41:25 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "56e03853b766",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"628ac11be87e766f9d5a1af79fa34a24\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

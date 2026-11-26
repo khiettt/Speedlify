@@ -1,0 +1,342 @@
+{
+  "url": "https://www.corfuliteraryfestival.com/",
+  "name": "www.corfuliteraryfestival.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653146491,
+  "date": "2026-11-26T00:32:26.491Z",
+  "runId": "2026-11-26T00-30-29-159Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21199,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.corfuliteraryfestival.com/",
+    "finalUrl": "https://www.corfuliteraryfestival.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1774,
+      "lcp": 2166,
+      "si": 1774,
+      "tbt": 0,
+      "tti": 2166,
+      "cls": 0,
+      "ttfb": 516,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 63,
+      "networkRtt": 0.1,
+      "networkServerLatency": 66.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 64.5,
+      "resourceLoadDelay": 9.5,
+      "resourceLoadDuration": 39.7,
+      "elementRenderDelay": 70.7
+    },
+    "weight": {
+      "total": 141835,
+      "requests": 11,
+      "mainDocument": 20443,
+      "byType": {
+        "total": {
+          "bytes": 139685,
+          "requests": 10
+        },
+        "font": {
+          "bytes": 73548,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 30834,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 20443,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 13625,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 1235,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 13625,
+          "requests": 2
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 13625,
+      "mainThreadMs": 7.8,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 6.8,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "Plausible",
+          "bytes": 3274,
+          "mainThreadMs": 1,
+          "byType": {
+            "script": 3274
+          },
+          "typedBytes": 3274
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 205.6,
+      "byGroup": {
+        "other": 89.2,
+        "styleLayout": 54,
+        "scriptEvaluation": 41.3,
+        "parseHTML": 14.2,
+        "paintCompositeRender": 5,
+        "scriptParseCompile": 1.9
+      },
+      "bootupMs": 17.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 218,
+      "depth": 8,
+      "maxChildren": 49
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 7387.116666666667,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 8
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2643.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:32:34.667Z",
+      "runtimeMs": 6337.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a604cc422a59a1b9-MSP",
+      "server": "cloudflare"
+    },
+    "violations": 10,
+    "passes": 152,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[aria-current=\"page\"]",
+            "snippet": "<a href=\"/\" aria-current=\"page\">Home</a>"
+          },
+          {
+            "selector": "li:nth-child(2) > a[href$=\"programme/\"]",
+            "snippet": "<a href=\"/programme/\">Programme</a>"
+          },
+          {
+            "selector": "a[href$=\"sponsors/\"]",
+            "snippet": "<a href=\"/sponsors/\">Sponsors</a>"
+          },
+          {
+            "selector": "a[href$=\"book-tickets/\"]",
+            "snippet": "<a href=\"/book-tickets/\">Tickets</a>"
+          },
+          {
+            "selector": "a[href$=\"about-us/\"]",
+            "snippet": "<a href=\"/about-us/\">About us</a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".site-nav",
+            "snippet": "<nav class=\"site-nav\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1>21st – 27th September 2026</h1>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a56d7c4fdd94",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a56d7c4fdd94",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a56d7c4fdd94",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a56d7c4fdd94",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

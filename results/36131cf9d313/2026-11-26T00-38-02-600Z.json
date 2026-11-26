@@ -1,0 +1,430 @@
+{
+  "url": "https://www.hairscalpcenter.com/en",
+  "name": "www.hairscalpcenter.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653482600,
+  "date": "2026-11-26T00:38:02.600Z",
+  "runId": "2026-11-26T00-30-29-159Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 32481,
+  "error": null,
+  "variance": {
+    "min": 55,
+    "max": 81,
+    "spread": 26,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.hairscalpcenter.com/en",
+    "finalUrl": "https://www.hairscalpcenter.com/en/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 66,
+      "accessibility": 86,
+      "best-practices": 73,
+      "seo": 83,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1211,
+      "lcp": 5684,
+      "si": 2034,
+      "tbt": 515,
+      "tti": 8644,
+      "cls": 0.048,
+      "ttfb": 627,
+      "maxPotentialFid": 286,
+      "serverResponseTime": 26,
+      "networkRtt": 5.7,
+      "networkServerLatency": 44.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 80.1,
+      "resourceLoadDelay": 28.9,
+      "resourceLoadDuration": 80,
+      "elementRenderDelay": 56.6
+    },
+    "weight": {
+      "total": 1455752,
+      "requests": 44,
+      "mainDocument": 46819,
+      "byType": {
+        "total": {
+          "bytes": 1428612,
+          "requests": 32
+        },
+        "script": {
+          "bytes": 698381,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 527177,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 136751,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 46819,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 11679,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 7805,
+          "requests": 7
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 665440,
+          "requests": 11
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 1,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 665502,
+      "mainThreadMs": 255.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 509207,
+          "mainThreadMs": 193.3,
+          "byType": {
+            "script": 509207
+          },
+          "typedBytes": 509207
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 153035,
+          "mainThreadMs": 61.2,
+          "byType": {
+            "script": 153018,
+            "image": 17
+          },
+          "typedBytes": 153035
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 3134,
+          "mainThreadMs": 1,
+          "byType": {
+            "script": 3134
+          },
+          "typedBytes": 3134
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 126,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 64,
+            "other": 62
+          },
+          "typedBytes": 126
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2148.4,
+      "byGroup": {
+        "scriptEvaluation": 1108.1,
+        "other": 420.5,
+        "styleLayout": 246.3,
+        "scriptParseCompile": 210,
+        "paintCompositeRender": 71.6,
+        "parseHTML": 49.1,
+        "garbageCollection": 42.8
+      },
+      "bootupMs": 1309.9,
+      "longTasks": 8,
+      "longestTaskMs": 286
+    },
+    "dom": {
+      "elements": 1799,
+      "depth": 22,
+      "maxChildren": 18
+    },
+    "waste": {
+      "unusedJsBytes": 291041,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 22311,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 135182.9,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 25,
+      "failingNodes": 18,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 11
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 5
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 776.7,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2569,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:38:24.944Z",
+      "runtimeMs": 8922.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome",
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.14.9"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8AMM3ZE588T59MSBVAACBMG"
+    },
+    "violations": 20,
+    "passes": 1325,
+    "incomplete": 61,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 11,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p:nth-child(1) > a[href$=\"scalp-micropigmentation/\"]",
+            "snippet": "<a class=\"text-primary hover:underline\" href=\"/en/scalp-micropigmentation/\">Scalp Micro Pigmentation (SMP)</a>"
+          },
+          {
+            "selector": ".hover\\:underline.text-primary:nth-child(3)",
+            "snippet": "<a class=\"text-primary hover:underline\" href=\"/en/scalp-micropigmentation/treatments/smp-for-men/\">men</a>"
+          },
+          {
+            "selector": ".hover\\:underline.text-primary:nth-child(4)",
+            "snippet": "<a class=\"text-primary hover:underline\" href=\"/en/scalp-micropigmentation/treatments/smp-for-women/\">women</a>"
+          },
+          {
+            "selector": ".hover\\:underline.text-primary:nth-child(5)",
+            "snippet": "<a class=\"text-primary hover:underline\" href=\"/en/scalp-micropigmentation/treatments//smp-for-scar-camouflage/\">scars</a>"
+          },
+          {
+            "selector": "p:nth-child(2) > .hover\\:underline.text-primary[href$=\"about-us/\"]",
+            "snippet": "<a class=\"text-primary hover:underline\" href=\"/en/about-us/\">certified</a>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".hover\\:.text-gray-300:nth-child(1)",
+            "snippet": "<a href=\"https://facebook.com/hairscalpcenter\" class=\"text-gray-300 hover:\">"
+          },
+          {
+            "selector": ".hover\\:.text-gray-300:nth-child(2)",
+            "snippet": "<a href=\"https://instagram.com/hairscalpcenterbkk\" class=\"text-gray-300 hover:\">"
+          },
+          {
+            "selector": ".hover\\:.text-gray-300:nth-child(3)",
+            "snippet": "<a href=\"https://www.youtube.com/c/hairscalpcenter\" class=\"text-gray-300 hover:\">"
+          },
+          {
+            "selector": ".hover\\:.text-gray-300[href$=\"qw05emN\"]",
+            "snippet": "<a href=\"https://lin.ee/qw05emN\" class=\"text-gray-300 hover:\">"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 3,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".p-2",
+            "snippet": "<button type=\"button\" class=\"bg-white rounded-md ...\" aria-expanded=\"false\" :aria-expanded=\"mobileMenuOpen.toStr...\" @click=\"mobileMenuOpen = !mo...\">"
+          },
+          {
+            "selector": ".xl\\:hidden.justify-end.items-center > .relative:nth-child(1) > .-my-1.focus\\:ring-offset-gray-100[\\@click=\"newsPanelOpen = !newsPanelOpen\"]",
+            "snippet": "<button class=\"-my-1 w-8 h-8 rounded-lg flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-primary\" @click=\"newsPanelOpen = !ne…"
+          },
+          {
+            "selector": ".border-transparent[\\@click=\"chatPanelOpen = true\"]",
+            "snippet": "<button class=\"border border-transparent focus:outline-none\" @click=\"chatPanelOpen = true\">"
+          }
+        ]
+      },
+      {
+        "id": "image-redundant-alt",
+        "impact": "minor",
+        "nodes": 2,
+        "help": "Alternative text of images should not be repeated as text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".xl\\:grow-0.xl\\:justify-start[href$=\"en/\"] > .w-auto.sm\\:h-10[alt=\"Hair Scalp Center\"]",
+            "snippet": "<img class=\"h-8 w-auto sm:h-10\" src=\"data:image/svg+xml,%...\" alt=\"Hair Scalp Center\">"
+          },
+          {
+            "selector": "a[href=\"/en\"] > .w-auto.sm\\:h-10[alt=\"Hair Scalp Center\"]",
+            "snippet": "<img class=\"h-8 w-auto sm:h-10 m...\" src=\"data:image/svg+xml,%...\" alt=\"Hair Scalp Center\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "764ea2b09bc2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"b64a0b07e8d181763d584264b98ef36f-ssl\""
+        }
+      },
+      {
+        "hash": "764ea2b09bc2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535989",
+          "etag": "W/\"b64a0b07e8d181763d584264b98ef36f-ssl\""
+        }
+      },
+      {
+        "hash": "764ea2b09bc2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"b64a0b07e8d181763d584264b98ef36f-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

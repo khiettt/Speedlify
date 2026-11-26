@@ -1,0 +1,268 @@
+{
+  "url": "https://www.kogakure.de/",
+  "name": "www.kogakure.de",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653786081,
+  "date": "2026-11-26T00:43:06.081Z",
+  "runId": "2026-11-26T00-30-29-159Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 41108,
+  "error": null,
+  "variance": {
+    "min": 90,
+    "max": 97,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.kogakure.de/",
+    "finalUrl": "https://www.kogakure.de/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1273,
+      "lcp": 1273,
+      "si": 4309,
+      "tbt": 48,
+      "tti": 1423,
+      "cls": 0,
+      "ttfb": 725,
+      "maxPotentialFid": 98,
+      "serverResponseTime": 123,
+      "networkRtt": 0,
+      "networkServerLatency": 125.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 124.8,
+      "elementRenderDelay": 2190.4
+    },
+    "weight": {
+      "total": 1823182,
+      "requests": 47,
+      "mainDocument": 25730,
+      "byType": {
+        "total": {
+          "bytes": 1823182,
+          "requests": 45
+        },
+        "image": {
+          "bytes": 1581312,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 181099,
+          "requests": 15
+        },
+        "document": {
+          "bytes": 25730,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 17154,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 10438,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 7449,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2996,
+          "requests": 3
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 2,
+      "fonts": 15
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 2996,
+      "mainThreadMs": 1.5,
+      "top": [
+        {
+          "entity": "kogakure.cloud",
+          "bytes": 2996,
+          "mainThreadMs": 1.5,
+          "byType": {
+            "script": 2298,
+            "other": 698
+          },
+          "typedBytes": 2996
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 964.6,
+      "byGroup": {
+        "other": 522,
+        "styleLayout": 323.1,
+        "paintCompositeRender": 43.4,
+        "scriptEvaluation": 36.8,
+        "parseHTML": 33,
+        "scriptParseCompile": 6.4
+      },
+      "bootupMs": 34.9,
+      "longTasks": 1,
+      "longestTaskMs": 98
+    },
+    "dom": {
+      "elements": 675,
+      "depth": 9,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 1581312,
+      "poorlyCachedCount": 16
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 26,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 54
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2618,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:43:35.035Z",
+      "runtimeMs": 11334.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx/1.29.8"
+    },
+    "violations": 0,
+    "passes": 1245,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "34e5e6e597e9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af5da65-1a6a4\"",
+          "last-modified": "Thu, 12 Nov 2026 15:25:25 GMT"
+        }
+      },
+      {
+        "hash": "4ba2e86afea4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af5da65-1ad13\"",
+          "last-modified": "Thu, 12 Nov 2026 15:25:25 GMT"
+        }
+      },
+      {
+        "hash": "4ba2e86afea4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af5da65-1ad13\"",
+          "last-modified": "Thu, 12 Nov 2026 15:25:25 GMT"
+        }
+      },
+      {
+        "hash": "4ba2e86afea4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af5da65-1ad13\"",
+          "last-modified": "Thu, 12 Nov 2026 15:25:25 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

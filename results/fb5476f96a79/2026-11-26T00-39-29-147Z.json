@@ -1,0 +1,304 @@
+{
+  "url": "https://www.ineliagestion.com/",
+  "name": "www.ineliagestion.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653569147,
+  "date": "2026-11-26T00:39:29.147Z",
+  "runId": "2026-11-26T00-30-29-159Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23634,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 99,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.ineliagestion.com/",
+    "finalUrl": "https://www.ineliagestion.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 956,
+      "lcp": 2157,
+      "si": 956,
+      "tbt": 0,
+      "tti": 2157,
+      "cls": 0,
+      "ttfb": 630,
+      "maxPotentialFid": 27,
+      "serverResponseTime": 29,
+      "networkRtt": 0,
+      "networkServerLatency": 29.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 31,
+      "resourceLoadDelay": 33.5,
+      "resourceLoadDuration": 51.7,
+      "elementRenderDelay": 37
+    },
+    "weight": {
+      "total": 147533,
+      "requests": 12,
+      "mainDocument": 28808,
+      "byType": {
+        "total": {
+          "bytes": 147533,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 47465,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 39155,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 30480,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 28808,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1625,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3107,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 3107,
+      "mainThreadMs": 1.2,
+      "top": [
+        {
+          "entity": "Plausible",
+          "bytes": 1922,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 1922
+          },
+          "typedBytes": 1922
+        },
+        {
+          "entity": "instant.page",
+          "bytes": 1185,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "script": 1185
+          },
+          "typedBytes": 1185
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 242,
+      "byGroup": {
+        "other": 100.4,
+        "scriptEvaluation": 59.3,
+        "styleLayout": 45.1,
+        "parseHTML": 17.8,
+        "scriptParseCompile": 9.8,
+        "paintCompositeRender": 9.5
+      },
+      "bootupMs": 62.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 211,
+      "depth": 11,
+      "maxChildren": 20
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 16745,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 15,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2560,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:39:39.686Z",
+      "runtimeMs": 6317.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.5.1"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8AMPRFETWSXGR7DW65Y6JTE"
+    },
+    "violations": 10,
+    "passes": 234,
+    "incomplete": 8,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 10,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#hero",
+            "snippet": "<section id=\"hero\" class=\"flex flex-col md:flex-row justify-start items-center relative z-10 border-b border-ineliagrau\">"
+          },
+          {
+            "selector": "#bienvenidos",
+            "snippet": "<section id=\"bienvenidos\">"
+          },
+          {
+            "selector": "#blog",
+            "snippet": "<section id=\"blog\" class=\"bg-ineliagraulight flex flex-col px-5 py-10 lg:py-16 border-t border-ineliagrau\">"
+          },
+          {
+            "selector": "#cta",
+            "snippet": "<section id=\"cta\" class=\"bg-ineliarot py-3 px-5\">"
+          },
+          {
+            "selector": ".md\\:px-0",
+            "snippet": "<h2 class=\"px-5 md:px-0 mx-auto max-w-xl text-2xl lg:text-4xl text-center\">Lo que dicen de nosotros algunos de nuestros clientes</h2>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d91f73c239ce",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"3e9555d80361a649fea4973580e1ab7f-ssl\""
+        }
+      },
+      {
+        "hash": "d91f73c239ce",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"3e9555d80361a649fea4973580e1ab7f-ssl\""
+        }
+      },
+      {
+        "hash": "d91f73c239ce",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"3e9555d80361a649fea4973580e1ab7f-ssl\""
+        }
+      },
+      {
+        "hash": "d91f73c239ce",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"3e9555d80361a649fea4973580e1ab7f-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

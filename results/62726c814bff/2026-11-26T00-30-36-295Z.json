@@ -1,0 +1,282 @@
+{
+  "url": "https://www.allaboutken.com/",
+  "name": "www.allaboutken.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653036295,
+  "date": "2026-11-26T00:30:36.295Z",
+  "runId": "2026-11-26T00-30-29-159Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27661,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 100,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.allaboutken.com/",
+    "finalUrl": "https://www.allaboutken.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1076,
+      "lcp": 1076,
+      "si": 1076,
+      "tbt": 0,
+      "tti": 1076,
+      "cls": 0.022,
+      "ttfb": 626,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 21,
+      "networkRtt": 0,
+      "networkServerLatency": 135.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 23.3,
+      "elementRenderDelay": 230.2
+    },
+    "weight": {
+      "total": 336280,
+      "requests": 21,
+      "mainDocument": 6997,
+      "byType": {
+        "total": {
+          "bytes": 336280,
+          "requests": 21
+        },
+        "font": {
+          "bytes": 235538,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 38887,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 38779,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 10427,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 6997,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 5652,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4772,
+          "requests": 2
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 4772,
+      "mainThreadMs": 2.9,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4390,
+          "mainThreadMs": 2.9,
+          "byType": {
+            "script": 4390
+          },
+          "typedBytes": 4390
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 364.5,
+      "byGroup": {
+        "other": 149.9,
+        "styleLayout": 117.9,
+        "paintCompositeRender": 40.4,
+        "parseHTML": 27.8,
+        "scriptEvaluation": 26,
+        "scriptParseCompile": 2.4
+      },
+      "bootupMs": 10.6,
+      "longTasks": 1,
+      "longestTaskMs": 65
+    },
+    "dom": {
+      "elements": 698,
+      "depth": 9,
+      "maxChildren": 119
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 32110,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 5534,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 26,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2426,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:30:47.752Z",
+      "runtimeMs": 6944.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::sv62b-1795653061471-9d5e83e22724"
+    },
+    "violations": 0,
+    "passes": 1072,
+    "incomplete": 74,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3b759719b6bb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "258150",
+          "etag": "W/\"e346fd1a30982cd8c90989f164e50667\"",
+          "last-modified": "Mon, 23 Nov 2026 00:48:09 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "3b759719b6bb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "258158",
+          "etag": "W/\"e346fd1a30982cd8c90989f164e50667\"",
+          "last-modified": "Mon, 23 Nov 2026 00:48:09 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "3b759719b6bb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "258165",
+          "etag": "W/\"e346fd1a30982cd8c90989f164e50667\"",
+          "last-modified": "Mon, 23 Nov 2026 00:48:09 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "3b759719b6bb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "258169",
+          "etag": "W/\"e346fd1a30982cd8c90989f164e50667\"",
+          "last-modified": "Mon, 23 Nov 2026 00:48:09 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
