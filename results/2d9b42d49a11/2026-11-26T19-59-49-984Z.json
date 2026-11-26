@@ -1,0 +1,388 @@
+{
+  "url": "https://vitest.dev/",
+  "name": "Vitest",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795723189984,
+  "date": "2026-11-26T19:59:49.984Z",
+  "runId": "2026-11-26T19-42-55-594Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 57202,
+  "error": null,
+  "variance": {
+    "min": 77,
+    "max": 84,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://vitest.dev/",
+    "finalUrl": "https://vitest.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 83,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 839,
+      "lcp": 4385,
+      "si": 839,
+      "tbt": 176,
+      "tti": 4385,
+      "cls": 0.021,
+      "ttfb": 635,
+      "maxPotentialFid": 187,
+      "serverResponseTime": 35,
+      "networkRtt": 0,
+      "networkServerLatency": 35.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 36.2,
+      "resourceLoadDelay": 67.8,
+      "resourceLoadDuration": 44,
+      "elementRenderDelay": 27.1
+    },
+    "weight": {
+      "total": 1421265,
+      "requests": 53,
+      "mainDocument": 6959,
+      "byType": {
+        "total": {
+          "bytes": 1421265,
+          "requests": 44
+        },
+        "image": {
+          "bytes": 723984,
+          "requests": 19
+        },
+        "other": {
+          "bytes": 309413,
+          "requests": 10
+        },
+        "font": {
+          "bytes": 188476,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 140683,
+          "requests": 8
+        },
+        "stylesheet": {
+          "bytes": 51750,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 6959,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3431,
+          "requests": 3
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 2,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 3431,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "iconify.design",
+          "bytes": 2506,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 2506
+          },
+          "typedBytes": 2506
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 925,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 925
+          },
+          "typedBytes": 925
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1314,
+      "byGroup": {
+        "other": 580.4,
+        "scriptEvaluation": 407.9,
+        "styleLayout": 160.7,
+        "paintCompositeRender": 92.8,
+        "parseHTML": 55.1,
+        "garbageCollection": 14.5,
+        "scriptParseCompile": 2.6
+      },
+      "bootupMs": 393.2,
+      "longTasks": 3,
+      "longestTaskMs": 187
+    },
+    "dom": {
+      "elements": 308,
+      "depth": 16,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 29437,
+      "unusedCssBytes": 38763,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 21,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 2
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 59
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2988.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T20:00:08.056Z",
+      "runtimeMs": 8182.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "resourceLoadDelay": 1153.4,
+    "resourceLoadDuration": 2727.4,
+    "elementRenderDelay": 34.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "vitepress",
+      "name": "VitePress",
+      "icon": "Vitepress",
+      "version": "2.0.0",
+      "source": "meta",
+      "raw": "VitePress v2.0.0-alpha.21"
+    },
+    "probe": {
+      "metas": [
+        "VitePress v2.0.0-alpha.21"
+      ],
+      "marks": [
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.45"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8CQ4DKYSEWBKBPSZ66R9TMX"
+    },
+    "violations": 25,
+    "passes": 355,
+    "incomplete": 4,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 22,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".md\\:grid-cols-2",
+            "snippet": "<div class=\"wrapper wrapper--ticks grid md:grid-cols-2 w-full border-nickel divide-x\" data-v-83c11088=\"\">"
+          },
+          {
+            "selector": ".max-w-md.gap-3.flex-col > .gap-3.items-center.flex",
+            "snippet": "<div class=\"flex gap-3 items-center\"><img src=\"/assets/vitest-light.BeSPX0d3.svg\" alt=\"Vitest icon\" class=\"size-5\"><span class=\"text-grey text-xs font-medium font-mono uppercase tracking-wide\">Why Vi…"
+          },
+          {
+            "selector": ".max-w-md.gap-3.flex-col > h3",
+            "snippet": "<h3 class=\"text-white max-w-xl text-balance\">The Vite Native Test Runner</h3>"
+          },
+          {
+            "selector": ".lg\\:max-w-lg",
+            "snippet": "<div class=\"lg:max-w-lg\">"
+          },
+          {
+            "selector": ".sm\\:py-28",
+            "snippet": "<section class=\"wrapper border-t px-5 sm:px-10 py-14 sm:py-28 flex flex-col justify-center gap-3 text-center items-center\"><h2 class=\"text-white max-w-2xl text-balance text-center\">Fast. Lightweight.…"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".max-w-md.gap-3.flex-col > h3",
+            "snippet": "<h3 class=\"text-white max-w-xl text-balance\">The Vite Native Test Runner</h3>"
+          },
+          {
+            "selector": ".sm\\:text-pretty",
+            "snippet": "<h5 class=\"text-balance sm:text-pretty text-white\" data-v-bcdb385d=\"\">Vite Powered</h5>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en-US\" dir=\"ltr\" data-variant=\"vitest\" data-theme=\"dark\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7685f6166732",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "25783",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31510217",
+          "etag": "W/\"587e9594b8d06b7c581688f4be8aeb22-ssl\""
+        }
+      },
+      {
+        "hash": "7685f6166732",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "25791",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31510209",
+          "etag": "W/\"587e9594b8d06b7c581688f4be8aeb22-ssl\""
+        }
+      },
+      {
+        "hash": "7685f6166732",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "25800",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31510200",
+          "etag": "W/\"587e9594b8d06b7c581688f4be8aeb22-ssl\""
+        }
+      },
+      {
+        "hash": "7685f6166732",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "25808",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31510192",
+          "etag": "W/\"587e9594b8d06b7c581688f4be8aeb22-ssl\""
+        }
+      },
+      {
+        "hash": "7685f6166732",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31510163",
+          "etag": "W/\"587e9594b8d06b7c581688f4be8aeb22-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
