@@ -1,0 +1,272 @@
+{
+  "url": "https://www.caseyocampo.com/",
+  "name": "www.caseyocampo.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653820566,
+  "date": "2026-11-26T00:43:40.566Z",
+  "runId": "2026-11-26T00-30-24-897Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20550,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.caseyocampo.com/",
+    "finalUrl": "https://www.caseyocampo.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 807,
+      "lcp": 807,
+      "si": 807,
+      "tbt": 84,
+      "tti": 2895,
+      "cls": 0,
+      "ttfb": 645,
+      "maxPotentialFid": 134,
+      "serverResponseTime": 26,
+      "networkRtt": 0,
+      "networkServerLatency": 45.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 28.5,
+      "elementRenderDelay": 155.2
+    },
+    "weight": {
+      "total": 715312,
+      "requests": 16,
+      "mainDocument": 4711,
+      "byType": {
+        "total": {
+          "bytes": 715312,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 511680,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 189830,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 4711,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4708,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 4383,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 188954,
+          "requests": 4
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 188954,
+      "mainThreadMs": 40.6,
+      "top": [
+        {
+          "entity": "posthog.com",
+          "bytes": 188954,
+          "mainThreadMs": 40.6,
+          "byType": {
+            "script": 188488,
+            "other": 466
+          },
+          "typedBytes": 188954
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 320.4,
+      "byGroup": {
+        "scriptEvaluation": 158.2,
+        "other": 83,
+        "scriptParseCompile": 39.9,
+        "styleLayout": 30.8,
+        "parseHTML": 5.7,
+        "paintCompositeRender": 2.8
+      },
+      "bootupMs": 174.2,
+      "longTasks": 1,
+      "longestTaskMs": 134
+    },
+    "dom": {
+      "elements": 75,
+      "depth": 10,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 123230,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 16444,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 123543.54166666667,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3793.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:43:48.068Z",
+      "runtimeMs": 6034.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::bgfkq-1795653839366-bea2244916f0"
+    },
+    "violations": 0,
+    "passes": 164,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "195676fbc20c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "201849",
+          "etag": "W/\"05f9281d431c0f6ded212661f77d11d6\"",
+          "last-modified": "Mon, 23 Nov 2026 16:39:32 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "195676fbc20c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "201855",
+          "etag": "W/\"05f9281d431c0f6ded212661f77d11d6\"",
+          "last-modified": "Mon, 23 Nov 2026 16:39:32 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "195676fbc20c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "201861",
+          "etag": "W/\"05f9281d431c0f6ded212661f77d11d6\"",
+          "last-modified": "Mon, 23 Nov 2026 16:39:32 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "195676fbc20c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"05f9281d431c0f6ded212661f77d11d6\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

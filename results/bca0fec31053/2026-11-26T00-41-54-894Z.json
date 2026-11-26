@@ -1,0 +1,260 @@
+{
+  "url": "https://alanquirk.com/",
+  "name": "www.alanquirk.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653714894,
+  "date": "2026-11-26T00:41:54.894Z",
+  "runId": "2026-11-26T00-30-24-897Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22030,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://alanquirk.com/",
+    "finalUrl": "https://alanquirk.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 811,
+      "lcp": 811,
+      "si": 811,
+      "tbt": 0,
+      "tti": 811,
+      "cls": 0,
+      "ttfb": 628,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 29,
+      "networkRtt": 8.4,
+      "networkServerLatency": 138.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 30.4,
+      "elementRenderDelay": 105.1
+    },
+    "weight": {
+      "total": 210522,
+      "requests": 22,
+      "mainDocument": 3638,
+      "byType": {
+        "total": {
+          "bytes": 210522,
+          "requests": 22
+        },
+        "image": {
+          "bytes": 105716,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 86407,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 6824,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 4721,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3638,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3216,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5342,
+          "requests": 3
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 5342,
+      "mainThreadMs": 2.6,
+      "top": [
+        {
+          "entity": "umami.is",
+          "bytes": 5342,
+          "mainThreadMs": 2.6,
+          "byType": {
+            "script": 4721,
+            "other": 621
+          },
+          "typedBytes": 5342
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 271.1,
+      "byGroup": {
+        "other": 146.4,
+        "styleLayout": 74.1,
+        "scriptEvaluation": 22.3,
+        "paintCompositeRender": 20.4,
+        "parseHTML": 6.6,
+        "scriptParseCompile": 1.4
+      },
+      "bootupMs": 10.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 134,
+      "depth": 9,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 2729.6000000000004,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 23,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3832.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:42:02.870Z",
+      "runtimeMs": 6372.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8AMV4D6ERCNDPBRXAXH997B"
+    },
+    "violations": 0,
+    "passes": 320,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b590adbc43f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"eafdf500659a51c3945aa3380ea1c553-ssl\""
+        }
+      },
+      {
+        "hash": "b590adbc43f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535994",
+          "etag": "W/\"eafdf500659a51c3945aa3380ea1c553-ssl\""
+        }
+      },
+      {
+        "hash": "b590adbc43f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"eafdf500659a51c3945aa3380ea1c553-ssl\""
+        }
+      },
+      {
+        "hash": "b590adbc43f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"eafdf500659a51c3945aa3380ea1c553-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

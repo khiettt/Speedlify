@@ -1,0 +1,353 @@
+{
+  "url": "https://vpnclear.com/",
+  "name": "vpnclear.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653223566,
+  "date": "2026-11-26T00:33:43.566Z",
+  "runId": "2026-11-26T00-30-24-897Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 87551,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 97,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://vpnclear.com/",
+    "finalUrl": "https://vpnclear.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 96,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 49
+    },
+    "timings": {
+      "fcp": 1690,
+      "lcp": 1690,
+      "si": 3194,
+      "tbt": 156,
+      "tti": 6558,
+      "cls": 0.08,
+      "ttfb": 510,
+      "maxPotentialFid": 148,
+      "serverResponseTime": 103,
+      "networkRtt": 51.4,
+      "networkServerLatency": 429.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 146.2,
+      "elementRenderDelay": 143.4
+    },
+    "weight": {
+      "total": 1152052,
+      "requests": 96,
+      "mainDocument": 7471,
+      "byType": {
+        "total": {
+          "bytes": 1152052,
+          "requests": 94
+        },
+        "script": {
+          "bytes": 687288,
+          "requests": 29
+        },
+        "font": {
+          "bytes": 140156,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 138845,
+          "requests": 29
+        },
+        "document": {
+          "bytes": 120179,
+          "requests": 13
+        },
+        "image": {
+          "bytes": 57509,
+          "requests": 14
+        },
+        "stylesheet": {
+          "bytes": 8075,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1090273,
+          "requests": 86
+        }
+      },
+      "scripts": 29,
+      "stylesheets": 4,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 8,
+      "bytes": 537034,
+      "mainThreadMs": 197.6,
+      "top": [
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 297815,
+          "mainThreadMs": 170.9,
+          "byType": {
+            "script": 297207,
+            "other": 608
+          },
+          "typedBytes": 297815
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 97764,
+          "mainThreadMs": 0.5,
+          "byType": {
+            "stylesheet": 5960,
+            "font": 91804
+          },
+          "typedBytes": 97764
+        },
+        {
+          "entity": "Google FundingChoices",
+          "bytes": 79894,
+          "mainThreadMs": 10.9,
+          "byType": {
+            "script": 79604,
+            "other": 290
+          },
+          "typedBytes": 79894
+        },
+        {
+          "entity": "cloudflare.com",
+          "bytes": 28410,
+          "mainThreadMs": 3.8,
+          "byType": {
+            "script": 28410
+          },
+          "typedBytes": 28410
+        },
+        {
+          "entity": "adtrafficquality.google",
+          "bytes": 22436,
+          "mainThreadMs": 5.1,
+          "byType": {
+            "script": 8392,
+            "other": 14027,
+            "image": 17
+          },
+          "typedBytes": 22436
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2688.9,
+      "byGroup": {
+        "scriptEvaluation": 1284.9,
+        "other": 700.3,
+        "styleLayout": 348.7,
+        "paintCompositeRender": 133.5,
+        "garbageCollection": 132.1,
+        "scriptParseCompile": 74.2,
+        "parseHTML": 15.3
+      },
+      "bootupMs": 1175.2,
+      "longTasks": 7,
+      "longestTaskMs": 148
+    },
+    "dom": {
+      "elements": 311,
+      "depth": 15,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 240679,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10484,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 828,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 162642.3002793296,
+      "poorlyCachedCount": 19
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 27,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 10
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 12
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 35
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3768,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:33:44.762Z",
+      "runtimeMs": 54959.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a604cfb5dcfca1ef-MSP",
+      "server": "cloudflare"
+    },
+    "violations": 10,
+    "passes": 932,
+    "incomplete": 24,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 10,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "header > div > div > .vc-primary[href$=\"free-vpn/\"]",
+            "snippet": "<a class=\"vc-primary\" href=\"/free-vpn/\" style=\"border:none;background:#0E9F6E;color:#fff;font-family:'Manrope',sans-serif;font-weight:700;font-size:14px;padding:10px 17px;border-radius:10px;cursor:po…"
+          },
+          {
+            "selector": ".vc-lift",
+            "snippet": "<a class=\"vc-primary vc-lift\" href=\"/free-vpn/\" ...>"
+          },
+          {
+            "selector": "section:nth-child(3) > div:nth-child(1) > div",
+            "snippet": "<div style=\"font-size:13px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#0E9F6E\">How it works</div>"
+          },
+          {
+            "selector": "section:nth-child(7) > div:nth-child(1) > div > div",
+            "snippet": "<div style=\"font-size:13px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#0E9F6E\">Editor’s choice</div>"
+          },
+          {
+            "selector": ".vc-grid3 > .vc-card:nth-child(1) > div:nth-child(1)",
+            "snippet": "<div style=\"position:absolute;top:-11px;left:22px;background:#F59E0B;color:#fff;font-size:11.5px;font-weight:800;letter-spacing:0.03em;padding:5px 11px;border-radius:999px;box-shadow:0 5px 12px rgba(…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4880c8126d99",
+        "nonce": "39569c48cb42",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "00fc57e9afcd",
+        "nonce": "82a39a7cb551",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "1cfadd7e7102",
+        "nonce": "705406579602",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "d2ecb2665a09",
+        "nonce": "4a91afb37b81",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
