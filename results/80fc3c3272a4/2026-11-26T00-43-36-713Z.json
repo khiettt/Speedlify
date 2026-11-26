@@ -1,0 +1,291 @@
+{
+  "url": "https://www.kylereddoch.me/",
+  "name": "www.kylereddoch.me",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653816713,
+  "date": "2026-11-26T00:43:36.713Z",
+  "runId": "2026-11-26T00-30-35-051Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24869,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.kylereddoch.me/",
+    "finalUrl": "https://www.kylereddoch.me/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 904,
+      "lcp": 904,
+      "si": 904,
+      "tbt": 0,
+      "tti": 904,
+      "cls": 0,
+      "ttfb": 604,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 2,
+      "networkRtt": 0.4,
+      "networkServerLatency": 220.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 3.9,
+      "elementRenderDelay": 64.5
+    },
+    "weight": {
+      "total": 492675,
+      "requests": 24,
+      "mainDocument": 8667,
+      "byType": {
+        "total": {
+          "bytes": 487696,
+          "requests": 23
+        },
+        "other": {
+          "bytes": 368720,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 41378,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 31241,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 20166,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 17524,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 8667,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3179,
+          "requests": 4
+        }
+      },
+      "scripts": 10,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 3179,
+      "mainThreadMs": 3.9,
+      "top": [
+        {
+          "entity": "tinylytics.app",
+          "bytes": 2528,
+          "mainThreadMs": 3.3,
+          "byType": {
+            "script": 1836,
+            "other": 692
+          },
+          "typedBytes": 2528
+        },
+        {
+          "entity": "makermap.lol",
+          "bytes": 651,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "script": 651
+          },
+          "typedBytes": 651
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 448,
+      "byGroup": {
+        "other": 254.8,
+        "styleLayout": 93.9,
+        "scriptEvaluation": 57.2,
+        "parseHTML": 18.8,
+        "paintCompositeRender": 13.9,
+        "scriptParseCompile": 9.4
+      },
+      "bootupMs": 28.1,
+      "longTasks": 1,
+      "longestTaskMs": 55
+    },
+    "dom": {
+      "elements": 300,
+      "depth": 10,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 12025,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 99357.63333333335,
+      "poorlyCachedCount": 15
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 29,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 24
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2437.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:43:46.661Z",
+      "runtimeMs": 6587.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.2",
+      "source": "meta",
+      "raw": "Eleventy v3.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.2"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "747fd947f52f0ff41c374804573f60e4100ba9a4",
+      "x-github-request-id": "F900:3894F4:27A9D:2D9FC:6B07787F",
+      "x-served-by": "cache-sjc1000137-SJC"
+    },
+    "violations": 0,
+    "passes": 590,
+    "incomplete": 2,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "090475e6d226",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6b0777b0-7dd6\"",
+          "last-modified": "Thu, 26 Nov 2026 00:05:04 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "090475e6d226",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "etag": "W/\"6b0777b0-7dd6\"",
+          "last-modified": "Thu, 26 Nov 2026 00:05:04 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "090475e6d226",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "etag": "W/\"6b0777b0-7dd6\"",
+          "last-modified": "Thu, 26 Nov 2026 00:05:04 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "090475e6d226",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19",
+          "etag": "W/\"6b0777b0-7dd6\"",
+          "last-modified": "Thu, 26 Nov 2026 00:05:04 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,429 @@
+{
+  "url": "https://1k.football/",
+  "name": "1k.football",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653962080,
+  "date": "2026-11-26T00:46:02.080Z",
+  "runId": "2026-11-26T00-30-35-051Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27176,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 98,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://1k.football/",
+    "finalUrl": "https://1k.football/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 76,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1941,
+      "lcp": 1941,
+      "si": 1990,
+      "tbt": 162,
+      "tti": 5680,
+      "cls": 0,
+      "ttfb": 865,
+      "maxPotentialFid": 185,
+      "serverResponseTime": 267,
+      "networkRtt": 168.5,
+      "networkServerLatency": 264.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 693.6,
+      "elementRenderDelay": 167.3
+    },
+    "weight": {
+      "total": 502693,
+      "requests": 25,
+      "mainDocument": 7041,
+      "byType": {
+        "total": {
+          "bytes": 485596,
+          "requests": 23
+        },
+        "script": {
+          "bytes": 314050,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 116147,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 36785,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 9692,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 7872,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 1050,
+          "requests": 8
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 478555,
+          "requests": 22
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 3,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 494708,
+      "mainThreadMs": 102.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 309682,
+          "mainThreadMs": 96.6,
+          "byType": {
+            "script": 309682
+          },
+          "typedBytes": 309682
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 152932,
+          "mainThreadMs": 4.3,
+          "byType": {
+            "stylesheet": 36785,
+            "font": 116147
+          },
+          "typedBytes": 152932
+        },
+        {
+          "entity": "blades.dev",
+          "bytes": 17097,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 17097
+          },
+          "typedBytes": 17097
+        },
+        {
+          "entity": "gstatic.com",
+          "bytes": 9692,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 9692
+          },
+          "typedBytes": 9692
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4368,
+          "mainThreadMs": 2,
+          "byType": {
+            "script": 4368
+          },
+          "typedBytes": 4368
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1089.2,
+      "byGroup": {
+        "scriptEvaluation": 350.9,
+        "styleLayout": 275.6,
+        "other": 231.2,
+        "scriptParseCompile": 118.3,
+        "paintCompositeRender": 65.2,
+        "parseHTML": 36.2,
+        "garbageCollection": 11.8
+      },
+      "bootupMs": 458.9,
+      "longTasks": 5,
+      "longestTaskMs": 185
+    },
+    "dom": {
+      "elements": 1080,
+      "depth": 9,
+      "maxChildren": 36
+    },
+    "waste": {
+      "unusedJsBytes": 144915,
+      "unusedCssBytes": 18238,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 922,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 16262.399999999998,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 20,
+      "failingNodes": 251,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 241
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 7
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "object-alt",
+          "title": "`<object>` elements do not have alternate text",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 7
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2438.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:46:03.358Z",
+      "runtimeMs": 8719.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": null,
+      "source": "meta",
+      "raw": "One¹ Starter (https://starter.buildawesome.one/)"
+    },
+    "probe": {
+      "metas": [
+        "One¹ Starter (https://starter.buildawesome.one/)"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8AN2SJWK13X77TRFYA118RA"
+    },
+    "violations": 251,
+    "passes": 1476,
+    "incomplete": 8,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 241,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".faded",
+            "snippet": "<i class=\"faded\" style=\"text-wrap: nowrap\">Updated: November 20, 2026</i>"
+          },
+          {
+            "selector": "tr:nth-child(1) > td:nth-child(2) > sub",
+            "snippet": "<sub style=\"\">~41/year</sub>"
+          },
+          {
+            "selector": "tr:nth-child(1) > td:nth-child(3) > sub",
+            "snippet": "<sub style=\"\">~43/year</sub>"
+          },
+          {
+            "selector": "tr:nth-child(1) > td:nth-child(4) > sub",
+            "snippet": "<sub style=\"\">~41/year</sub>"
+          },
+          {
+            "selector": "tr:nth-child(1) > td:nth-child(5) > sub",
+            "snippet": "<sub style=\"\">~36/year</sub>"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 7,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"iffhs.com\"] > i > img",
+            "snippet": "<img src=\"https://www.google.com/s2/favicons?domain=iffhs.com&amp;sz=64\">"
+          },
+          {
+            "selector": "a[title=\"en.wikipedia.org\"] > i > img",
+            "snippet": "<img src=\"https://www.google.com/s2/favicons?domain=en.wikipedia.org&amp;sz=64\">"
+          },
+          {
+            "selector": "a[href$=\"1k_Football\"] > i > img",
+            "snippet": "<img src=\"https://www.google.com/s2/favicons?domain=x.com&amp;sz=64\">"
+          },
+          {
+            "selector": "li:nth-child(2) > a[title=\"github.com\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > i > img",
+            "snippet": "<img src=\"https://www.google.com/s2/favicons?domain=github.com&amp;sz=64\">"
+          },
+          {
+            "selector": "li:nth-child(3) > a[title=\"github.com\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > i > img",
+            "snippet": "<img src=\"https://www.google.com/s2/favicons?domain=github.com&amp;sz=64\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "nav > ul:nth-child(2) > li:nth-child(1) > a",
+            "snippet": "<a href=\"https://github.com/sveti-org/1k.football\"><i class=\"fa-brands fa-github fa-lg\"></i></a>"
+          },
+          {
+            "selector": "a[href$=\"1k_Goals\"]",
+            "snippet": "<a href=\"https://x.com/1k_Goals\"><i class=\"fa-brands fa-x-twitter fa-lg\"></i></a>"
+          }
+        ]
+      },
+      {
+        "id": "object-alt",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<object> elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "object",
+            "snippet": "<object data=\"https://buildawesome.one/gh-content.svg\" class=\"dark-auto\"></object>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "68d305b20e88",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"23b96d7e29ebb3009e198203941d6261-ssl\""
+        }
+      },
+      {
+        "hash": "68d305b20e88",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"23b96d7e29ebb3009e198203941d6261-ssl\""
+        }
+      },
+      {
+        "hash": "68d305b20e88",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"23b96d7e29ebb3009e198203941d6261-ssl\""
+        }
+      },
+      {
+        "hash": "68d305b20e88",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"23b96d7e29ebb3009e198203941d6261-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
