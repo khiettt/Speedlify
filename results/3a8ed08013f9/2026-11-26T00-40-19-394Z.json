@@ -1,0 +1,347 @@
+{
+  "url": "https://www.londoncss.dev/",
+  "name": "www.londoncss.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653619394,
+  "date": "2026-11-26T00:40:19.394Z",
+  "runId": "2026-11-26T00-30-28-274Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27519,
+  "error": null,
+  "variance": {
+    "min": 71,
+    "max": 73,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.londoncss.dev/",
+    "finalUrl": "https://www.londoncss.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 71,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 90,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 3964,
+      "lcp": 3964,
+      "si": 3964,
+      "tbt": 308,
+      "tti": 6356,
+      "cls": 0.001,
+      "ttfb": 683,
+      "maxPotentialFid": 165,
+      "serverResponseTime": 110,
+      "networkRtt": 0.1,
+      "networkServerLatency": 82.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 113,
+      "elementRenderDelay": 160.9
+    },
+    "weight": {
+      "total": 887878,
+      "requests": 23,
+      "mainDocument": 41165,
+      "byType": {
+        "total": {
+          "bytes": 887878,
+          "requests": 23
+        },
+        "script": {
+          "bytes": 535959,
+          "requests": 10
+        },
+        "stylesheet": {
+          "bytes": 215909,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 93781,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 41165,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1064,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 846595,
+          "requests": 21
+        }
+      },
+      "scripts": 10,
+      "stylesheets": 4,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 846911,
+      "mainThreadMs": 137.8,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 629060,
+          "mainThreadMs": 110,
+          "byType": {
+            "script": 418585,
+            "stylesheet": 209529,
+            "other": 946
+          },
+          "typedBytes": 629060
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 117374,
+          "mainThreadMs": 26.6,
+          "byType": {
+            "script": 117374
+          },
+          "typedBytes": 117374
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 100161,
+          "mainThreadMs": 1.2,
+          "byType": {
+            "stylesheet": 6380,
+            "font": 93781
+          },
+          "typedBytes": 100161
+        },
+        {
+          "entity": "withgoogle.com",
+          "bytes": 316,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 316
+          },
+          "typedBytes": 316
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1448.6,
+      "byGroup": {
+        "scriptEvaluation": 614.7,
+        "other": 403.7,
+        "styleLayout": 155.6,
+        "scriptParseCompile": 151.7,
+        "parseHTML": 82.3,
+        "paintCompositeRender": 40.7
+      },
+      "bootupMs": 626,
+      "longTasks": 7,
+      "longestTaskMs": 165
+    },
+    "dom": {
+      "elements": 679,
+      "depth": 26,
+      "maxChildren": 49
+    },
+    "waste": {
+      "unusedJsBytes": 287925,
+      "unusedCssBytes": 207449,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 4378,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 33451.42083333333,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 7,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": null,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 2,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 32
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2430.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:40:38.576Z",
+      "runtimeMs": 7553.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "ESF",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "ESF"
+    },
+    "violations": 34,
+    "passes": 563,
+    "incomplete": 53,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 32,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#h\\.hrlmpx1ntmmo_l > .CjVfdc[jscontroller=\"Ae65rd\"] > .C9DxTc",
+            "snippet": "<span class=\"C9DxTc \" style=\"\">Unleash the Power of Pure CSS at London in 2025</span>"
+          },
+          {
+            "selector": "p:nth-child(3)",
+            "snippet": "<p dir=\"ltr\" class=\"zfr3Q CDt4Ke \" style=\"\"><span class=\"C9DxTc \" style=\"\">Are you bending the limits of CSS? From intricate animations to mind-bending layouts, join a community of web designers who …"
+          },
+          {
+            "selector": "p:nth-child(4)",
+            "snippet": "<p dir=\"ltr\" class=\"zfr3Q CDt4Ke \" style=\"\"><span class=\"C9DxTc \" style=\"\">This isn’t just another dev meetup — it's a celebration of CSS as a creative medium. Whether you're pushing pixels with prec…"
+          },
+          {
+            "selector": "#h\\.3wnrad5o8me9_l > .CjVfdc[jscontroller=\"Ae65rd\"] > .C9DxTc",
+            "snippet": "<span class=\"C9DxTc \" style=\"\">Why attend?</span>"
+          },
+          {
+            "selector": ".n8H08c",
+            "snippet": "<ul class=\"n8H08c UVNKR \" style=\"list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-banner",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one banner landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-banner?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[jscontroller=\"RrXLpc\"]",
+            "snippet": "<div jscontroller=\"RrXLpc\" jsname=\"XeeWQc\" role=\"banner\" jsaction=\"keydown:uiKYid(OH0EC);rcuQ6b:WYd;zuqEgd:ufqpf;JIbuQc:XfTnxb(lfEfFf),AlTiYc(GeGHKb),AlTiYc(m1xNUe),zZlNMe(pZn8Oc);YqO5N:ELcyfe;\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[jscontroller=\"RrXLpc\"]",
+            "snippet": "<div jscontroller=\"RrXLpc\" jsname=\"XeeWQc\" role=\"banner\" jsaction=\"keydown:uiKYid(OH0EC);rcuQ6b:WYd;zuqEgd:ufqpf;JIbuQc:XfTnxb(lfEfFf),AlTiYc(GeGHKb),AlTiYc(m1xNUe),zZlNMe(pZn8Oc);YqO5N:ELcyfe;\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "08f610a3a413",
+        "nonce": "3363fa6276d8",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "defa538b3171",
+        "nonce": "96c73bd0670d",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "5ad930fd8dfb",
+        "nonce": "cdd03df4faa1",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "5923a5fb1ea2",
+        "nonce": "ed688cb43dbf",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

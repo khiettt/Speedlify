@@ -1,0 +1,340 @@
+{
+  "url": "https://www.springlex.eu/en/packages/dora/dora-regulation?ref=dora-info",
+  "name": "www.dora-info.eu",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653151704,
+  "date": "2026-11-26T00:32:31.704Z",
+  "runId": "2026-11-26T00-30-28-274Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 33709,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.springlex.eu/en/packages/dora/dora-regulation?ref=dora-info",
+    "finalUrl": "https://www.springlex.eu/en/packages/dora/dora-regulation/?ref=dora-info",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1208,
+      "lcp": 1808,
+      "si": 1208,
+      "tbt": 15,
+      "tti": 1808,
+      "cls": 0.02,
+      "ttfb": 608,
+      "maxPotentialFid": 82,
+      "serverResponseTime": 4,
+      "networkRtt": 0,
+      "networkServerLatency": 7.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 35.2,
+      "elementRenderDelay": 154.5
+    },
+    "weight": {
+      "total": 338629,
+      "requests": 96,
+      "mainDocument": 72757,
+      "byType": {
+        "total": {
+          "bytes": 338629,
+          "requests": 96
+        },
+        "script": {
+          "bytes": 144569,
+          "requests": 84
+        },
+        "font": {
+          "bytes": 97777,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 72757,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 20616,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2910,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 84,
+      "stylesheets": 1,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 1139.2,
+      "byGroup": {
+        "other": 554.3,
+        "parseHTML": 218.6,
+        "scriptEvaluation": 167.6,
+        "styleLayout": 150.3,
+        "paintCompositeRender": 35.7,
+        "scriptParseCompile": 9.8,
+        "garbageCollection": 2.8
+      },
+      "bootupMs": 156.1,
+      "longTasks": 5,
+      "longestTaskMs": 82
+    },
+    "dom": {
+      "elements": 9847,
+      "depth": 25,
+      "maxChildren": 103
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 3050.366666666667,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 27,
+      "failingNodes": 143,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 140
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 757.7,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 49
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2470.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:32:53.530Z",
+      "runtimeMs": 9586.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8AMA0ARPH3EBQTXCT2TSE6S"
+    },
+    "violations": 146,
+    "passes": 1349,
+    "incomplete": 0,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 140,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#subscription-badge-upgrade",
+            "snippet": "<a class=\"ml-2 text-orange hover:text-orange/80 underline\" href=\"/plans/\" id=\"subscription-badge-upgrade\">Upgrade for free</a>"
+          },
+          {
+            "selector": ".justify-between.items-center > .text-davys-grey-medium",
+            "snippet": "<p class=\"text-davys-grey-medium text-sm\">Source: <a class=\"underline hover:text-orange\" rel=\"noopener noreferrer\" href=\"http://data.europa.eu/eli/reg/2022/2554/oj\" target=\"_blank\">OJ L 333, 27.12.20…"
+          },
+          {
+            "selector": "a[rel=\"noopener noreferrer\"]",
+            "snippet": "<a class=\"underline hover:text-orange\" rel=\"noopener noreferrer\" href=\"http://data.europa.eu/eli/reg/2022/2554/oj\" target=\"_blank\">OJ L 333, 27.12.2022, p. 1–79</a>"
+          },
+          {
+            "selector": ".w-7.text-center.font-medium",
+            "snippet": "<span class=\"w-7 text-center font-medium\">EN</span>"
+          },
+          {
+            "selector": ".mt-1.text-davys-grey-medium",
+            "snippet": "<p class=\"text-davys-grey-medium text-sm mt-1\">Editors: <a class=\"underline hover:text-orange\" href=\"/editors/#sebastian-alteryd\">Sebastian Alteryd</a>, <a class=\"underline hover:text-orange\" href=\"/…"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Interactive controls must not be nested",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#r1 > .items-start.justify-between.sm\\:text-base",
+            "snippet": "<summary class=\"flex items-start justify-between w-full text-charcoal cursor-pointer text-sm sm:text-base\">"
+          },
+          {
+            "selector": "#r2 > .items-start.justify-between.sm\\:text-base",
+            "snippet": "<summary class=\"flex items-start justify-between w-full text-charcoal cursor-pointer text-sm sm:text-base\">"
+          },
+          {
+            "selector": "#r3 > .items-start.justify-between.sm\\:text-base",
+            "snippet": "<summary class=\"flex items-start justify-between w-full text-charcoal cursor-pointer text-sm sm:text-base\">"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#toggle-show-all-recitals",
+            "snippet": "<button aria-label=\"Hide recitals\" class=\"text-charcoal p-2 flex items-center gap-2 hover:underline cursor-pointer\" data-show-all=\"false\" id=\"toggle-show-all-recitals\" type=\"button\">"
+          },
+          {
+            "selector": "#show-more-recitals-button",
+            "snippet": "<button aria-label=\"Show all recitals\" class=\"text-charcoal text-center text-sm p-2 w-full hover:underline\" id=\"show-more-recitals-button\" type=\"button\"><span>+ 103 more recitals</span></button>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"springflod.se\"]",
+            "snippet": "<a class=\"text-orange hover:text-orange/80 hover:underline transition-colors\" href=\"https://springflod.se\">Springflod</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "33a74c94603d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"d3433b03a850462495b8148463754921-ssl\""
+        }
+      },
+      {
+        "hash": "33a74c94603d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535990",
+          "etag": "W/\"d3433b03a850462495b8148463754921-ssl\""
+        }
+      },
+      {
+        "hash": "33a74c94603d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535980",
+          "etag": "W/\"d3433b03a850462495b8148463754921-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,335 @@
+{
+  "url": "https://www.ellyloel.com/",
+  "name": "www.ellyloel.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653217290,
+  "date": "2026-11-26T00:33:37.290Z",
+  "runId": "2026-11-26T00-30-28-274Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 37201,
+  "error": null,
+  "variance": {
+    "min": 60,
+    "max": 87,
+    "spread": 27,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.ellyloel.com/",
+    "finalUrl": "https://www.ellyloel.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 75,
+      "accessibility": 96,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 72
+    },
+    "timings": {
+      "fcp": 1092,
+      "lcp": 3792,
+      "si": 1436,
+      "tbt": 47,
+      "tti": 4665,
+      "cls": 0.276,
+      "ttfb": 492,
+      "maxPotentialFid": 108,
+      "serverResponseTime": 89,
+      "networkRtt": 0.9,
+      "networkServerLatency": 115.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 91,
+      "elementRenderDelay": 211
+    },
+    "weight": {
+      "total": 582185,
+      "requests": 42,
+      "mainDocument": 24783,
+      "byType": {
+        "total": {
+          "bytes": 579057,
+          "requests": 41
+        },
+        "font": {
+          "bytes": 319574,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 108279,
+          "requests": 17
+        },
+        "script": {
+          "bytes": 61894,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 39871,
+          "requests": 12
+        },
+        "document": {
+          "bytes": 24783,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 24656,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 42369,
+          "requests": 16
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 42369,
+      "mainThreadMs": 10.5,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 20683,
+          "mainThreadMs": 10.4,
+          "byType": {
+            "script": 20683
+          },
+          "typedBytes": 20683
+        },
+        {
+          "entity": "Cloudinary",
+          "bytes": 20587,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 20587
+          },
+          "typedBytes": 20587
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 1063,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 1063
+          },
+          "typedBytes": 1063
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 36,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 36
+          },
+          "typedBytes": 36
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1028.1,
+      "byGroup": {
+        "styleLayout": 341.5,
+        "scriptEvaluation": 324.1,
+        "other": 241.6,
+        "parseHTML": 62.7,
+        "paintCompositeRender": 45.6,
+        "scriptParseCompile": 12.6
+      },
+      "bootupMs": 327.6,
+      "longTasks": 4,
+      "longestTaskMs": 108
+    },
+    "dom": {
+      "elements": 631,
+      "depth": 13,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 18932,
+      "legacyJsBytes": 20693,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 8273.2,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 28,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 4,
+      "baselineLimitedFeatures": 72
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2469,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:33:49.519Z",
+      "runtimeMs": 10251.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.7",
+      "source": "meta",
+      "raw": "Eleventy v3.1.7"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.7"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a604ce493bd705fe-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 994,
+    "incomplete": 78,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1> <span class=\"[ stroke ]\" style=\"--thickness: 0.02em; --fill-color: var(--accent-bg); --stroke-color: var(--accent-border);\">Elly Loel</span> <svg width=\"100%\" viewBox=\"0 0 75 20\"> <text lengthAd…"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".song",
+            "snippet": "<a href=\"https://www.last.fm/music/Never+Gonna+Give+You+Up/_/Rick+Astley\" class=\"[ song ][ u-url ][ link-icon-start text-decoration-none move-link-styling-to-child ]\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3a3e1be9870d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "d5453497ac03",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "784f4073c8c7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "3a3e1be9870d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

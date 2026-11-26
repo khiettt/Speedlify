@@ -1,0 +1,356 @@
+{
+  "url": "https://www.leschefsasainttropez.com/",
+  "name": "www.leschefsasainttropez.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795653504266,
+  "date": "2026-11-26T00:38:24.266Z",
+  "runId": "2026-11-26T00-30-28-274Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 40384,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 99,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.leschefsasainttropez.com/",
+    "finalUrl": "https://www.leschefsasainttropez.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 93,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 819,
+      "lcp": 2261,
+      "si": 819,
+      "tbt": 0,
+      "tti": 2261,
+      "cls": 0,
+      "ttfb": 604,
+      "maxPotentialFid": 21,
+      "serverResponseTime": 4,
+      "networkRtt": 4.8,
+      "networkServerLatency": 120.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 5.9,
+      "resourceLoadDelay": 10.4,
+      "resourceLoadDuration": 13.6,
+      "elementRenderDelay": 53.1
+    },
+    "weight": {
+      "total": 6152170,
+      "requests": 22,
+      "mainDocument": 6937,
+      "byType": {
+        "total": {
+          "bytes": 6152170,
+          "requests": 16
+        },
+        "media": {
+          "bytes": 5879631,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 198070,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 48137,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 7233,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 6937,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 6257,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 5905,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 6068154,
+          "requests": 7
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 6127237,
+      "mainThreadMs": 4.5,
+      "top": [
+        {
+          "entity": "leschefsasainttropez.fr",
+          "bytes": 5938714,
+          "mainThreadMs": 0,
+          "byType": {
+            "media": 5938714
+          },
+          "typedBytes": 5938714
+        },
+        {
+          "entity": "imagekit.io",
+          "bytes": 183178,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 183178
+          },
+          "typedBytes": 183178
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 5345,
+          "mainThreadMs": 4.5,
+          "byType": {
+            "script": 4714,
+            "other": 631
+          },
+          "typedBytes": 5345
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 483.9,
+      "byGroup": {
+        "other": 262.7,
+        "styleLayout": 113.2,
+        "paintCompositeRender": 48.8,
+        "scriptEvaluation": 39.2,
+        "parseHTML": 18,
+        "scriptParseCompile": 2
+      },
+      "bootupMs": 18.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 227,
+      "depth": 9,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 23,
+      "failingNodes": 11,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 9
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 16
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2477,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:38:42.240Z",
+      "runtimeMs": 6665.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8AMMTBQW355BZT7MPF85EWS"
+    },
+    "violations": 11,
+    "passes": 322,
+    "incomplete": 13,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 9,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".prose > .section-title",
+            "snippet": "<h2 class=\"section-title\">Au pays de Saint-Tropez</h2>"
+          },
+          {
+            "selector": ".home-values",
+            "snippet": "<h4 class=\"home-values\">L’EXCELLENCE, L’AUTHENTICITE, LA SINCERITE, <span class=\"home-values-end\">LA CONVIVIALITE ET LE PARTAGE.</span></h4>"
+          },
+          {
+            "selector": ".home-values-end",
+            "snippet": "<span class=\"home-values-end\">LA CONVIVIALITE ET LE PARTAGE.</span>"
+          },
+          {
+            "selector": ".prose-centered > .section-title",
+            "snippet": "<h2 class=\"section-title\">Mauro Colagreco, PARRAIN DE L’EDITION 2026</h2>"
+          },
+          {
+            "selector": ".portrait-name-emphasis",
+            "snippet": "<span class=\"portrait-name-emphasis\">CHRISTOPHE FELDER</span>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".event-heading-mobile > .event-dates",
+            "snippet": "<h4 class=\"event-dates\">Rendez-vous les 8, 9 ET 10 MAI 2027 <span class=\"event-divider-mobile\">|</span><br class=\"line-break-mobile\">SAINT-TROPEZ</h4>"
+          },
+          {
+            "selector": ".home-values",
+            "snippet": "<h4 class=\"home-values\">L’EXCELLENCE, L’AUTHENTICITE, LA SINCERITE, <span class=\"home-values-end\">LA CONVIVIALITE ET LE PARTAGE.</span></h4>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "690fe3ab88c4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"db2eb5d888dd4c419a66e2973570dbf3-ssl\""
+        }
+      },
+      {
+        "hash": "690fe3ab88c4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535990",
+          "etag": "W/\"db2eb5d888dd4c419a66e2973570dbf3-ssl\""
+        }
+      },
+      {
+        "hash": "690fe3ab88c4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"db2eb5d888dd4c419a66e2973570dbf3-ssl\""
+        }
+      },
+      {
+        "hash": "690fe3ab88c4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"db2eb5d888dd4c419a66e2973570dbf3-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

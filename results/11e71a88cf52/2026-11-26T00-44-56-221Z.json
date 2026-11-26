@@ -1,0 +1,317 @@
+{
+  "url": "https://rubygems.org/",
+  "name": "RubyGems",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795653896221,
+  "date": "2026-11-26T00:44:56.221Z",
+  "runId": "2026-11-26T00-30-28-274Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 45331,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://rubygems.org/",
+    "finalUrl": "https://rubygems.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1549,
+      "lcp": 1549,
+      "si": 1549,
+      "tbt": 0,
+      "tti": 1549,
+      "cls": 0.014,
+      "ttfb": 614,
+      "maxPotentialFid": 50,
+      "serverResponseTime": 86,
+      "networkRtt": 6.2,
+      "networkServerLatency": 13.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 183.4,
+      "elementRenderDelay": 167.7
+    },
+    "weight": {
+      "total": 704319,
+      "requests": 47,
+      "mainDocument": 8722,
+      "byType": {
+        "total": {
+          "bytes": 672007,
+          "requests": 46
+        },
+        "script": {
+          "bytes": 335048,
+          "requests": 38
+        },
+        "other": {
+          "bytes": 154704,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 137268,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 36265,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 8722,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 37393,
+          "requests": 4
+        }
+      },
+      "scripts": 38,
+      "stylesheets": 3,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 37393,
+      "mainThreadMs": 0.3,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 37393,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1128,
+            "font": 36265
+          },
+          "typedBytes": 37393
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 784.4,
+      "byGroup": {
+        "other": 409.6,
+        "styleLayout": 172.3,
+        "scriptEvaluation": 118.5,
+        "parseHTML": 37.9,
+        "scriptParseCompile": 27.4,
+        "paintCompositeRender": 12.9,
+        "garbageCollection": 5.8
+      },
+      "bootupMs": 82.6,
+      "longTasks": 3,
+      "longestTaskMs": 79
+    },
+    "dom": {
+      "elements": 223,
+      "depth": 14,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 187645,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1995,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2442.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:44:57.509Z",
+      "runtimeMs": 7192.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "elementRenderDelay": 3255.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "RubyGems.org",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "RubyGems.org",
+      "via": "1.1 varnish",
+      "x-served-by": "cache-iad-khef600089-IAD"
+    },
+    "violations": 5,
+    "passes": 392,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-orange-500 > .text-\\[2\\.5rem\\].sm\\:text-\\[3\\.5rem\\].lg\\:text-\\[5rem\\]",
+            "snippet": "<span class=\"text-[2.5rem] sm:text-[3.5rem] lg:text-[5rem]\">RubyGems</span>"
+          },
+          {
+            "selector": "a[href$=\"download\"] > span",
+            "snippet": "<span>Install RubyGems</span>"
+          },
+          {
+            "selector": ".max-w-4xl > a[href$=\"rubycentral.org/\"]",
+            "snippet": "<a href=\"https://rubycentral.org/\">contributing here</a>"
+          },
+          {
+            "selector": ".bg-\\[\\#FFEEDD\\] > .min-h-14.text-white.bg-orange-500 > span",
+            "snippet": "<span>See our sponsors</span>"
+          },
+          {
+            "selector": ".bg-\\[\\#FFE2D3\\].p-8.dark\\:bg-orange-900 > .min-h-14.text-white.bg-orange-500 > span",
+            "snippet": "<span>Donate now</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "05b69892c878",
+        "nonce": "8ca3f5acdaea",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "05b69892c878",
+        "nonce": "8ca3f5acdaea",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "05b69892c878",
+        "nonce": "8ca3f5acdaea",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "05b69892c878",
+        "nonce": "8ca3f5acdaea",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "05b69892c878",
+        "nonce": "8ca3f5acdaea",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "42",
+          "x-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
