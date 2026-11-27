@@ -1,0 +1,297 @@
+{
+  "url": "https://cezaraugusto.net/",
+  "name": "cezaraugusto.net",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795749790351,
+  "date": "2026-11-27T03:23:10.351Z",
+  "runId": "2026-11-27T02-56-04-090Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21716,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://cezaraugusto.net/",
+    "finalUrl": "https://cezaraugusto.com/",
+    "redirect": {
+      "from": "https://cezaraugusto.net/",
+      "to": "https://cezaraugusto.com/",
+      "chain": [
+        {
+          "url": "https://cezaraugusto.net/",
+          "status": 308
+        },
+        {
+          "url": "https://cezaraugusto.com/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        308
+      ],
+      "change": "host",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1683,
+      "lcp": 1683,
+      "si": 1683,
+      "tbt": 122,
+      "tti": 3597,
+      "cls": 0,
+      "ttfb": 687,
+      "maxPotentialFid": 129,
+      "serverResponseTime": 108,
+      "networkRtt": 27.1,
+      "networkServerLatency": 86.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 430.7,
+      "elementRenderDelay": 121.5
+    },
+    "weight": {
+      "total": 236656,
+      "requests": 16,
+      "mainDocument": 9700,
+      "byType": {
+        "total": {
+          "bytes": 231468,
+          "requests": 15
+        },
+        "script": {
+          "bytes": 184347,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 28755,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 9700,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 7165,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 1501,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 185130,
+          "requests": 3
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 236431,
+      "mainThreadMs": 62,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 184347,
+          "mainThreadMs": 57.2,
+          "byType": {
+            "script": 184347
+          },
+          "typedBytes": 184347
+        },
+        {
+          "entity": "cezaraugusto.com",
+          "bytes": 51526,
+          "mainThreadMs": 4.8,
+          "byType": {
+            "document": 9700,
+            "image": 7165,
+            "font": 28755,
+            "other": 5906
+          },
+          "typedBytes": 51526
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 558,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 558
+          },
+          "typedBytes": 558
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4710.1,
+      "byGroup": {
+        "scriptEvaluation": 4039.5,
+        "other": 339,
+        "garbageCollection": 214,
+        "scriptParseCompile": 39.9,
+        "styleLayout": 39.6,
+        "parseHTML": 23.1,
+        "paintCompositeRender": 15
+      },
+      "bootupMs": 4077.9,
+      "longTasks": 2,
+      "longestTaskMs": 129
+    },
+    "dom": {
+      "elements": 167,
+      "depth": 8,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 77248,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 32926.66666666667,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 816.6,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2793,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T03:23:11.596Z",
+      "runtimeMs": 7248.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::b7288-1795749810714-bc9a40639c07"
+    },
+    "violations": 0,
+    "passes": 435,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9e7a9a12d086",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6b083143-897a\"",
+          "last-modified": "Thu, 26 Nov 2026 13:16:51 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9e7a9a12d086",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "etag": "W/\"6b083143-897a\"",
+          "last-modified": "Thu, 26 Nov 2026 13:16:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9e7a9a12d086",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "etag": "W/\"6b083143-897a\"",
+          "last-modified": "Thu, 26 Nov 2026 13:16:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://franconcapital.com/",
+  "name": "franconcapital.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795749864123,
+  "date": "2026-11-27T03:24:24.123Z",
+  "runId": "2026-11-27T02-56-04-090Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 272309,
+  "error": "The \"start lh:runner:gather\" performance mark has not been set",
+  "errors": [
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms",
+    "The \"start lh:runner:gather\" performance mark has not been set"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 25
+}
