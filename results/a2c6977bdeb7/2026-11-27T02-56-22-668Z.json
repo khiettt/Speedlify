@@ -1,0 +1,348 @@
+{
+  "url": "https://www.tkackielodzkie.pl/",
+  "name": "www.tkackielodzkie.pl",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795748182668,
+  "date": "2026-11-27T02:56:22.668Z",
+  "runId": "2026-11-27T02-56-11-505Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26005,
+  "error": null,
+  "variance": {
+    "min": 67,
+    "max": 100,
+    "spread": 33,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.tkackielodzkie.pl/",
+    "finalUrl": "https://www.tkackielodzkie.pl/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 89,
+      "best-practices": 92,
+      "seo": 82,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 801,
+      "lcp": 1849,
+      "si": 801,
+      "tbt": 0,
+      "tti": 1849,
+      "cls": 0,
+      "ttfb": 629,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 29,
+      "networkRtt": 0.1,
+      "networkServerLatency": 28.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 30.7,
+      "resourceLoadDelay": 8.1,
+      "resourceLoadDuration": 23.6,
+      "elementRenderDelay": 56.2
+    },
+    "weight": {
+      "total": 434291,
+      "requests": 12,
+      "mainDocument": 1398,
+      "byType": {
+        "total": {
+          "bytes": 432973,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 356323,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 67030,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 6351,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 1871,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 1398,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 55270,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 55270,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 55270,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 55270
+          },
+          "typedBytes": 55270
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 163.1,
+      "byGroup": {
+        "other": 96.4,
+        "styleLayout": 34.5,
+        "scriptEvaluation": 17.8,
+        "paintCompositeRender": 5.9,
+        "parseHTML": 4.4,
+        "scriptParseCompile": 4.1
+      },
+      "bootupMs": 6.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 75,
+      "depth": 7,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 4
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3091,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T02:56:42.496Z",
+      "runtimeMs": 5970
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8DEY6X2CJ58PVM4J65RHZND"
+    },
+    "violations": 5,
+    "passes": 76,
+    "incomplete": 1,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p:nth-child(1)",
+            "snippet": "<p>©2022 <a href=\"http://regiocentrum.pl\">Regio Centrum</a></p>"
+          },
+          {
+            "selector": "p:nth-child(1) > a[href$=\"regiocentrum.pl\"]",
+            "snippet": "<a href=\"http://regiocentrum.pl\">Regio Centrum</a>"
+          },
+          {
+            "selector": "p:nth-child(2)",
+            "snippet": "<p>Projekt został dofinansowany ze&nbsp;środków<br><a href=\"https://www.gov.pl/web/kultura/\">Ministerstwa Kultury i&nbsp;Dziedzictwa Narodowego</a></p>"
+          },
+          {
+            "selector": "p:nth-child(2) > a",
+            "snippet": "<a href=\"https://www.gov.pl/web/kultura/\">Ministerstwa Kultury i&nbsp;Dziedzictwa Narodowego</a>"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".mx-auto",
+            "snippet": "<img src=\"https://res.cloudinary.com/fusilli/image/upload/v1565521372/tkackie/len.png\" class=\"mx-auto mt-12 lg_mt-0\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a0fe40194b3e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"18309024f85718ec4811077c2435f084-ssl\""
+        }
+      },
+      {
+        "hash": "a0fe40194b3e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"18309024f85718ec4811077c2435f084-ssl\""
+        }
+      },
+      {
+        "hash": "a0fe40194b3e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"18309024f85718ec4811077c2435f084-ssl\""
+        }
+      },
+      {
+        "hash": "a0fe40194b3e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "etag": "W/\"18309024f85718ec4811077c2435f084-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

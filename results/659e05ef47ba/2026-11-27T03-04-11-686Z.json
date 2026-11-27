@@ -1,0 +1,316 @@
+{
+  "url": "https://www.scottmurphytennis.net/",
+  "name": "www.scottmurphytennis.net",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795748651686,
+  "date": "2026-11-27T03:04:11.686Z",
+  "runId": "2026-11-27T02-56-11-505Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26278,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.scottmurphytennis.net/",
+    "finalUrl": "https://www.scottmurphytennis.net/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 994,
+      "lcp": 994,
+      "si": 994,
+      "tbt": 8,
+      "tti": 1363,
+      "cls": 0.037,
+      "ttfb": 643,
+      "maxPotentialFid": 65,
+      "serverResponseTime": 28,
+      "networkRtt": 0.9,
+      "networkServerLatency": 56.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 29.7,
+      "elementRenderDelay": 121.6
+    },
+    "weight": {
+      "total": 2907145,
+      "requests": 41,
+      "mainDocument": 2664,
+      "byType": {
+        "total": {
+          "bytes": 2896182,
+          "requests": 40
+        },
+        "image": {
+          "bytes": 1700329,
+          "requests": 11
+        },
+        "script": {
+          "bytes": 929363,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 112403,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 80840,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 64813,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 8434,
+          "requests": 10
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1177211,
+          "requests": 27
+        }
+      },
+      "scripts": 9,
+      "stylesheets": 5,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 89530,
+      "mainThreadMs": 4.2,
+      "top": [
+        {
+          "entity": "Unpkg",
+          "bytes": 59097,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "stylesheet": 8011,
+            "font": 51086
+          },
+          "typedBytes": 59097
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 27224,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 607,
+            "font": 26617
+          },
+          "typedBytes": 27224
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3209,
+          "mainThreadMs": 3,
+          "byType": {
+            "script": 2776,
+            "image": 433
+          },
+          "typedBytes": 3209
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 520,
+      "byGroup": {
+        "other": 227.5,
+        "styleLayout": 122.9,
+        "scriptEvaluation": 103.6,
+        "paintCompositeRender": 31.3,
+        "parseHTML": 18.6,
+        "scriptParseCompile": 16
+      },
+      "bootupMs": 72.2,
+      "longTasks": 2,
+      "longestTaskMs": 65
+    },
+    "dom": {
+      "elements": 116,
+      "depth": 11,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2773,
+      "renderBlockingMs": 1689,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 82.22500000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 45
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2965.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T03:04:29.308Z",
+      "runtimeMs": 7591.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8DFCGBP6GMB4Z4YK5WF97F9"
+    },
+    "violations": 1,
+    "passes": 275,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color ytp-fit-cover-video ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a7959f43c6a7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7369",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528631",
+          "etag": "W/\"a88475789433cb364cc2a60b37fa475b-ssl\""
+        }
+      },
+      {
+        "hash": "a7959f43c6a7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7377",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528623",
+          "etag": "W/\"a88475789433cb364cc2a60b37fa475b-ssl\""
+        }
+      },
+      {
+        "hash": "a7959f43c6a7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7385",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528615",
+          "etag": "W/\"a88475789433cb364cc2a60b37fa475b-ssl\""
+        }
+      },
+      {
+        "hash": "a7959f43c6a7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528609",
+          "etag": "W/\"a88475789433cb364cc2a60b37fa475b-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
