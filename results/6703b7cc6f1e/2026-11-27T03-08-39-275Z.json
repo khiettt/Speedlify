@@ -1,0 +1,22 @@
+{
+  "url": "https://jaenis.ch/",
+  "name": "jaenis.ch",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795748919275,
+  "date": "2026-11-27T03:08:39.275Z",
+  "runId": "2026-11-27T02-56-12-207Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 65789,
+  "error": "CHROME_INTERSTITIAL_ERROR: Chrome prevented page load with an interstitial. Make sure you are testing the correct URL and that the server is properly responding to all requests.",
+  "errors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)",
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)",
+    "CHROME_INTERSTITIAL_ERROR: Chrome prevented page load with an interstitial. Make sure you are testing the correct URL and that the server is properly responding to all requests."
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 13
+}

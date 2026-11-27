@@ -1,0 +1,316 @@
+{
+  "url": "https://fifty.snook.ca/",
+  "name": "fifty.snook.ca",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795748356575,
+  "date": "2026-11-27T02:59:16.575Z",
+  "runId": "2026-11-27T02-56-12-207Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23067,
+  "error": null,
+  "variance": {
+    "min": 89,
+    "max": 96,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://fifty.snook.ca/",
+    "finalUrl": "https://fifty.snook.ca/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2340,
+      "lcp": 2340,
+      "si": 2340,
+      "tbt": 0,
+      "tti": 2340,
+      "cls": 0,
+      "ttfb": 610,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 8,
+      "networkRtt": 0.1,
+      "networkServerLatency": 65.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9.4,
+      "elementRenderDelay": 76.3
+    },
+    "weight": {
+      "total": 123881,
+      "requests": 10,
+      "mainDocument": 4340,
+      "byType": {
+        "total": {
+          "bytes": 123881,
+          "requests": 10
+        },
+        "image": {
+          "bytes": 81961,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 30867,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 4571,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 4340,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2142,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 113168,
+          "requests": 5
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 113168,
+      "mainThreadMs": 0.2,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 81234,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 81234
+          },
+          "typedBytes": 81234
+        },
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 31934,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1067,
+            "font": 30867
+          },
+          "typedBytes": 31934
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 153.5,
+      "byGroup": {
+        "other": 78.5,
+        "styleLayout": 40.4,
+        "paintCompositeRender": 14.1,
+        "scriptEvaluation": 12.4,
+        "parseHTML": 6.4,
+        "scriptParseCompile": 1.7
+      },
+      "bootupMs": 12.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 392,
+      "depth": 7,
+      "maxChildren": 50
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1581,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 3895.616666666666,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 14,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 1
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3506,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T02:59:27.719Z",
+      "runtimeMs": 5844
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "e80bcd9a6a168f9ca1ff6a2d24510414e54b1395",
+      "x-github-request-id": "AEC0:3A1BD0:1ED51:33343:6B08F205",
+      "x-served-by": "cache-bfi-kbfi7400091-BFI"
+    },
+    "violations": 2,
+    "passes": 696,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article",
+            "snippet": "<article>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2558cff3f1f4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"64b1668e-54d1\"",
+          "last-modified": "Fri, 14 Jul 2023 15:15:26 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "2558cff3f1f4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "etag": "W/\"64b1668e-54d1\"",
+          "last-modified": "Fri, 14 Jul 2023 15:15:26 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "2558cff3f1f4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "etag": "W/\"64b1668e-54d1\"",
+          "last-modified": "Fri, 14 Jul 2023 15:15:26 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "2558cff3f1f4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "etag": "W/\"64b1668e-54d1\"",
+          "last-modified": "Fri, 14 Jul 2023 15:15:26 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

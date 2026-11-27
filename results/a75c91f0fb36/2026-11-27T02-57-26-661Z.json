@@ -1,0 +1,278 @@
+{
+  "url": "https://gourmonds.de/",
+  "name": "gourmonds.de",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795748246661,
+  "date": "2026-11-27T02:57:26.661Z",
+  "runId": "2026-11-27T02-56-12-207Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 29366,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gourmonds.de/",
+    "finalUrl": "https://gourmonds.de/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1225,
+      "lcp": 2002,
+      "si": 1992,
+      "tbt": 0,
+      "tti": 2002,
+      "cls": 0,
+      "ttfb": 925,
+      "maxPotentialFid": 27,
+      "serverResponseTime": 178,
+      "networkRtt": 0,
+      "networkServerLatency": 325.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 179.6,
+      "resourceLoadDelay": 7.8,
+      "resourceLoadDuration": 696,
+      "elementRenderDelay": 57.5
+    },
+    "weight": {
+      "total": 297483,
+      "requests": 15,
+      "mainDocument": 3421,
+      "byType": {
+        "total": {
+          "bytes": 297483,
+          "requests": 14
+        },
+        "image": {
+          "bytes": 145435,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 120720,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 21688,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 4691,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 3421,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1528,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 510.2,
+      "byGroup": {
+        "other": 277.5,
+        "styleLayout": 109.9,
+        "paintCompositeRender": 84.7,
+        "scriptEvaluation": 18.8,
+        "parseHTML": 11.6,
+        "garbageCollection": 4,
+        "scriptParseCompile": 3.7
+      },
+      "bootupMs": 17,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 179,
+      "depth": 9,
+      "maxChildren": 18
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 10599,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 292534,
+      "poorlyCachedCount": 11
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 23,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3486,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T02:57:46.365Z",
+      "runtimeMs": 8646.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache"
+    },
+    "violations": 1,
+    "passes": 279,
+    "incomplete": 60,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".hero-content",
+            "snippet": "<div class=\"container-xl hero-content\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b32adae55190",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"2a41-65c7aaa66b54b-br\"",
+          "last-modified": "Sun, 27 Sep 2026 17:56:14 GMT"
+        }
+      },
+      {
+        "hash": "b32adae55190",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"2a41-65c7aaa66b54b-br\"",
+          "last-modified": "Sun, 27 Sep 2026 17:56:14 GMT"
+        }
+      },
+      {
+        "hash": "b32adae55190",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"2a41-65c7aaa66b54b-br\"",
+          "last-modified": "Sun, 27 Sep 2026 17:56:14 GMT"
+        }
+      },
+      {
+        "hash": "b32adae55190",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"2a41-65c7aaa66b54b-br\"",
+          "last-modified": "Sun, 27 Sep 2026 17:56:14 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

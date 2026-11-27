@@ -1,0 +1,424 @@
+{
+  "url": "https://vuejs.org/",
+  "name": "Vue",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795748471159,
+  "date": "2026-11-27T03:01:11.159Z",
+  "runId": "2026-11-27T02-56-12-207Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 45573,
+  "error": null,
+  "variance": {
+    "min": 90,
+    "max": 90,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://vuejs.org/",
+    "finalUrl": "https://vuejs.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 88,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 89
+    },
+    "timings": {
+      "fcp": 1874,
+      "lcp": 1874,
+      "si": 1874,
+      "tbt": 14,
+      "tti": 3602,
+      "cls": 0.176,
+      "ttfb": 659,
+      "maxPotentialFid": 78,
+      "serverResponseTime": 30,
+      "networkRtt": 0,
+      "networkServerLatency": 125.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 31.7,
+      "elementRenderDelay": 137.4
+    },
+    "weight": {
+      "total": 306460,
+      "requests": 32,
+      "mainDocument": 11942,
+      "byType": {
+        "total": {
+          "bytes": 306460,
+          "requests": 32
+        },
+        "font": {
+          "bytes": 120079,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 101388,
+          "requests": 14
+        },
+        "stylesheet": {
+          "bytes": 40267,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 21552,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 20704,
+          "requests": 8
+        },
+        "image": {
+          "bytes": 2470,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 97044,
+          "requests": 12
+        }
+      },
+      "scripts": 14,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 12712,
+      "mainThreadMs": 8.1,
+      "top": [
+        {
+          "entity": "bitterbrains.com",
+          "bytes": 8680,
+          "mainThreadMs": 7,
+          "byType": {
+            "script": 6930,
+            "other": 1750
+          },
+          "typedBytes": 8680
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3210,
+          "mainThreadMs": 1,
+          "byType": {
+            "script": 2777,
+            "image": 433
+          },
+          "typedBytes": 3210
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 822,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 822
+          },
+          "typedBytes": 822
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 441.2,
+      "byGroup": {
+        "other": 164.7,
+        "scriptEvaluation": 162.1,
+        "styleLayout": 65.6,
+        "parseHTML": 18.1,
+        "paintCompositeRender": 14.5,
+        "garbageCollection": 9,
+        "scriptParseCompile": 7.3
+      },
+      "bootupMs": 133.8,
+      "longTasks": 1,
+      "longestTaskMs": 78
+    },
+    "dom": {
+      "elements": 565,
+      "depth": 18,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 34753,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 3369,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1065,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 4712.4,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 27,
+      "failingNodes": 13,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 10
+        },
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3551.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T03:01:20.355Z",
+      "runtimeMs": 7038.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.7,
+    "elementRenderDelay": 1499.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "vitepress",
+      "name": "VitePress",
+      "icon": "Vitepress",
+      "version": "2.0.0",
+      "source": "meta",
+      "raw": "VitePress v2.0.0-alpha.17"
+    },
+    "probe": {
+      "metas": [
+        "VitePress v2.0.0-alpha.17"
+      ],
+      "marks": [
+        "vitepress",
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.45"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8DF7J78DV3780N4CEZ38YJ2"
+    },
+    "violations": 16,
+    "passes": 506,
+    "incomplete": 3,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 10,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".description",
+            "snippet": "<p class=\"description\" data-v-7d4b747f=\"\"> An approachable, performant and versatile framework for building web user interfaces. </p>"
+          },
+          {
+            "selector": "#vuemastery-action",
+            "snippet": "<a id=\"vuemastery-action\" class=\"why-vue\" href=\"javascript:;\" data-v-bf2d099b=\"\">"
+          },
+          {
+            "selector": "a[href$=\"sponsor/#tier-benefits\"]",
+            "snippet": "<a href=\"/sponsor/#tier-benefits\" data-v-7d4b747f=\"\"> Special Sponsor slot is now vacant - Inquire now </a>"
+          },
+          {
+            "selector": ".vt-box[data-v-7d4b747f=\"\"]:nth-child(1) > p",
+            "snippet": "<p data-v-7d4b747f=\"\"> A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework. </p>"
+          },
+          {
+            "selector": ".vt-box[data-v-7d4b747f=\"\"]:nth-child(2) > p",
+            "snippet": "<p data-v-7d4b747f=\"\"> Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation. </p>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe >>> .bb-prelude",
+            "snippet": "<div class=\"bb-prelude\"><span>BLACK FRIDAY</span> <br>EXCLUSIVE</div>"
+          },
+          {
+            "selector": "iframe >>> .bb-title > .bb-full",
+            "snippet": "<span class=\"bb-full\">Official Vue.js Certification <em>UP TO 60% OFF</em><small>+ FREE VIP AI Harness Engineering workshop</small></span>"
+          },
+          {
+            "selector": ".VPFooter",
+            "snippet": "<div class=\"VPFooter\" data-v-d85f39a1=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe",
+            "snippet": "<iframe scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" style=\"width: 100% !importa...\" src=\"https://media.bitter...\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sitemap-col:nth-child(1) > h4",
+            "snippet": "<h4>Docs</h4>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[data-v-d85f39a1=\"\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+            "snippet": "<a class=\"vt-link link link\" href=\"https://opensource.org/licenses/MIT\" target=\"_blank\" rel=\"noopener noreferrer\" data-v-d85f39a1=\"\"><!--[-->MIT License<!--]--><!----><!----></a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ad46f64a2296",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "66343",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31469657",
+          "etag": "W/\"4ae93f9e757946f235a4512fb9ff7a86-ssl\""
+        }
+      },
+      {
+        "hash": "ad46f64a2296",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "66351",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31469649",
+          "etag": "W/\"4ae93f9e757946f235a4512fb9ff7a86-ssl\""
+        }
+      },
+      {
+        "hash": "ad46f64a2296",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "66358",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31469642",
+          "etag": "W/\"4ae93f9e757946f235a4512fb9ff7a86-ssl\""
+        }
+      },
+      {
+        "hash": "ad46f64a2296",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "66365",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31469635",
+          "etag": "W/\"4ae93f9e757946f235a4512fb9ff7a86-ssl\""
+        }
+      },
+      {
+        "hash": "ad46f64a2296",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31469615",
+          "etag": "W/\"4ae93f9e757946f235a4512fb9ff7a86-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
