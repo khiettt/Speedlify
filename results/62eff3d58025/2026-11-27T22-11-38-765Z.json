@@ -1,0 +1,386 @@
+{
+  "url": "https://tanstack.com/",
+  "name": "TanStack",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795817498765,
+  "date": "2026-11-27T22:11:38.765Z",
+  "runId": "2026-11-27T22-05-53-571Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 106560,
+  "error": null,
+  "variance": {
+    "min": 51,
+    "max": 51,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://tanstack.com/",
+    "finalUrl": "https://tanstack.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 51,
+      "accessibility": 90,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1852,
+      "lcp": 7905,
+      "si": 2853,
+      "tbt": 1087,
+      "tti": 9102,
+      "cls": 0.031,
+      "ttfb": 471,
+      "maxPotentialFid": 338,
+      "serverResponseTime": 73,
+      "networkRtt": 0.1,
+      "networkServerLatency": 152.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 74.2,
+      "resourceLoadDelay": 537.6,
+      "resourceLoadDuration": 45.8,
+      "elementRenderDelay": 261.3
+    },
+    "weight": {
+      "total": 3113681,
+      "requests": 118,
+      "mainDocument": 61384,
+      "byType": {
+        "total": {
+          "bytes": 3082912,
+          "requests": 105
+        },
+        "media": {
+          "bytes": 1691226,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 913331,
+          "requests": 54
+        },
+        "font": {
+          "bytes": 180567,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 134390,
+          "requests": 28
+        },
+        "stylesheet": {
+          "bytes": 76623,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 61384,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 25391,
+          "requests": 14
+        },
+        "third-party": {
+          "bytes": 120994,
+          "requests": 12
+        }
+      },
+      "scripts": 54,
+      "stylesheets": 2,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 120994,
+      "mainThreadMs": 6.7,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 108366,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1200,
+            "font": 107166
+          },
+          "typedBytes": 108366
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 5.3,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "namethathost.com",
+          "bytes": 1645,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 1188,
+            "other": 457
+          },
+          "typedBytes": 1645
+        },
+        {
+          "entity": "Sentry",
+          "bytes": 327,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 327
+          },
+          "typedBytes": 327
+        },
+        {
+          "entity": "scarf.sh",
+          "bytes": 305,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 216,
+            "other": 89
+          },
+          "typedBytes": 305
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 5719.2,
+      "byGroup": {
+        "scriptEvaluation": 2197.2,
+        "other": 1685.3,
+        "styleLayout": 1394.1,
+        "paintCompositeRender": 231.9,
+        "garbageCollection": 75.7,
+        "parseHTML": 68.1,
+        "scriptParseCompile": 66.9
+      },
+      "bootupMs": 2209.2,
+      "longTasks": 16,
+      "longestTaskMs": 338
+    },
+    "dom": {
+      "elements": 2109,
+      "depth": 19,
+      "maxChildren": 158
+    },
+    "waste": {
+      "unusedJsBytes": 293866,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1531,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 1695366.4,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 30,
+      "failingNodes": 104,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 102
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 79
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2930.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T22:12:22.538Z",
+      "runtimeMs": 16295.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "elementRenderDelay": 2346.6
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "vite",
+      "name": "Vite",
+      "icon": "Vite",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "vite"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a6147a98bc46efcf-MSP",
+      "server": "cloudflare"
+    },
+    "violations": 3,
+    "passes": 2916,
+    "incomplete": 2,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#radix-\\:R0",
+            "snippet": "<button type=\"button\" id=\"radix-:R0\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\" class=\"\"><span style=\"position:fixed;left:0;top:0;width:1px;height:1px;\"></span></button>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".max-w-\\[960px\\] > .text-4xl.font-\\[500\\].leading-\\[1\\.05\\]",
+            "snippet": "<h3 class=\"text-center text-4xl font-[500] leading-[1.05] tracking-[-0.8px] sm:text-5xl lg:text-[64px]\">Why TanStack?</h3>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[aria-label=\"TanStack\"]",
+            "snippet": "<a aria-label=\"TanStack\" class=\"inline-flex items-center cursor-pointer active\" href=\"/\" data-status=\"active\" aria-current=\"page\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "707a741b79ae",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "88eecfb47294",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "29891c38440b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "4758ff2d8bb5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "9a64f994662d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {},
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
