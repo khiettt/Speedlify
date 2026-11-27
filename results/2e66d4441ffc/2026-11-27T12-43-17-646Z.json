@@ -1,0 +1,276 @@
+{
+  "url": "https://gustavlindqvist.se/",
+  "name": "gustavlindqvist.se",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795783397646,
+  "date": "2026-11-27T12:43:17.646Z",
+  "runId": "2026-11-27T12-43-16-547Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 29529,
+  "error": null,
+  "variance": {
+    "min": 92,
+    "max": 97,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gustavlindqvist.se/",
+    "finalUrl": "https://gustavlindqvist.se/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1028,
+      "lcp": 3128,
+      "si": 3956,
+      "tbt": 0,
+      "tti": 3128,
+      "cls": 0,
+      "ttfb": 728,
+      "maxPotentialFid": 24,
+      "serverResponseTime": 199,
+      "networkRtt": 0,
+      "networkServerLatency": 132.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 200.2,
+      "resourceLoadDelay": 7,
+      "resourceLoadDuration": 480.3,
+      "elementRenderDelay": 1670.8
+    },
+    "weight": {
+      "total": 428998,
+      "requests": 20,
+      "mainDocument": 3654,
+      "byType": {
+        "total": {
+          "bytes": 428998,
+          "requests": 20
+        },
+        "image": {
+          "bytes": 198102,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 145406,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 65473,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 16363,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3654,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 43508,
+          "requests": 1
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 43508,
+      "mainThreadMs": 5.1,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 43508,
+          "mainThreadMs": 5.1,
+          "byType": {
+            "script": 43508
+          },
+          "typedBytes": 43508
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 189.6,
+      "byGroup": {
+        "other": 97.9,
+        "scriptEvaluation": 35.1,
+        "styleLayout": 30.8,
+        "scriptParseCompile": 10.5,
+        "parseHTML": 9.2,
+        "paintCompositeRender": 6.2
+      },
+      "bootupMs": 2.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 114,
+      "depth": 10,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 24223,
+      "unusedCssBytes": 11581,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 39882.33333333333,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3769.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T12:43:37.203Z",
+      "runtimeMs": 9049.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "ghost",
+      "name": "Ghost",
+      "icon": "Ghost",
+      "version": "6.78",
+      "source": "meta",
+      "raw": "Ghost 6.78"
+    },
+    "probe": {
+      "metas": [
+        "Ghost 6.78"
+      ],
+      "marks": [
+        "htmx",
+        "preact"
+      ],
+      "markVersions": {
+        "htmx": "2.0.8"
+      }
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "x-powered-by": "Express"
+    },
+    "violations": 1,
+    "passes": 297,
+    "incomplete": 14,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "body > nav",
+            "snippet": "<nav> <a class=\"skip-to-content\" href=\"#main\">Gå till innehållet</a> <a class=\"skip-to-content\" href=\"#footer\">Gå till sidfoten</a> </nav>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "8357bc384035",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"36d3-W7KOA8/IVGzABfeG+XUkz9uED2I\""
+        }
+      },
+      {
+        "hash": "8357bc384035",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"36d3-W7KOA8/IVGzABfeG+XUkz9uED2I\""
+        }
+      },
+      {
+        "hash": "8357bc384035",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"36d3-W7KOA8/IVGzABfeG+XUkz9uED2I\""
+        }
+      },
+      {
+        "hash": "8357bc384035",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"36d3-W7KOA8/IVGzABfeG+XUkz9uED2I\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

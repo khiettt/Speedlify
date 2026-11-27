@@ -1,0 +1,316 @@
+{
+  "url": "https://germanfrelo.dev/",
+  "name": "germanfrelo.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795783709845,
+  "date": "2026-11-27T12:48:29.845Z",
+  "runId": "2026-11-27T12-43-16-547Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20302,
+  "error": null,
+  "variance": {
+    "min": 89,
+    "max": 98,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://germanfrelo.dev/",
+    "finalUrl": "https://germanfrelo.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 89,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 78
+    },
+    "timings": {
+      "fcp": 1563,
+      "lcp": 1563,
+      "si": 1563,
+      "tbt": 0,
+      "tti": 1563,
+      "cls": 0.219,
+      "ttfb": 620,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 20,
+      "networkRtt": 0.1,
+      "networkServerLatency": 107.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 21.4,
+      "elementRenderDelay": 62.2
+    },
+    "weight": {
+      "total": 81717,
+      "requests": 9,
+      "mainDocument": 3410,
+      "byType": {
+        "total": {
+          "bytes": 80430,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 61189,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 9758,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 5978,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3410,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 95,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 71781,
+          "requests": 6
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 3,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 71781,
+      "mainThreadMs": 6.5,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 62031,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 842,
+            "font": 61189
+          },
+          "typedBytes": 62031
+        },
+        {
+          "entity": "simpleanalyticscdn.com",
+          "bytes": 6073,
+          "mainThreadMs": 6.2,
+          "byType": {
+            "script": 5978,
+            "image": 95
+          },
+          "typedBytes": 6073
+        },
+        {
+          "entity": "GitHub",
+          "bytes": 3677,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 3677
+          },
+          "typedBytes": 3677
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 188.6,
+      "byGroup": {
+        "styleLayout": 72.7,
+        "other": 64.5,
+        "scriptEvaluation": 36.3,
+        "paintCompositeRender": 7.1,
+        "parseHTML": 6.7,
+        "scriptParseCompile": 1.3
+      },
+      "bootupMs": 11.4,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 127,
+      "depth": 8,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2971,
+      "renderBlockingMs": 1523,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 3968.3833333333328,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4337,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T12:48:44.231Z",
+      "runtimeMs": 5717.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.2",
+      "source": "meta",
+      "raw": "Eleventy v3.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.2"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8EGT7TB5MDW2VSXDJQ0ZR04"
+    },
+    "violations": 1,
+    "passes": 302,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".logo",
+            "snippet": "<a href=\"/\" aria-label=\"Homepage\" rel=\"me\" class=\"logo\">Germán Freixinós López</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "cb2ddb694d95",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"cb65d36d860b32fa0247780a8a691625-ssl\""
+        }
+      },
+      {
+        "hash": "cb2ddb694d95",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"cb65d36d860b32fa0247780a8a691625-ssl\""
+        }
+      },
+      {
+        "hash": "cb2ddb694d95",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"cb65d36d860b32fa0247780a8a691625-ssl\""
+        }
+      },
+      {
+        "hash": "cb2ddb694d95",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"cb65d36d860b32fa0247780a8a691625-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
