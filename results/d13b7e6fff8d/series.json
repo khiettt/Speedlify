@@ -1,0 +1,3 @@
+{"version":1,"url":"https://examples.buildawesome.one/","updated":"2026-11-27T12:44:00.566Z","points":[
+{"t":1795783415583,"lh":"13.6.0","performance":86,"accessibility":93,"best-practices":100,"seo":91,"lcp":1535,"cls":0.258,"tbt":87,"fcp":1535,"si":1535,"ttfb":619,"total":357313,"requests":15,"bytes":352501,"mainThreadMs":75,"unusedJsBytes":146505,"unusedCssBytes":0,"mainThreadTotal":694.5,"longTasks":3,"elements":70,"failingCount":1,"failingNodes":2,"axeViolations":4,"axePasses":157,"bench":2838.5,"runs":3,"reqRuns":3,"ms":24981,"spread":12}
+]}
