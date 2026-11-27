@@ -1,0 +1,250 @@
+{
+  "url": "https://www.tilt-studio.fr/",
+  "name": "www.tilt-studio.fr",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795783900093,
+  "date": "2026-11-27T12:51:40.093Z",
+  "runId": "2026-11-27T12-43-21-712Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26987,
+  "error": null,
+  "variance": {
+    "min": 80,
+    "max": 82,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.tilt-studio.fr/",
+    "finalUrl": "https://www.tilt-studio.fr/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 82,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 63
+    },
+    "timings": {
+      "fcp": 1144,
+      "lcp": 4388,
+      "si": 1151,
+      "tbt": 33,
+      "tti": 4388,
+      "cls": 0.097,
+      "ttfb": 722,
+      "maxPotentialFid": 83,
+      "serverResponseTime": 133,
+      "networkRtt": 0,
+      "networkServerLatency": 122.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 135,
+      "resourceLoadDelay": 147.6,
+      "resourceLoadDuration": 234.8,
+      "elementRenderDelay": 85.5
+    },
+    "weight": {
+      "total": 720562,
+      "requests": 24,
+      "mainDocument": 3602,
+      "byType": {
+        "total": {
+          "bytes": 715606,
+          "requests": 22
+        },
+        "image": {
+          "bytes": 617220,
+          "requests": 15
+        },
+        "font": {
+          "bytes": 56322,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 23073,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 11309,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 4080,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3602,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 1748.1,
+      "byGroup": {
+        "other": 910.1,
+        "styleLayout": 367.3,
+        "paintCompositeRender": 297.3,
+        "scriptEvaluation": 163.3,
+        "parseHTML": 8.7,
+        "scriptParseCompile": 1.3
+      },
+      "bootupMs": 163.5,
+      "longTasks": 2,
+      "longestTaskMs": 93
+    },
+    "dom": {
+      "elements": 934,
+      "depth": 12,
+      "maxChildren": 71
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2456,
+      "renderBlockingMs": 272,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 23,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 12
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2454.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T12:51:58.586Z",
+      "runtimeMs": 8000
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache"
+    },
+    "violations": 0,
+    "passes": 101,
+    "incomplete": 6,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "437c6bd92b60",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"3dfa-602658bc933ee-gzip\"",
+          "last-modified": "Tue, 08 Aug 2023 08:57:00 GMT"
+        }
+      },
+      {
+        "hash": "437c6bd92b60",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"3dfa-602658bc933ee-gzip\"",
+          "last-modified": "Tue, 08 Aug 2023 08:57:00 GMT"
+        }
+      },
+      {
+        "hash": "437c6bd92b60",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"3dfa-602658bc933ee-gzip\"",
+          "last-modified": "Tue, 08 Aug 2023 08:57:00 GMT"
+        }
+      },
+      {
+        "hash": "437c6bd92b60",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"3dfa-602658bc933ee-gzip\"",
+          "last-modified": "Tue, 08 Aug 2023 08:57:00 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
