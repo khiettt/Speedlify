@@ -1,0 +1,322 @@
+{
+  "url": "https://alprado.com/",
+  "name": "alprado.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795817158197,
+  "date": "2026-11-27T22:05:58.197Z",
+  "runId": "2026-11-27T22-05-51-057Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26796,
+  "error": null,
+  "variance": {
+    "min": 75,
+    "max": 100,
+    "spread": 25,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://alprado.com/",
+    "finalUrl": "https://alprado.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 96,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 952,
+      "lcp": 952,
+      "si": 952,
+      "tbt": 403,
+      "tti": 3433,
+      "cls": 0,
+      "ttfb": 621,
+      "maxPotentialFid": 387,
+      "serverResponseTime": 22,
+      "networkRtt": 4.8,
+      "networkServerLatency": 51
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 26.5,
+      "elementRenderDelay": 58.3
+    },
+    "weight": {
+      "total": 630481,
+      "requests": 16,
+      "mainDocument": 19492,
+      "byType": {
+        "total": {
+          "bytes": 630482,
+          "requests": 15
+        },
+        "image": {
+          "bytes": 352812,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 226950,
+          "requests": 6
+        },
+        "other": {
+          "bytes": 28324,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 19492,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 2904,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 199830,
+          "requests": 5
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 199871,
+      "mainThreadMs": 60.7,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 196612,
+          "mainThreadMs": 59.9,
+          "byType": {
+            "script": 196612
+          },
+          "typedBytes": 196612
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 3154,
+          "mainThreadMs": 0.8,
+          "byType": {
+            "script": 3154
+          },
+          "typedBytes": 3154
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 105,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 64,
+            "other": 41
+          },
+          "typedBytes": 105
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 938.8,
+      "byGroup": {
+        "other": 389,
+        "scriptEvaluation": 297.1,
+        "garbageCollection": 144.4,
+        "styleLayout": 36.6,
+        "scriptParseCompile": 34.4,
+        "parseHTML": 29.4,
+        "paintCompositeRender": 8
+      },
+      "bootupMs": 292.6,
+      "longTasks": 3,
+      "longestTaskMs": 387
+    },
+    "dom": {
+      "elements": 282,
+      "depth": 14,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 65626,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4007,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T22:06:10.218Z",
+      "runtimeMs": 6642.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "Wordpress",
+      "version": "7.1.5",
+      "source": "meta",
+      "raw": "WordPress 7.1.5"
+    },
+    "probe": {
+      "metas": [
+        "WordPress 7.1.5",
+        "Site Kit by Google 1.192.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 2,
+    "passes": 536,
+    "incomplete": 1,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe",
+            "snippet": "<iframe src=\"https://www.google.c...\" width=\"600\" height=\"560\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-c...\" class=\"map\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".wp-container-core-group-is-layout-3c8f54a4",
+            "snippet": "<div class=\"wp-block-group has-secondary-background-color has-background has-global-padding is-layout-constrained wp-container-core-group-is-layout-3c8f54a4 wp-block-group-is-layout-constrained\" styl…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "778e335a4f91",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "778e335a4f91",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "778e335a4f91",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "778e335a4f91",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

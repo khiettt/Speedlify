@@ -1,0 +1,22 @@
+{
+  "url": "https://www.ilithya.rocks/",
+  "name": "www.ilithya.rocks",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795817507623,
+  "date": "2026-11-27T22:11:47.623Z",
+  "runId": "2026-11-27T22-05-51-057Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 312728,
+  "error": "lighthouse timed out after 120000ms",
+  "errors": [
+    "lighthouse timed out after 120000ms",
+    "The \"start lh:runner:gather\" performance mark has not been set",
+    "lighthouse timed out after 120000ms"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 1
+}
