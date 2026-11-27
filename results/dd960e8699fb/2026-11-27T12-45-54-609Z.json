@@ -1,0 +1,301 @@
+{
+  "url": "https://pnetto.com/",
+  "name": "pnetto.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795783554609,
+  "date": "2026-11-27T12:45:54.609Z",
+  "runId": "2026-11-27T12-43-16-876Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 46550,
+  "error": null,
+  "partialErrors": [
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "variance": {
+    "min": 95,
+    "max": 95,
+    "spread": 0,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://pnetto.com/",
+    "finalUrl": "https://pnetto.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2329,
+      "lcp": 2329,
+      "si": 2329,
+      "tbt": 0,
+      "tti": 2329,
+      "cls": 0,
+      "ttfb": 631,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 27,
+      "networkRtt": 8.2,
+      "networkServerLatency": 209
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 28.6,
+      "elementRenderDelay": 130.8
+    },
+    "weight": {
+      "total": 395302,
+      "requests": 28,
+      "mainDocument": 8162,
+      "byType": {
+        "total": {
+          "bytes": 395302,
+          "requests": 28
+        },
+        "image": {
+          "bytes": 239649,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 55018,
+          "requests": 14
+        },
+        "script": {
+          "bytes": 44838,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 33471,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 14164,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 8162,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 279794,
+          "requests": 11
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 279794,
+      "mainThreadMs": 3.6,
+      "top": [
+        {
+          "entity": "pnetto.store",
+          "bytes": 239649,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 239649
+          },
+          "typedBytes": 239649
+        },
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 34809,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1338,
+            "font": 33471
+          },
+          "typedBytes": 34809
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 5336,
+          "mainThreadMs": 3.3,
+          "byType": {
+            "script": 4715,
+            "other": 621
+          },
+          "typedBytes": 5336
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 279.8,
+      "byGroup": {
+        "other": 140.8,
+        "styleLayout": 66.8,
+        "scriptEvaluation": 37.7,
+        "paintCompositeRender": 22.5,
+        "parseHTML": 10,
+        "scriptParseCompile": 2
+      },
+      "bootupMs": 10.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 468,
+      "depth": 11,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 37685,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1698,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 162978.51999999996,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4219,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T12:46:34.092Z",
+      "runtimeMs": 6577
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::ktshz-1795783599704-55dbc57a7c62"
+    },
+    "violations": 1,
+    "passes": 1094,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".logo",
+            "snippet": "<a href=\"/\" class=\"logo\" aria-label=\"Home\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5278ccb0437f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "47205",
+          "etag": "W/\"132c2b65072880f01c46ffada6e3bd41\"",
+          "last-modified": "Thu, 26 Nov 2026 23:39:42 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5278ccb0437f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "47211",
+          "etag": "W/\"132c2b65072880f01c46ffada6e3bd41\"",
+          "last-modified": "Thu, 26 Nov 2026 23:39:42 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5278ccb0437f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"132c2b65072880f01c46ffada6e3bd41\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

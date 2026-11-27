@@ -1,0 +1,358 @@
+{
+  "url": "https://aws.amazon.com/amplify",
+  "name": "AWS Amplify",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795784289790,
+  "date": "2026-11-27T12:58:09.790Z",
+  "runId": "2026-11-27T12-43-16-876Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 131545,
+  "error": null,
+  "variance": {
+    "min": 31,
+    "max": 39,
+    "spread": 8,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://aws.amazon.com/amplify",
+    "finalUrl": "https://aws.amazon.com/amplify/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 32,
+      "accessibility": 100,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 17095,
+      "lcp": 60462,
+      "si": 22386,
+      "tbt": 1104,
+      "tti": 63028,
+      "cls": 0,
+      "ttfb": 641,
+      "maxPotentialFid": 609,
+      "serverResponseTime": 67,
+      "networkRtt": 55.5,
+      "networkServerLatency": 130.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 188.6,
+      "resourceLoadDelay": 400.7,
+      "resourceLoadDuration": 119.5,
+      "elementRenderDelay": 1639.3
+    },
+    "weight": {
+      "total": 12719322,
+      "requests": 173,
+      "mainDocument": 56691,
+      "byType": {
+        "total": {
+          "bytes": 12708653,
+          "requests": 166
+        },
+        "script": {
+          "bytes": 7608645,
+          "requests": 57
+        },
+        "image": {
+          "bytes": 4163623,
+          "requests": 32
+        },
+        "stylesheet": {
+          "bytes": 421385,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 288157,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 134072,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 48412,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 44359,
+          "requests": 53
+        },
+        "third-party": {
+          "bytes": 12708653,
+          "requests": 166
+        }
+      },
+      "scripts": 58,
+      "stylesheets": 16,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 11546878,
+      "mainThreadMs": 737.4,
+      "top": [
+        {
+          "entity": "awsstatic.com",
+          "bytes": 10037022,
+          "mainThreadMs": 458.1,
+          "byType": {
+            "script": 5273314,
+            "stylesheet": 357722,
+            "image": 4150972,
+            "font": 253457,
+            "other": 1557
+          },
+          "typedBytes": 10037022
+        },
+        {
+          "entity": "aws.dev",
+          "bytes": 1501792,
+          "mainThreadMs": 279,
+          "byType": {
+            "script": 1422392,
+            "other": 30988,
+            "media": 48412
+          },
+          "typedBytes": 1501792
+        },
+        {
+          "entity": "Adobe Experience Cloud",
+          "bytes": 4333,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "other": 1828,
+            "image": 2505
+          },
+          "typedBytes": 4333
+        },
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 2228,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 1524,
+            "image": 704
+          },
+          "typedBytes": 2228
+        },
+        {
+          "entity": "api.aws",
+          "bytes": 957,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 957
+          },
+          "typedBytes": 957
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 8017.9,
+      "byGroup": {
+        "scriptEvaluation": 3594.3,
+        "other": 2491.7,
+        "styleLayout": 736.9,
+        "scriptParseCompile": 616.6,
+        "paintCompositeRender": 291.7,
+        "parseHTML": 148.4,
+        "garbageCollection": 138.2
+      },
+      "bootupMs": 4039.2,
+      "longTasks": 18,
+      "longestTaskMs": 609
+    },
+    "dom": {
+      "elements": 1235,
+      "depth": 30,
+      "maxChildren": 19
+    },
+    "waste": {
+      "unusedJsBytes": 2249703,
+      "unusedCssBytes": 532570,
+      "legacyJsBytes": 22978,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 657936,
+      "unminifiedCssBytes": 9227,
+      "renderBlockingMs": 9209,
+      "renderBlockingCount": 16,
+      "poorlyCachedBytes": 1581938.0270833333,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 30,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 4
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 5
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 824.3,
+      "consoleErrors": 5,
+      "baselineLimitedFeatures": 68
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3946,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T12:58:11.021Z",
+      "runtimeMs": 24499.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1698,
+    "elementRenderDelay": 6145.6
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Server",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Server",
+      "via": "1.1 14847e023d286caf455e644f5003780e.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "4V6ouXi_Is7qHeJ8ovW7Uz0sQeoaGbBu_sBoPXbpARDMx0txheV0QQ=="
+    },
+    "violations": 3,
+    "passes": 1551,
+    "incomplete": 15,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#aws-page-skip-to-main",
+            "snippet": "<a aria-label=\"Skip to main content link\" class=\"m-sr-only m-sr-only-focusable m-skip-el\" href=\"#aws-page-content-main\" id=\"aws-page-skip-to-main\">Skip to main content</a>"
+          },
+          {
+            "selector": "#floating-ui-jb340 > div[data-rg-mode=\"dark\"][data-rg-theme=\"teal\"][data-rg-style-count=\"0\"]",
+            "snippet": "<div data-rg-theme=\"teal\" data-rg-mode=\"dark\" data-rg-style-count=\"0\">"
+          },
+          {
+            "selector": ".rggn_19911f33 > div[data-rg-mode=\"dark\"][data-rg-theme=\"teal\"][data-rg-style-count=\"0\"]",
+            "snippet": "<div data-rg-theme=\"teal\" data-rg-mode=\"dark\" data-rg-style-count=\"0\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ea60e2d24b64",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 18 Nov 2026 03:26:12 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "c8128a032f8e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 18 Nov 2026 03:26:12 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "d775583262f8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 18 Nov 2026 03:26:12 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "92c66d99eb17",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 18 Nov 2026 03:26:12 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
