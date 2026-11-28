@@ -1,0 +1,22 @@
+{
+  "url": "https://www.dandevri.es/",
+  "name": "www.dandevri.es",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795839197503,
+  "date": "2026-11-28T04:13:17.503Z",
+  "runId": "2026-11-28T03-59-03-074Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 20948,
+  "error": "INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID",
+  "errors": [
+    "INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID",
+    "INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID",
+    "INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 64
+}

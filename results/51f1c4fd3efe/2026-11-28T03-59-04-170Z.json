@@ -1,0 +1,344 @@
+{
+  "url": "https://fabbricagroup.fr/",
+  "name": "Fabbrica",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795838344170,
+  "date": "2026-11-28T03:59:04.170Z",
+  "runId": "2026-11-28T03-59-03-074Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 63233,
+  "error": null,
+  "variance": {
+    "min": 68,
+    "max": 74,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://fabbricagroup.fr/",
+    "finalUrl": "https://fabbricagroup.fr/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 74,
+      "accessibility": 99,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 814,
+      "lcp": 6929,
+      "si": 4337,
+      "tbt": 0,
+      "tti": 7214,
+      "cls": 0,
+      "ttfb": 629,
+      "maxPotentialFid": 50,
+      "serverResponseTime": 23,
+      "networkRtt": 0.1,
+      "networkServerLatency": 28.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 25.1,
+      "resourceLoadDelay": 22.1,
+      "resourceLoadDuration": 47.2,
+      "elementRenderDelay": 1392.9
+    },
+    "weight": {
+      "total": 1739467,
+      "requests": 31,
+      "mainDocument": 6180,
+      "byType": {
+        "total": {
+          "bytes": 1739467,
+          "requests": 31
+        },
+        "image": {
+          "bytes": 1277647,
+          "requests": 20
+        },
+        "script": {
+          "bytes": 168854,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 143398,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 123727,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 19661,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 6180,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 57396,
+          "requests": 1
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 57396,
+      "mainThreadMs": 7.7,
+      "top": [
+        {
+          "entity": "freeprivacypolicy.com",
+          "bytes": 57396,
+          "mainThreadMs": 7.7,
+          "byType": {
+            "script": 57396
+          },
+          "typedBytes": 57396
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1804.2,
+      "byGroup": {
+        "other": 788.1,
+        "styleLayout": 443.9,
+        "scriptEvaluation": 320.7,
+        "paintCompositeRender": 167.6,
+        "scriptParseCompile": 60,
+        "parseHTML": 23.9
+      },
+      "bootupMs": 309,
+      "longTasks": 1,
+      "longestTaskMs": 50
+    },
+    "dom": {
+      "elements": 421,
+      "depth": 14,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 66642,
+      "unusedCssBytes": 16728,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 21589,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 45916.8,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "svg-img-alt",
+          "title": "SVG elements with an `img` role do not have an accessible text alternative",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2473,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T03:59:26.361Z",
+      "runtimeMs": 9488
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 636.4,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 7768.6,
+    "elementRenderDelay": 3075.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a6167696da753068-DFW",
+      "server": "cloudflare",
+      "x-powered-by": "WP Engine"
+    },
+    "violations": 18,
+    "passes": 550,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 15,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".c-menu_nav_wrap",
+            "snippet": "<div class=\"o-layout_item u-1/2@from-medium c-menu_nav_wrap\">"
+          },
+          {
+            "selector": ".c-loading",
+            "snippet": "<div class=\"c-loading\"> <img src=\"https://fabbricagroup.fr/wp-content/themes/qustom/dist/assets/images/hand.svg\" data-load-src=\"https://fabbricagroup.fr/wp-content/themes/qustom/dist/assets/images/ha…"
+          },
+          {
+            "selector": ".c-header-home",
+            "snippet": "<section class=\"c-header-home c-transition\" data-scroll-section=\"\">"
+          },
+          {
+            "selector": ".c-list-home_item:nth-child(5) > h2",
+            "snippet": "<h2 class=\"c-list-home_title u-label -red u-anim -delay-2\" data-scroll=\"\"> Restaurants </h2>"
+          },
+          {
+            "selector": "span[data-module-split=\"m19\"]",
+            "snippet": "<span class=\"c-list-home_list_item_label\" data-module-split=\"m19\" data-split-desktop=\"\">Montmartre</span>"
+          }
+        ]
+      },
+      {
+        "id": "svg-img-alt",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "<svg> elements with an img or image role must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/svg-img-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".c-nav_logo > svg",
+            "snippet": "<svg role=\"img\"><use href=\"https://fabbricagroup.fr/wp-content/themes/qustom/dist/assets/images/sprite.svg#logo\"></use></svg>"
+          },
+          {
+            "selector": ".c-nav_instagram > svg",
+            "snippet": "<svg role=\"img\"><use href=\"https://fabbricagroup.fr/wp-content/themes/qustom/dist/assets/images/sprite.svg#instagram\"></use></svg>"
+          },
+          {
+            "selector": ".c-footer_logo > svg",
+            "snippet": "<svg role=\"img\"><use href=\"https://fabbricagroup.fr/wp-content/themes/qustom/dist/assets/images/sprite.svg#logo-simple\"></use></svg>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1c5e3acc0f87",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "87",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 28 Nov 2026 03:59:06 GMT",
+          "x-cache": "HIT: 1"
+        }
+      },
+      {
+        "hash": "1c5e3acc0f87",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "98",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 28 Nov 2026 03:59:06 GMT",
+          "x-cache": "HIT: 1"
+        }
+      },
+      {
+        "hash": "1c5e3acc0f87",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "107",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 28 Nov 2026 03:59:06 GMT",
+          "x-cache": "HIT: 1"
+        }
+      },
+      {
+        "hash": "1c5e3acc0f87",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "117",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 28 Nov 2026 03:59:06 GMT",
+          "x-cache": "HIT: 1"
+        }
+      },
+      {
+        "hash": "1c5e3acc0f87",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "142",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 28 Nov 2026 03:59:06 GMT",
+          "x-cache": "HIT: 1"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
