@@ -1,0 +1,22 @@
+{
+  "url": "https://mont-fort.com/",
+  "name": "mont-fort.com",
+  "group": "astro-showcase",
+  "groupName": "Astro Showcase",
+  "timestamp": 1795839966235,
+  "date": "2026-11-28T04:26:06.235Z",
+  "runId": "2026-11-28T03-59-07-750Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 215183,
+  "error": "The \"start lh:driver:navigate\" performance mark has not been set",
+  "errors": [
+    "The \"start lh:driver:navigate\" performance mark has not been set",
+    "lighthouse timed out after 120000ms",
+    "The \"start lh:driver:navigate\" performance mark has not been set"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 29
+}

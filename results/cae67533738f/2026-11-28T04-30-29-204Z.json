@@ -1,0 +1,22 @@
+{
+  "url": "https://pypi.org/",
+  "name": "PyPI",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795840229204,
+  "date": "2026-11-28T04:30:29.204Z",
+  "runId": "2026-11-28T03-59-07-750Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 37211,
+  "error": "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+  "errors": [
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse."
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 1
+}

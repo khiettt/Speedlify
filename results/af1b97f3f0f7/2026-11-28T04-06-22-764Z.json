@@ -1,0 +1,356 @@
+{
+  "url": "https://packages.united.com/",
+  "name": "United Airlines Packages",
+  "group": "nextjs-showcase",
+  "groupName": "Next.js Showcase",
+  "timestamp": 1795838782764,
+  "date": "2026-11-28T04:06:22.764Z",
+  "runId": "2026-11-28T03-59-07-750Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 63793,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)",
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://packages.united.com/",
+    "finalUrl": "https://packages.united.com/vacationpackages/",
+    "redirect": {
+      "from": "https://packages.united.com/",
+      "to": "https://packages.united.com/vacationpackages",
+      "chain": [
+        {
+          "url": "https://packages.united.com/",
+          "status": 301
+        },
+        {
+          "url": "https://packages.united.com/vacationpackages/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "path",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 41,
+      "accessibility": 81,
+      "best-practices": 73,
+      "seo": 83,
+      "agentic-browsing": 47
+    },
+    "timings": {
+      "fcp": 1988,
+      "lcp": 8209,
+      "si": 5072,
+      "tbt": 1785,
+      "tti": 23432,
+      "cls": 0.085,
+      "ttfb": 724,
+      "maxPotentialFid": 399,
+      "serverResponseTime": 453,
+      "networkRtt": 68.5,
+      "networkServerLatency": 124.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 684.3,
+      "resourceLoadDelay": 61,
+      "resourceLoadDuration": 107.7,
+      "elementRenderDelay": 77.8
+    },
+    "weight": {
+      "total": 4128684,
+      "requests": 116,
+      "mainDocument": 54651,
+      "byType": {
+        "total": {
+          "bytes": 4122632,
+          "requests": 113
+        },
+        "script": {
+          "bytes": 2309288,
+          "requests": 36
+        },
+        "image": {
+          "bytes": 1658742,
+          "requests": 25
+        },
+        "other": {
+          "bytes": 60803,
+          "requests": 45
+        },
+        "document": {
+          "bytes": 56591,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 35540,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 1668,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3223455,
+          "requests": 90
+        }
+      },
+      "scripts": 38,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 18,
+      "bytes": 3227112,
+      "mainThreadMs": 650.7,
+      "top": [
+        {
+          "entity": "ctfassets.net",
+          "bytes": 1615904,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 1615904
+          },
+          "typedBytes": 1615904
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 726375,
+          "mainThreadMs": 281.2,
+          "byType": {
+            "script": 726375
+          },
+          "typedBytes": 726375
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 249506,
+          "mainThreadMs": 77.5,
+          "byType": {
+            "script": 249486,
+            "image": 20
+          },
+          "typedBytes": 249506
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 200692,
+          "mainThreadMs": 55.7,
+          "byType": {
+            "script": 137475,
+            "other": 40945,
+            "image": 22272
+          },
+          "typedBytes": 200692
+        },
+        {
+          "entity": "Forter",
+          "bytes": 158099,
+          "mainThreadMs": 75.6,
+          "byType": {
+            "script": 154319,
+            "other": 3780
+          },
+          "typedBytes": 158099
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 5665.9,
+      "byGroup": {
+        "scriptEvaluation": 3812.3,
+        "other": 820.7,
+        "scriptParseCompile": 600.2,
+        "garbageCollection": 151.6,
+        "styleLayout": 135,
+        "paintCompositeRender": 94.1,
+        "parseHTML": 51.9
+      },
+      "bootupMs": 4230.1,
+      "longTasks": 20,
+      "longestTaskMs": 399
+    },
+    "dom": {
+      "elements": 671,
+      "depth": 24,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 919596,
+      "unusedCssBytes": 21898,
+      "legacyJsBytes": 77149,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2525,
+      "renderBlockingMs": 786,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 627451.8882681562,
+      "poorlyCachedCount": 24
+    },
+    "accessibility": {
+      "failingCount": 5,
+      "applicableCount": 27,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 2
+        },
+        {
+          "id": "html-has-lang",
+          "title": "`<html>` element does not have a `[lang]` attribute",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 3
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 5
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 4
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 4
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 3,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 891.3,
+      "consoleErrors": 5,
+      "baselineLimitedFeatures": 43
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2937.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T04:06:23.967Z",
+      "runtimeMs": 17542.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a61680b2db754acf-SEA",
+      "server": "cloudflare",
+      "x-served-by": "cache-bfi-krnt7300021-BFI"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": null,
+    "top": [],
+    "error": "Cannot read properties of undefined (reading 'toLowerCase')"
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6794f5579cbd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gssp"
+        ],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "x-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
