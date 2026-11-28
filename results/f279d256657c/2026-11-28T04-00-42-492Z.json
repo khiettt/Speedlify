@@ -1,0 +1,443 @@
+{
+  "url": "https://gopro.com/",
+  "name": "GoPro",
+  "group": "nextjs-showcase",
+  "groupName": "Next.js Showcase",
+  "timestamp": 1795838442492,
+  "date": "2026-11-28T04:00:42.492Z",
+  "runId": "2026-11-28T03-58-59-312Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 124252,
+  "error": null,
+  "variance": {
+    "min": 33,
+    "max": 38,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gopro.com/",
+    "finalUrl": "https://gopro.com/en/us/",
+    "redirect": {
+      "from": "https://gopro.com/",
+      "to": "https://gopro.com/en/us",
+      "chain": [
+        {
+          "url": "https://gopro.com/",
+          "status": 301
+        },
+        {
+          "url": "https://gopro.com/en/us/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "path",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 37,
+      "accessibility": 92,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 42
+    },
+    "timings": {
+      "fcp": 1183,
+      "lcp": 6372,
+      "si": 6911,
+      "tbt": 4053,
+      "tti": 25090,
+      "cls": 0.125,
+      "ttfb": 628,
+      "maxPotentialFid": 975,
+      "serverResponseTime": 118,
+      "networkRtt": 83.5,
+      "networkServerLatency": 113.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 240.8,
+      "resourceLoadDelay": 15.5,
+      "resourceLoadDuration": 25.5,
+      "elementRenderDelay": 108.2
+    },
+    "weight": {
+      "total": 4340033,
+      "requests": 254,
+      "mainDocument": 54610,
+      "byType": {
+        "total": {
+          "bytes": 4324577,
+          "requests": 251
+        },
+        "script": {
+          "bytes": 2269621,
+          "requests": 113
+        },
+        "image": {
+          "bytes": 1104630,
+          "requests": 35
+        },
+        "other": {
+          "bytes": 427789,
+          "requests": 82
+        },
+        "font": {
+          "bytes": 354169,
+          "requests": 10
+        },
+        "stylesheet": {
+          "bytes": 113741,
+          "requests": 9
+        },
+        "document": {
+          "bytes": 54627,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1731787,
+          "requests": 103
+        }
+      },
+      "scripts": 114,
+      "stylesheets": 9,
+      "fonts": 10
+    },
+    "thirdParty": {
+      "count": 20,
+      "bytes": 1732657,
+      "mainThreadMs": 782.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 717122,
+          "mainThreadMs": 361.9,
+          "byType": {
+            "script": 717122
+          },
+          "typedBytes": 717122
+        },
+        {
+          "entity": "zeropartyforms.com",
+          "bytes": 237831,
+          "mainThreadMs": 67.4,
+          "byType": {
+            "script": 235670,
+            "stylesheet": 1710,
+            "image": 451
+          },
+          "typedBytes": 237831
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 236217,
+          "mainThreadMs": 45.2,
+          "byType": {
+            "script": 152954,
+            "other": 60830,
+            "image": 22433
+          },
+          "typedBytes": 236217
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 220003,
+          "mainThreadMs": 87.6,
+          "byType": {
+            "script": 220003
+          },
+          "typedBytes": 220003
+        },
+        {
+          "entity": "TikTok",
+          "bytes": 164368,
+          "mainThreadMs": 79.1,
+          "byType": {
+            "script": 161515,
+            "other": 2853
+          },
+          "typedBytes": 164368
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 12020.6,
+      "byGroup": {
+        "scriptEvaluation": 7883.8,
+        "other": 1943.8,
+        "scriptParseCompile": 623.8,
+        "paintCompositeRender": 532.3,
+        "styleLayout": 410.7,
+        "parseHTML": 362.4,
+        "garbageCollection": 263.8
+      },
+      "bootupMs": 7741.4,
+      "longTasks": 20,
+      "longestTaskMs": 975
+    },
+    "dom": {
+      "elements": 1561,
+      "depth": 16,
+      "maxChildren": 49
+    },
+    "waste": {
+      "unusedJsBytes": 1167648,
+      "unusedCssBytes": 80206,
+      "legacyJsBytes": 41787,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2518,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 604,
+      "renderBlockingCount": 8,
+      "poorlyCachedBytes": 444649.61333333334,
+      "poorlyCachedCount": 24
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 32,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 5
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 13
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 4
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 3,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 777.9,
+      "consoleErrors": 4,
+      "baselineLimitedFeatures": 63
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2830,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T04:01:21.345Z",
+      "runtimeMs": 18004.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1229.5,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 4543.3,
+    "elementRenderDelay": 271.9
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudfront",
+      "name": "CloudFront",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "CloudFront",
+      "via": "1.1 5e868b55b502623cfa1c1fa31e1c91c8.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "aSwOwYtq_8B8MTqi0UsLtAi6FGOlkt-fixpsgWYx5tnc3R_I33eKWg=="
+    },
+    "violations": 5,
+    "passes": 18,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1>403 ERROR</h1>"
+          },
+          {
+            "selector": "h2",
+            "snippet": "<h2>The request could not be satisfied.</h2>"
+          },
+          {
+            "selector": "pre",
+            "snippet": "<pre>Generated by cloudfront (CloudFront) Request ID: aSwOwYtq_8B8MTqi0UsLtAi6FGOlkt-fixpsgWYx5tnc3R_I33eKWg== </pre>"
+          }
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<html> element must have a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "11b2d848d93d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gssp"
+        ],
+        "headers": {
+          "age": "152507",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "7ecb15e743ee",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gssp"
+        ],
+        "headers": {
+          "age": "152525",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "7ecb15e743ee",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gssp"
+        ],
+        "headers": {
+          "age": "152544",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "7ecb15e743ee",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gssp"
+        ],
+        "headers": {
+          "age": "152563",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "fbfe666bea15",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Error from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

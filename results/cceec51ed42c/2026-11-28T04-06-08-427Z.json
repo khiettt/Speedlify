@@ -1,0 +1,445 @@
+{
+  "url": "https://theankler.com/",
+  "name": "The Ankler",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795838768427,
+  "date": "2026-11-28T04:06:08.427Z",
+  "runId": "2026-11-28T03-58-59-312Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 95109,
+  "error": null,
+  "variance": {
+    "min": 59,
+    "max": 68,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://theankler.com/",
+    "finalUrl": "https://theankler.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 61,
+      "accessibility": 89,
+      "best-practices": 58,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 2585,
+      "lcp": 6162,
+      "si": 4128,
+      "tbt": 437,
+      "tti": 11500,
+      "cls": 0.003,
+      "ttfb": 612,
+      "maxPotentialFid": 267,
+      "serverResponseTime": 7,
+      "networkRtt": 13.2,
+      "networkServerLatency": 92.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 8.2,
+      "resourceLoadDelay": 168.6,
+      "resourceLoadDuration": 9.7,
+      "elementRenderDelay": 20.2
+    },
+    "weight": {
+      "total": 1871350,
+      "requests": 173,
+      "mainDocument": 59182,
+      "byType": {
+        "total": {
+          "bytes": 1871351,
+          "requests": 167
+        },
+        "script": {
+          "bytes": 811629,
+          "requests": 51
+        },
+        "image": {
+          "bytes": 422944,
+          "requests": 37
+        },
+        "font": {
+          "bytes": 306513,
+          "requests": 9
+        },
+        "other": {
+          "bytes": 138055,
+          "requests": 45
+        },
+        "stylesheet": {
+          "bytes": 123422,
+          "requests": 20
+        },
+        "document": {
+          "bytes": 68788,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1252659,
+          "requests": 122
+        }
+      },
+      "scripts": 52,
+      "stylesheets": 20,
+      "fonts": 9
+    },
+    "thirdParty": {
+      "count": 11,
+      "bytes": 1218333,
+      "mainThreadMs": 341.7,
+      "top": [
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 460712,
+          "mainThreadMs": 260.4,
+          "byType": {
+            "script": 347135,
+            "image": 58590,
+            "other": 54987
+          },
+          "typedBytes": 460712
+        },
+        {
+          "entity": "WordPress",
+          "bytes": 420185,
+          "mainThreadMs": 18.1,
+          "byType": {
+            "script": 60122,
+            "stylesheet": 67710,
+            "image": 291516,
+            "other": 837
+          },
+          "typedBytes": 420185
+        },
+        {
+          "entity": "usersays.com",
+          "bytes": 154602,
+          "mainThreadMs": 36.7,
+          "byType": {
+            "script": 134581,
+            "other": 20021
+          },
+          "typedBytes": 154602
+        },
+        {
+          "entity": "mrf.io",
+          "bytes": 72661,
+          "mainThreadMs": 17.4,
+          "byType": {
+            "script": 72661
+          },
+          "typedBytes": 72661
+        },
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 55195,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1245,
+            "font": 53950
+          },
+          "typedBytes": 55195
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4699.8,
+      "byGroup": {
+        "scriptEvaluation": 2501.3,
+        "other": 871.2,
+        "styleLayout": 605.4,
+        "scriptParseCompile": 406.3,
+        "parseHTML": 155.8,
+        "garbageCollection": 81.9,
+        "paintCompositeRender": 77.9
+      },
+      "bootupMs": 2730.1,
+      "longTasks": 17,
+      "longestTaskMs": 267
+    },
+    "dom": {
+      "elements": 1357,
+      "depth": 18,
+      "maxChildren": 91
+    },
+    "waste": {
+      "unusedJsBytes": 463443,
+      "unusedCssBytes": 74183,
+      "legacyJsBytes": 23586,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 3480,
+      "renderBlockingCount": 20,
+      "poorlyCachedBytes": 123956.99015363128,
+      "poorlyCachedCount": 12
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 29,
+      "failingNodes": 106,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 68
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 36
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 65
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3079,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T04:06:38.525Z",
+      "runtimeMs": 19475.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.7,
+    "resourceLoadDelay": 2402.3,
+    "resourceLoadDuration": 3221.7,
+    "elementRenderDelay": 17.1
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "preact"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 77,
+    "passes": 2244,
+    "incomplete": 14,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 68,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".wp-block-passport-logged-out-view > .wp-block-paragraph.has-primary-font-family > a[href$=\"subscribe/\"]",
+            "snippet": "<a href=\"/subscribe/\">Subscribe</a>"
+          },
+          {
+            "selector": ".secondary-nav > .align.wp-block-passport-login-link.passport-logged-out > a",
+            "snippet": "<a href=\"https://theankler.com/wp-json/passport/v1/oauth/authlogin\">LogIn</a>"
+          },
+          {
+            "selector": ".wp-container-core-group-is-layout-b3bb72d3 > .has-custom-white-color.has-text-align-center.has-x-small-font-size",
+            "snippet": "<p class=\"has-text-align-center has-custom-white-color has-text-color has-primary-font-family has-x-small-font-size wp-block-paragraph\" style=\"font-style:normal;font-weight:500;letter-spacing:0.5px\">"
+          },
+          {
+            "selector": "a[cmp-ltrk=\"home-page-hero-story\"][cmp-ltrk-idx=\"1\"][rel=\"tag\"]",
+            "snippet": "<a href=\"https://theankler.com/series-business/\" rel=\"tag\" data-mrf-link=\"https://theankler.com/series-business/\" cmp-ltrk=\"home-page-hero-story\" cmp-ltrk-idx=\"1\" mrfobservableid=\"9d62ea8a-8f92-4dd5-…"
+          },
+          {
+            "selector": "a[cmp-ltrk=\"home-page-hero-story\"][cmp-ltrk-idx=\"2\"][target=\"_self\"]",
+            "snippet": "<a href=\"https://theankler.com/author/lesley-goldberg/\" target=\"_self\" data-mrf-link=\"https://theankler.com/author/lesley-goldberg/\" cmp-ltrk=\"home-page-hero-story\" cmp-ltrk-idx=\"2\" mrfobservableid=\"…"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#google_ads_iframe_\\/23351431125\\/Ankler\\/homepage_mobile_banner_0 >>> #aw0",
+            "snippet": "<a id=\"aw0\" target=\"_top\" href=\"https://pagead2.goog...\" onfocus=\"ss('aw0')\" onmousedown=\"st('aw0')\" onmouseover=\"ss('aw0')\" onclick=\"ha('aw0')\">"
+          },
+          {
+            "selector": ".zero_opacity > a[href=\"/\"]",
+            "snippet": "<a href=\"/\">"
+          },
+          {
+            "selector": "#google_ads_iframe_\\/23351431125\\/Ankler\\/homepage_mobile_inriver_0 >>> #aw0",
+            "snippet": "<a id=\"aw0\" target=\"_top\" href=\"https://pagead2.goog...\" onfocus=\"ss('aw0')\" onmousedown=\"st('aw0')\" onmouseover=\"ss('aw0')\" onclick=\"ha('aw0')\">"
+          },
+          {
+            "selector": ".aligncenter.size-large.is-resized > a[href$=\"subscribe/\"]",
+            "snippet": "<a href=\"/subscribe/\">"
+          },
+          {
+            "selector": "#google_ads_iframe_\\/23351431125\\/Ankler\\/homepage_mobile_inriver_1 >>> #aw0",
+            "snippet": "<a id=\"aw0\" target=\"_top\" href=\"https://pagead2.goog...\" onfocus=\"ss('aw0')\" onmousedown=\"st('aw0')\" onmouseover=\"ss('aw0')\" onclick=\"ha('aw0')\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#ankler-advanced-ads-2401059295",
+            "snippet": "<div id=\"ankler-advanced-ads-2401059295\" role=\"region\" aria-label=\"Advertisements\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ankler-advanced-ads-close-button",
+            "snippet": "<span class=\"ankler-advanced-ads-close-button\" onclick=\"void(0)\" title=\"close\" style=\"width: 15px;height: 15px;background: #fff;position: relative;line-height: 15px;text-align: center;cursor: pointer…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "89adb98f4869",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 04:03:18 GMT",
+          "x-nananana": "Batcache-Hit"
+        }
+      },
+      {
+        "hash": "89adb98f4869",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 04:03:18 GMT",
+          "x-nananana": "Batcache-Hit"
+        }
+      },
+      {
+        "hash": "89adb98f4869",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 04:03:18 GMT",
+          "x-nananana": "Batcache-Hit"
+        }
+      },
+      {
+        "hash": "89adb98f4869",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 04:03:18 GMT",
+          "x-nananana": "Batcache-Hit"
+        }
+      },
+      {
+        "hash": "89adb98f4869",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 04:03:18 GMT",
+          "x-nananana": "Batcache-Hit"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

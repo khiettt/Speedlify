@@ -1,0 +1,385 @@
+{
+  "url": "https://quebec.ubisoft.com/en",
+  "name": "Ubisoft Québec",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795838667108,
+  "date": "2026-11-28T04:04:27.108Z",
+  "runId": "2026-11-28T03-58-59-312Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 98317,
+  "error": null,
+  "variance": {
+    "min": 74,
+    "max": 92,
+    "spread": 18,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://quebec.ubisoft.com/en",
+    "finalUrl": "https://quebec.ubisoft.com/en",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 75,
+      "accessibility": 92,
+      "best-practices": 77,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2280,
+      "lcp": 6180,
+      "si": 2285,
+      "tbt": 107,
+      "tti": 6771,
+      "cls": 0.012,
+      "ttfb": 608,
+      "maxPotentialFid": 114,
+      "serverResponseTime": 8,
+      "networkRtt": 0.1,
+      "networkServerLatency": 31.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9.7,
+      "elementRenderDelay": 159.2
+    },
+    "weight": {
+      "total": 21118048,
+      "requests": 126,
+      "mainDocument": 17961,
+      "byType": {
+        "total": {
+          "bytes": 21118049,
+          "requests": 125
+        },
+        "media": {
+          "bytes": 17844400,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 2329776,
+          "requests": 27
+        },
+        "script": {
+          "bytes": 583906,
+          "requests": 18
+        },
+        "font": {
+          "bytes": 171374,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 115518,
+          "requests": 14
+        },
+        "document": {
+          "bytes": 46560,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 26515,
+          "requests": 56
+        },
+        "third-party": {
+          "bytes": 478124,
+          "requests": 12
+        }
+      },
+      "scripts": 19,
+      "stylesheets": 14,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 377043,
+      "mainThreadMs": 91.7,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 360996,
+          "mainThreadMs": 89.5,
+          "byType": {
+            "other": 360996
+          },
+          "typedBytes": 360996
+        },
+        {
+          "entity": "Akamai",
+          "bytes": 12211,
+          "mainThreadMs": 0.9,
+          "byType": {
+            "script": 12211
+          },
+          "typedBytes": 12211
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 2798,
+          "mainThreadMs": 0.5,
+          "byType": {
+            "stylesheet": 2798
+          },
+          "typedBytes": 2798
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 1038,
+          "mainThreadMs": 0.8,
+          "byType": {
+            "script": 1038
+          },
+          "typedBytes": 1038
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2673,
+      "byGroup": {
+        "other": 1029.1,
+        "scriptEvaluation": 996.7,
+        "styleLayout": 279.2,
+        "scriptParseCompile": 144.7,
+        "paintCompositeRender": 86.9,
+        "parseHTML": 78.6,
+        "garbageCollection": 57.8
+      },
+      "bootupMs": 992.2,
+      "longTasks": 8,
+      "longestTaskMs": 125
+    },
+    "dom": {
+      "elements": 385,
+      "depth": 15,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 302199,
+      "unusedCssBytes": 41500,
+      "legacyJsBytes": 133675,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 3000,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 3052,
+      "renderBlockingCount": 14,
+      "poorlyCachedBytes": 1110161.3999999997,
+      "poorlyCachedCount": 58
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 29,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 3
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 25
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2993.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T04:04:48.097Z",
+      "runtimeMs": 8568.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.7,
+    "elementRenderDelay": 1261.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "Wordpress",
+      "version": "6.8.13",
+      "source": "meta",
+      "raw": "WordPress 6.8.13"
+    },
+    "probe": {
+      "metas": [
+        "WordPress 6.8.13",
+        "WPML ver:4.6.3 stt:1,4;"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 7,
+    "passes": 478,
+    "incomplete": 6,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 3,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".article.quebec[data-post=\"\"]:nth-child(1) > .article__image-container > .article__image--mobile.article__image",
+            "snippet": "<img class=\"article__image article__image--mobile\" src=\"https://quebec.ubisoft.com/wp-content/uploads/2026/10/2025_Impact-Report-thumb.jpg\">"
+          },
+          {
+            "selector": ".article.quebec[data-post=\"\"]:nth-child(2) > .article__image-container > .article__image--mobile.article__image",
+            "snippet": "<img class=\"article__image article__image--mobile\" src=\"https://quebec.ubisoft.com/wp-content/uploads/2025/10/Key_Art_QC20_Liquid_M.jpg\">"
+          },
+          {
+            "selector": ".article.quebec[data-post=\"\"]:nth-child(3) > .article__image-container > .article__image--mobile.article__image",
+            "snippet": "<img class=\"article__image article__image--mobile\" src=\"https://quebec.ubisoft.com/wp-content/uploads/2025/08/UBI-BBQ-Dominic-Courchesne-@Coursh-2-scaled.jpg\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".menu__container",
+            "snippet": "<div class=\"menu__container\">"
+          },
+          {
+            "selector": ".home-video__video",
+            "snippet": "<video class=\"home-video__video\" playsinline=\"\" src=\"https://quebec.ubisoft.com/wp-content/uploads/2022/09/Website_sizz-_2022_720_lowmbps-1.mp4\" data-video-lightbox-player=\"\"></video>"
+          },
+          {
+            "selector": "iframe[title=\"reCAPTCHA\"] >>> .rc-anchor-invisible-text",
+            "snippet": "<div class=\"rc-anchor-invisible-text\"><span>protected by <strong>reCAPTCHA</strong></span><div class=\"rc-anchor-pt\"></div></div>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".footer__social-media[target=\"_blank\"]:nth-child(6)",
+            "snippet": "<a class=\"footer__social-media\" href=\"https://www.tiktok.com/@ubisoftquebec\" target=\"_blank\"> <img class=\"footer__social-medias-logo\" src=\"https://quebec.ubisoft.com/wp-content/uploads/2022/04/ubisof…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "186a105d167d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "186a105d167d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "186a105d167d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "186a105d167d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "186a105d167d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
